@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.20)  13 AUG 2019 13:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.20)  21 AUG 2019 09:10
 entering extended mode
 **./Results-O.tex
 (Results-O.tex
@@ -774,10 +774,10 @@ LaTeX Info: Redefining \nameref on input line 17.
 
 
 
-LaTeX Warning: Reference `eq:n20' on page 1 undefined on input line 25.
+LaTeX Warning: Reference `eq:b17' on page 1 undefined on input line 25.
 
 
-LaTeX Warning: Reference `eq:n21' on page 1 undefined on input line 27.
+LaTeX Warning: Reference `eq:b18' on page 1 undefined on input line 27.
 
 <Error.png, id=7, 1488.91742pt x 868.81108pt>
 File: Error.png Graphic file (type png)
@@ -889,12 +889,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 124.
  ) 
 Here is how much of TeX's memory you used:
  17409 strings out of 492946
- 301889 string characters out of 3126266
- 374439 words of memory out of 3000000
+ 301985 string characters out of 3126266
+ 374445 words of memory out of 3000000
  21169 multiletter control sequences out of 15000+200000
  535249 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,8n,65p,811b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,8n,65p,826b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/f
@@ -904,7 +904,7 @@ cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Vrin
 d/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C
 :/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb>
-Output written on Results-O.pdf (8 pages, 1336407 bytes).
+Output written on Results-O.pdf (8 pages, 1338872 bytes).
 PDF statistics:
  114 PDF objects out of 1000 (max. 8388607)
  21 named destinations out of 1000 (max. 500000)
