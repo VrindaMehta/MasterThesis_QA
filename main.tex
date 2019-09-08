@@ -1,0 +1,53 @@
+\documentclass[12]{book}
+\usepackage{prettyref}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\usepackage{mathtools}
+\usepackage{physics}
+\usepackage{textcomp}
+\usepackage{float}
+\usepackage[british]{babel}
+\usepackage{hhline}
+\usepackage{multirow}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\usepackage{subfiles}
+ 
+\usepackage{blindtext}
+
+\usepackage{graphicx}
+\graphicspath{{Images/}{../Images/}}
+\title{Quantum Annealing With Trigger Hamiltonian}
+\author{Vrinda Mehta}
+\date{}
+\begin{document}
+ 
+\maketitle
+ 
+\chapter{Theoretical Background}
+ 
+\subfile{Background/Background}
+ 
+\chapter{Landau-Zener Tunnelling}
+ 
+\subfile{LandauZener/LandauZener}
+ 
+\chapter{Results with Original Hamiltonian}
+ 
+\subfile{Original/Results-O}
+ 
+\chapter{Results with Ferromagnetic Trigger}
+ 
+\subfile{Ferro/F}
+
+\chapter{Results with Anti-ferromagnetic Trigger}
+ 
+\subfile{AntiFerro/A}
+
+\end{document}

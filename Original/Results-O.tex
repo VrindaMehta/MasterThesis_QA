@@ -1,25 +1,5 @@
-\documentclass[12]{article}
-\usepackage{prettyref}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
-\usepackage{graphicx}
-\usepackage{amsmath, amssymb}
-\usepackage{mathtools}
-\usepackage{physics}
-\usepackage{textcomp}
-\usepackage{float}
-\usepackage{hyperref}
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,      
-    urlcolor=cyan,
-}
+\documentclass[../main.tex]{subfiles}
 \begin{document}
-\begin{center}
-\begin{Huge}
-RESULTS-Original
-\end{Huge}
-\end{center}
 %\chapter{Results}\label{ch:O}
 \section{Second order}
 Since Suzuki-Trotter product formula is only an approximation to solve the time dependent Schr{\"o}dinger equation, the error involved depends on the time interval t - the time step at which the evolution is computed (equation \ref{eq:b17}). 
@@ -71,7 +51,7 @@ As the third case, another 12-spin problem with an intermediate success probabil
 \newpage
 A similar trend was also obtained for 8-spin problems, where the cases with high success probability also were the ones with comparatively larger minimum energy gaps than cases with low success probability.  As examples, three cases, with relatively large, small and intermediate success probabilities were chosen. The respective plots for their energy spectrum and the instantaneous energy values for the different annealing times are shown in the following figures (\ref{fig:o5}, \ref{fig:o6}, \ref{fig:o7}).
 
-The main feature of difference between the 12-spin and 8-spin problems is that the minimum energy gaps of the 8-spin problems were found to be larger than those of 12-spin problems. This can be understood with the help of equation (\ref(eq:b10)), where the minimum gap is expected to close exponentially with increasing N. Even the gap corresponding to the case with smallest success probability in 8-spin problems (the smallest energy gap amongst 91 8-spin problems, $\Delta_{min}=0.4725$) is still larger than the the gap corresponding to the case with largest success probability in 12-spin problems (the largest energy gap amongst 1000 12-spin problems, $\Delta_{min}=0.4407$). Therefore, even an annealing time of $T_A=100$ yields a large success probability for almost all 8-spin cases. 
+The main feature of difference between the 12-spin and 8-spin problems is that the minimum energy gaps of the 8-spin problems were found to be larger than those of 12-spin problems. This can be understood with the help of equation (\ref{eq:b10}), where the minimum gap is expected to close exponentially with increasing N. Even the gap corresponding to the case with smallest success probability in 8-spin problems (the smallest energy gap amongst 91 8-spin problems, $\Delta_{min}=0.4725$) is still larger than the the gap corresponding to the case with largest success probability in 12-spin problems (the largest energy gap amongst 1000 12-spin problems, $\Delta_{min}=0.4407$). Therefore, even an annealing time of $T_A=100$ yields a large success probability for almost all 8-spin cases. 
 \begin{figure}[H]
 \centering 
 \includegraphics[scale=0.3]{98_s8_O.png}

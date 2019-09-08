@@ -1,28 +1,5 @@
-\documentclass[12]{article}
-\usepackage{prettyref}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
-\usepackage{graphicx}
-\usepackage{amsmath, amssymb}
-\usepackage{mathtools}
-\usepackage{physics}
-\usepackage{textcomp}
-\usepackage{float}
-\usepackage[british]{babel}
-\usepackage{hhline}
-\usepackage{multirow}
-\usepackage{hyperref}
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,      
-    urlcolor=cyan,
-}
+\documentclass[../main.tex]{subfiles}
 \begin{document}
-\begin{center}
-\begin{Huge}
-RESULTS-Anti-ferromagnetic Trigger
-\end{Huge}
-\end{center}
 %\chapter{Results}\label{ch:A}
 This chapter will focus on the effects on the performance of quantum annealing algorithm upon adding the second trigger, namely the anti-ferromagnetic trigger, to the original Hamiltonian. Unlike in the case of the ferromagnetic trigger, for anti-ferromagnetic trigger the strength parameter, g in equation (\ref{eq:b12}) plays a more decisive role than merely controlling the extent by which the minimum gap is enlarged. The anti-ferromagnetic trigger alters the energy spectra, the minimum energy gaps, and the number of anti-crossings between the ground and first excited energy state of the Hamiltonian, depending on the strength with which the trigger is added, as well as on the problem itself. We shall begin by observing the effects of adding the anti-ferromagnetic trigger to the original Hamiltonian, for the three chosen problems. The following sections will then showcase the role that the strength parameter - g plays.
 
@@ -262,7 +239,7 @@ Finally, for checking if the dynamics during the evolution of the state under th
 \end{figure}
 
 
-It can be noted from figure (\ref{fig:a17}) that the original success probabilities mostly follow the exponential dependence on minimum energy gaps, although the scattering for $T_A$=10 is comparatively large. As the annealing time is increased, the curve becomes more defined. However, upon adding the trigger, the scattering becomes even larger, so that the points corresponding to $T_A$=10 appear rather flat. Also, for smaller gaps, these points have a higher success probability than the points corresponding to $T_A$=100., due to non-adiabatic evolution. Although in this case too the curves become successively more defined by increasing the annealing time, the general effect of adding the trigger with strength g=0.5 is to shift the data points leftwards by reducing the minimum energy gaps, and thus limiting the performance.
+It can be noted from figure (\ref{fig:a17}) that the original success probabilities mostly follow the exponential dependence on minimum energy gaps, although the scattering for $T_A$=10 is comparatively large. As the annealing time is increased, the curve becomes more defined. However, upon adding the trigger, the scattering becomes even larger, so that the points corresponding to $T_A$=10 appear rather flat. Also, for smaller gaps, these points have a higher success probability than the points corresponding to $T_A$=100, due to non-adiabatic evolution. Although in this case too the curves become successively more defined by increasing the annealing time, the general effect of adding the trigger with strength g=0.5 is to shift the data points leftwards by reducing the minimum energy gaps, and thus limiting the performance.
 
 
 
@@ -288,7 +265,7 @@ In this section, the same analysis will be shown as in the last section but with
 \label{fig:a20}
 \end{figure}
 
-37.7\% of the cases had an improved ground state probability after adding the anti-ferromagnetic trigger for $T_A$=10. This percentage reduced to 21.5\% and 20\% respectively upon increasing the annealing time to 100 and 1000 respectively. Moreover, as the annealing time was increased, the largest value of the relative success probability dropped from 501 at $T_A$=10, to 15.85 at $T_A$=100, to 6.31 at $T_A$=1000. Again, for having more insights about the effects of adding the anti-ferromagnetic trigger with g=1, the minimum energy gaps were computed for all the problems of the set after adding the trigger. Figure (\ref{fig:a21}) shows the resulting scatter plot between the original minimum energy gaps and the gaps after adding the trigger.
+37.7\% of the cases had an improved success probability after adding the anti-ferromagnetic trigger for $T_A$=10. This percentage reduced to 21.5\% and 20\% respectively upon increasing the annealing time to 100 and 1000 respectively. Moreover, as the annealing time was increased, the largest value of the relative success probability dropped from 501 at $T_A$=10, to 15.85 at $T_A$=100, to 6.31 at $T_A$=1000. Again, for obtaining more insights about the effects of adding the anti-ferromagnetic trigger with g=1, the minimum energy gaps were computed for all the problems of the set after adding the trigger. Figure (\ref{fig:a21}) shows the resulting scatter plot between the original minimum energy gaps and the gaps after adding the trigger.
 
 \begin{figure}[H]
 \centering 
@@ -330,97 +307,209 @@ For obtaining an estimate for the difficulty of the problems which have a relati
 \label{fig:a22}
 \end{figure}
 
-Again, it can be noted that the 37.7\% of the problems that have a higher success probability after adding the anti-ferromagnetic trigger are limited to the cases with smaller original success probability (smaller gaps). Since adding reduces the minimum energy gap for almost all the cases, the cases with smaller $p^O$ benefit from a non-adiabatic evolution (shorter annealing time).\\
+Again, it can be noted that for $T_A$=10, the 37.7\% of the problems that have a higher success probability after adding the anti-ferromagnetic trigger are limited to the cases with smaller original success probability (smaller gaps). Since adding the trigger reduces the minimum energy gap in most of the cases, the cases with smaller $p^O$ benefit from a non-adiabatic evolution (shorter annealing time).\\
 
 For understanding the role that the annealing time plays in improving the success probability, scatter plots of original and modified minimum gaps (upon adding the trigger) were plotted for the cases with relative success probability higher than 1, for the three annealing times. These plots have been shown in figure .
 (\ref{fig:a23}), (\ref{fig:a26}) and (\ref{fig:a27}).\\
 
-Out of the 37.7\% of the cases with higher success probability after adding the trigger for $T_A$=10, 27.9\% of the cases were found to have smaller minimum gaps as a result of adding the trigger. These cases can therefore be expected to have a non-adiabatic evolution at $T_A$=10, explaining the observed trend. On the other hand, for the rest 9.8\% of the cases the minimum gaps were increased. It was noted that all but 2 cases with larger minimum gaps that were improved for $T_A$=10, were also improved for $T_A$=100 and $T_A$=1000. This suggests that for these cases adding the anti-ferromagnetic trigger increased the minimum energy gap, making the evolution more adiabatic even for $T_A$=10. 
+In the 37.7\% of the cases with higher success probability after adding the trigger for $T_A$=10, 27.9\% of the cases were found to have smaller minimum gaps as a result of adding the trigger. These cases can therefore be expected to have a non-adiabatic evolution at $T_A$=10, explaining the observed trend. On the other hand, for the rest 9.8\% of the cases the minimum gaps were increased. It was noted that except for 2 cases with larger minimum gaps that were improved for $T_A$=10, were also improved for $T_A$=100 and $T_A$=1000. This suggests that for these cases adding the anti-ferromagnetic trigger increased the minimum energy gap, making the evolution more adiabatic even for $T_A$=10. 
 
 Additionally, for the two cases with enlarged minimum gap and higher success probability for $T_A$=10 but not for $T_A$=100, the energy spectra and instantaneous energies were studied. Same mechanics were found to be governing the trend, therefore the energy spectra for one of the problems is shown here. Figures (\ref{fig:a24}) and (\ref{fig:a25}) show the energy spectrum and the instantaneous energies before and after adding the trigger.
 
 \begin{figure}[H]
 \centering 
 \includegraphics[scale=0.26]{selected_T10_g1.png}
-\caption{A plot of the success probabilities after adding the anti-ferromagnetic trigger with g=1 ($p^A$), with the original success probabilities($p^O$) for annealing time 10, 100 and 1000.}
+\caption{For the cases with higher success probability for $T_A$=10 after adding the anti-ferromagnetic trigger with g=1, the scatter plot of energy gaps $\Delta^A $ with $\Delta^O$. 279 out of 377 of such cases were found to have smaller minimum energy gaps after adding the trigger.}
 \label{fig:a23}
 \end{figure}
 
 \begin{figure}[H]
 \centering 
 \includegraphics[scale=0.3]{705_O_T.png}
-\caption{A plot of the success probabilities after adding the anti-ferromagnetic trigger with g=1 ($p^A$), with the original success probabilities($p^O$) for annealing time 10, 100 and 1000.}
+\caption{\textbf{Original} energy spectrum and instantaneous energy values for the problem with enlarged minimum energy gap, improved success probability for $T_A$=10 and $T_A$=1000, but decreased success probability for $T_A$=100, as a consequence of adding the anti-ferromagnetic trigger. }
 \label{fig:a24}
 \end{figure}
 \begin{figure}[H]
 \centering 
 \includegraphics[scale=0.3]{705_A_T_g1.png}
-\caption{A plot of the success probabilities after adding the anti-ferromagnetic trigger with g=1 ($p^A$), with the original success probabilities($p^O$) for annealing time 10, 100 and 1000.}
+\caption{\textbf{Modified} energy spectrum and instantaneous energy values for the Hamiltonian after adding anti-ferromagnetic trigger to the problem with enlarged minimum energy gap, improved success probability for $T_A$=10 and $T_A$=1000, but decreased success probability for $T_A$=100, as a consequence of adding the anti-ferromagnetic trigger.}
 \label{fig:a25}
 \end{figure}
 Although adding the trigger enlarges the minimum gap in these cases, the spectrum of the problem is changed in a way that the state has more chances of going to higher energy levels. For $T_A$=10 the system transitions to higher energy levels even before the first energy anti-crossing, and coincidentally ends in a state with larger overlap with the ground state than in the original case where it closely follows the first excited state after the anti-crossing. For $T_A$=100, and in the presence of the trigger, the state shifts to the higher excited state at the second energy anti-crossing, but this time the overlap of the final state with the ground state is smaller than that in the case of the original Hamiltonian. Finally, an annealing time of $T_A$=1000 becomes long enough for the evolution to become adiabatic, and since the minimum energy gap is increased after adding the trigger, the success probability in the presence of the trigger becomes larger.\\
 
-Next, from figures (\ref{fig:a26}) and (\ref{fig:a27}) it can be noted that the majority of the problems improved by adding anti-ferromagnetic trigger, and choosing the annealing time to be $T_A$=10 or $T_A$=1000 correspond to the cases where the minimum energy gaps became larger upon adding the trigger. 11.7\% of the   21.5\% of the cases improved after adding the trigger for $T_A$=100, and 12.1\% of the 20\% of those for $T_A$=1000 had larger minimum gaps after including the trigger.
+Next, from figures (\ref{fig:a26}) and (\ref{fig:a27}) it can be noted that the majority of the problems improved by adding anti-ferromagnetic trigger, and choosing the annealing time to be $T_A$=100 or $T_A$=1000 correspond to the cases where the minimum energy gaps became larger upon adding the trigger. 117 of the   215 cases improved after adding the trigger for $T_A$=100, and 121 of the 200 cases for $T_A$=1000 had larger minimum gaps after including the trigger.
 \begin{figure}[H]
 \centering 
 \includegraphics[scale=0.43]{selected_T100_g1.png}
-\caption{A plot of the success probabilities after adding the anti-ferromagnetic trigger with g=1 ($p^A$), with the original success probabilities($p^O$) for annealing time 10, 100 and 1000.}
+\caption{For the cases with higher success probability for $T_A$=100 after adding the anti-ferromagnetic trigger with g=1, the scatter plot of energy gaps $\Delta^A $ with $\Delta^O$. 117 out of 215 of such cases were found to have larger minimum energy gaps after adding the trigger. Some of the other 98 cases studied have been marked in the figure (a-h).}
 \label{fig:a26}
 \end{figure}
 \begin{figure}[H]
 \centering 
 \includegraphics[scale=0.43]{selected_T1000_g1.png}
-\caption{A plot of the success probabilities after adding the anti-ferromagnetic trigger with g=1 ($p^A$), with the original success probabilities($p^O$) for annealing time 10, 100 and 1000.}
+\caption{For the cases with higher success probability for $T_A$=1000 after adding the anti-ferromagnetic trigger with g=1, the scatter plot of energy gaps $\Delta^A $ with $\Delta^O$. 121 out of 200 of such cases were found to have larger minimum energy gaps after adding the trigger. Some of the other 79 cases studied have been marked in the figure (a-e).}
 \label{fig:a27}
 \end{figure}
-Some of the outliers of from the above two plots were selected and their dynamics was studied. Firstly, it should be noted that the cases a-e are the ones that appear in both the figures. Out of them, for cases b, c and d there are exactly two anti-crossings where the energy gap is relatively small and comparable to each other. Figures (\ref{fig:a28}) and (\ref{fig:a29}) show the energy spectrum and the instantaneous energies for case c, in the absence and presence of the trigger, respectively.
+Some of the outliers from the above two plots were selected and their dynamics was studied. These have been marked in figures (\ref{fig:a26}) and (\ref{fig:a27}).  Firstly, it should be noted that the cases (a)-(e) are the ones that appear in both the figures. Out of them, for cases (b), (c) and (d) there are exactly two anti-crossings where the energy gap is relatively small and comparable to each other. Figures (\ref{fig:a28}) and (\ref{fig:a29}) show the energy spectrum and the instantaneous energies for case (c), in the absence and presence of the trigger, respectively.
 
 \begin{figure}[H]
 \centering 
 \includegraphics[scale=0.3]{441_O_T100_1000.png}
-\caption{A plot of the success probabilities after adding the anti-ferromagnetic trigger with g=1 ($p^A$), with the original success probabilities($p^O$) for annealing time 10, 100 and 1000.}
+\caption{\textbf{Original} energy spectrum and instantaneous energy values for case (c) marked in figures (\ref{fig:a28}) and (\ref{fig:a29}).}
 \label{fig:a28}
 \end{figure}
 \begin{figure}[H]
 \centering 
 \includegraphics[scale=0.3]{441_A_g1_T100_1000.png}
-\caption{A plot of the success probabilities after adding the anti-ferromagnetic trigger with g=1 ($p^A$), with the original success probabilities($p^O$) for annealing time 10, 100 and 1000.}
+\caption{\textbf{Modified} energy spectrum and instantaneous energy values for case (c) marked in figures (\ref{fig:a28}) and (\ref{fig:a29}), after adding the anti-ferromagnetic trigger with g=1.}
 \label{fig:a29}
 \end{figure}
 
 In this problem, the state of the system shifts to the first excited state at the first energy anti-crossing, but transits back to the ground state at the second one. Therefore, although the minimum energy gap has become smaller, the success probability after adding the trigger increases.\\
 
-Moreover, for cases a and e similar kind of mechanism is at play for increasing the success probability after including the trigger, despite of a decrease in the minimum energy gap. Case a was found to be the same as the second chosen problem in the first section of the chapter. It can be noted from figure (\ref{fig:a8}) that adding the trigger changes the spectrum in such a way that the ground state and the first excited state stay close to each other for a longer amount of time. When the gap between these levels starts to increase again, the system state shifts most amplitude to the ground state again.\\
+Moreover, for cases (a) and (e) similar kind of mechanism is at play for increasing the success probability after including the trigger, despite of a decrease in the minimum energy gap. Case (a) was found to be the same as the second chosen problem in the first section of the chapter. It can be noted from table (\ref{tab:a2}) that the minimum energy gap decreases by a factor of approximately 16 times upon adding the anti-ferromagnetic trigger with g=1. Figures (\ref{fig:o3}) and (\ref{fig:a8}) show the energy spectra for this case before and after adding the trigger. However, looking at the energy spectra alone does not make the cause of increase in the success probability apparent for this case. Therefore, the instantaneous overlaps of the system state with the three lowest lying energy states was computed at each time step. \textbf{Explain when both the files are ready.}
 
-It was also noted that there were additional cases in the scatter plot for the minimum energy gap ($\Delta_{min}^A$ vs $\Delta_{min}^O$) for $T_A$=100. Cases f, g and h, marked in figure (\ref{fig:a28}) were additionally studied and were found to have similar dynamics. For cases g and h the number of anti-crossing was found to have increased to 2, where both the gaps were small enough for the state to transit at $T_A$=100, hence working in favour of the success probability. 
+It was also noted that there were additional cases in the scatter plot for the minimum energy gap ($\Delta_{min}^A$ vs $\Delta_{min}^O$) for $T_A$=100. Cases (f), (g) and (h), marked in figure (\ref{fig:a28}) were additionally studied and were found to have similar dynamics. For cases (g) and (h) the number of anti-crossing was found to have increased to 2, where both the gaps were small enough for the state to transit at $T_A$=100, hence working in favour of the success probability. 
 
-For case f , figures (\ref{fig:a30}) and (\ref{fig:a31}) show the plots for the energy spectrum and the instantaneous energy values before and after adding the trigger.
+For case (f), figures (\ref{fig:a32}) and (\ref{fig:a33}) show the plots for the energy spectrum and the instantaneous energy values before and after adding the trigger.
 
 \begin{figure}[H]
 \centering 
 \includegraphics[scale=0.3]{969_O_T100.png}
-\caption{A plot of the success probabilities after adding the anti-ferromagnetic trigger with g=1 ($p^A$), with the original success probabilities($p^O$) for annealing time 10, 100 and 1000.}
-\label{fig:a30}
+\caption{\textbf{Original} energy spectrum and instantaneous energy values for case (f) marked in figure (\ref{fig:a28}).}
+\label{fig:a32}
 \end{figure}
-In this case, adding the trigger increases the number of anti-crossings to 2, while also making the energy spectrum more involved. The energy levels come close enough for the state to shift to higher or lower levels at other points than just the anti-crossings. (\textbf{Explain better.})
+In this case, adding the trigger increases the number of anti-crossings to 2, while also making the energy spectrum more involved. The energy levels come close enough for the state to shift to higher or lower levels at other points than just the anti-crossings. (\textbf{Check for the overlap. Most probably like 950.})
 \begin{figure}[H]
 \centering 
 \includegraphics[scale=0.3]{969_A_T100_g1.png}
-\caption{A plot of the success probabilities after adding the anti-ferromagnetic trigger with g=1 ($p^A$), with the original success probabilities($p^O$) for annealing time 10, 100 and 1000.}
-\label{fig:a31}
+\caption{\textbf{Modified} energy spectrum and instantaneous energy values for case (f) marked in figure (\ref{fig:a28}), after adding the anti-ferromagnetic trigger with g=1.}
+\label{fig:a33}
 \end{figure}
 
-Again, for checking if the dynamics after adding the anti-ferromagnetic trigger with g=1 was adiabatic, the success probabilities for different problems were plotted against the corresponding minimum gaps. Figure (\ref{fig:a30}) shows the resulting plot.
+Again, for checking if the dynamics after adding the anti-ferromagnetic trigger with g=1 was adiabatic, the success probabilities for different problems were plotted against the corresponding minimum gaps. Figure (\ref{fig:a34}) shows the resulting plot.
 
 \begin{figure}[H]
 \centering 
 \includegraphics[scale=0.3]{SuccVsGap_OA_g1.png}
 \caption{Success probability versus minimum energy plot for all the problems belonging to the set of 12-spin SAT problems, for annealing times 10, 100 an 1000, in the absence and presence of ferromagnetic trigger.}
-\label{fig:a30}
+\label{fig:a34}
 \end{figure}
-It can be noted that the scattering of the curves has increased substantially, although the form of the curves is defined better in this case compared to the last section (\ref{fig:a17}). (\textbf{MORE})
+It can be noted that the scattering of the curves has increased substantially, although the form of the curves is defined better in this case compared to the last section (\ref{fig:a17}). This suggests that the evolution becomes non-adiabatic for more number of cases. This can be attributed to the increase in the number of anti-crossings between the ground state and the first excited state, as well as the reduced minimum energy gaps between these two levels.
 
 
 \section*{g=2}
-Finally, in this section the effects of adding the anti-ferromagnetic with strength 2 will be discussed. 
+Finally, in this section the effects of adding the anti-ferromagnetic with strength 2 will be discussed.\\
+Figures (\ref{fig:a35}) and (\ref{fig:a36}) show the distribution of the relative success probability after adding the anti-ferromagnetic trigger for $T_A$=10 and $T_A$=100. In this case, only 1.5\% were found to have an improved success probability after adding the trigger for $T_A$=10. Upon increasing the annealing time to 100, this percentage increases to 15.8\%, and yet to 22.5\% for $T_A$=1000. This is in contrast with the observations from the previous sections where the percentage of the cases with improved success probability is the maximum for $T_A$=10. 
+
+\begin{figure}[H]
+\centering 
+\includegraphics[scale=0.25]{A_T10_g2.png}
+\caption{The distribution of relative success probability $\dfrac{p^A}{p^O}$ for $T_A$=10 and g=2. 1.5\% of the cases were found to have a higher success probability after adding the trigger.}
+\label{fig:a35}
+\end{figure}
+\begin{figure}[H]
+\centering 
+\includegraphics[scale=0.25]{A_T100_g2.png}
+\caption{The distribution of relative success probability $\dfrac{p^A}{p^O}$ for $T_A$=100 and g=2. 15.8\% of the cases were found to have a higher success probability after adding the trigger. }
+\label{fig:a36}
+\end{figure}
+Furthermore, for $T_A$=1000 the spread of the relative success probability was only from 0.63 to 1.58, i.e. the effect of adding the trigger was only marginal. Additionally, for 44.8\% of the cases the relative success probability was found to be 1.
+
+Fig. (\ref{fig:a37}) shows the scatter plot of the minimum energy gaps after adding the anti-ferromagnetic trigger ($\Delta^A$) with the original minimum energy gap ($\Delta^O$), for g=2. For this case it was observed that for 79.8\% of the problems the minimum energy gaps were reduced, compared to the original minimum energy gaps, after adding the trigger. It was also noticed that with the anti-ferromagnetic trigger of strength 2 the energy spectrum significantly in terms of the number of anti-crossings between the ground and the first energy level, and the proximity of the higher energy levels. As an estimate of the same, table (\ref{tab:a5}) shows the percentage of cases with different number of anti-crossings.
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|c|}
+\hline 
+Number of anti-crossings & Number of cases (\%) \\ 
+\hline 
+1 & 0.1 \\ 
+\hline 
+2 & 13.2 \\ 
+\hline 
+3 & 43.9 \\ 
+\hline 
+4 & 36.3 \\ 
+\hline 
+5 & 6.5 \\
+\hline
+\end{tabular} 
+\caption{Number of cases with different number of anti-crossings after adding the anti-ferromagnetic trigger with g=2.}
+\label{tab:a5}
+
+\end{table}
+\begin{figure}[H]
+\centering 
+\includegraphics[scale=0.24]{MinGap_A_g2.png}
+\caption{A plot of the minimum energy gaps after adding the anti-ferromagnetic trigger with g=1 ($\Delta_{min}^A$), with the original minimum energy gaps ($\Delta_{min}^O$). For 79.8\% of the minimum energy gap was found to have decreased after adding the trigger.}
+\label{fig:a37}
+\end{figure}
+
+Next, to obtain the range of the problems affected by the adding the trigger for different annealing times, fig. (\ref{fig:a38}) shows the scatter plot of the success probability upon including the anti-ferromagnetic trigger ($p^A$) with that of the original Hamiltonian ($p^O$). 
+
+
+\begin{figure}[H]
+\centering 
+\includegraphics[scale=0.3]{ProbScat_g2.png}
+\caption{A plot of the success probabilities after adding the anti-ferromagnetic trigger with g=2 ($p^A$), with the original success probabilities($p^O$) for annealing time 10, 100 and 1000.}
+\label{fig:a38}
+\end{figure}
+In this case too, the spread of the problems improved by adding the trigger was the largest for annealing time of 10. This can be attributed to the small original success probability ($p^o$) for a small annealing time of $T_A$=10, and the non-adiabatic evolution of the state as the minimum energy gap reduces upon adding the anti-ferromagnetic trigger. Here, having the smaller original success probability was found to be the main reason for large improvements (maximum relative success ratio being 93.91). For $T_A$=100 and $T_A$=1000 the improvements become successively limited, with maximum relative success probabilities of 41.36 and 7.34 respectively. This is a consequence of increasing original success probabilities for longer annealing times. For understanding the mechanisms involved in the evolution of the state after adding the trigger, the scatter plots of the minimum energy gaps after adding the trigger ($\Delta^A$) with the original minimum energy gaps ($\Delta^O$) have been shown for the cases with improved success probability in figs. (\ref{fig:a39}), (\ref{fig:a40}), and (\ref{fig:a41}) for annealing times of 10, 100 and 1000 respectively.\\
+
+
+\begin{figure}[H]
+\centering 
+\includegraphics[scale=0.35]{selected_T10_g2.png}
+\caption{For the cases with higher success probability for $T_A$=10 after adding the anti-ferromagnetic trigger with g=2, the scatter plot of minimum energy gaps $\Delta^A $ with $\Delta^O$. 3 out of 15 of such cases were found to have smaller minimum energy gaps after adding the trigger.}
+\label{fig:a39}
+\end{figure}
+
+From figure (\ref{fig:a39}) it can be noted that 12 out of the 15 problems with improved success probability have larger minimum energy gaps upon including the anti-ferromagnetic trigger. Furthermore, all of these problems had a larger relative success probability for longer annealing times of 100 and 1000 as well. This suggests that adding the trigger widened the minimum energy gap enough for the evolution to become more adiabatic for $T_A$=10.\\
+
+However, unlike the case in the previous sections, only 3  problems had a smaller minimum energy gap after adding the anti-ferromagnetic trigger and a larger success probability. All these problems were benefited from the similar non-adiabatic evolution of the state. The energy spectrum and the instantaneous energy expectation values of the state for the original Hamiltonian and the Hamiltonian after adding the trigger have been shown in fig. (\ref{fig:a42}) and (\ref{fig:a43}) for problem 693. For the original Hamiltonian, the state of the system shifts to the first excited state on approaching the energy anti-crossing, and closely follows the first excited state thereafter. This makes the overlap of the system state with the ground state negligible. However, in the case where the anti-ferromagnetic trigger is included, the minimum energy gap reduces, making it feasible for the state to transit to the higher excited levels. Consequently, the state ends in a superposition state consisting of higher energy levels, which coincidentally has a larger overlap with the ground state of the Hamiltonian.
+
+
+\begin{figure}[H]
+\centering 
+\includegraphics[scale=0.25]{693_O_g2.png}
+\caption{\textbf{Original} energy spectrum and instantaneous energy expectation values for problem 693 marked in fig. (\ref{fig:a39}).}
+\label{fig:a28}
+\end{figure}
+\begin{figure}[H]
+\centering 
+\includegraphics[scale=0.25]{693_A_g2.png}
+\caption{\textbf{Modified} energy spectrum and instantaneous energy expectation values for problem 693 marked in fig. (\ref{fig:a39}), after adding the anti-ferromagnetic trigger with g=2.}
+\label{fig:a29}
+\end{figure}
+
+In this problem, the success probability reduces after adding the trigger for both $T_A$=100 and $T_A$=1000. For the spectrum with the trigger and $T_A$=100, the system state shifts to the first excited state at the first anti-crossing, from where it soon shifts to the higher excited states. Unlike the case for $T_A$=10, this time the state follows them closely, resulting in a vanishing overlap with the ground state. For $T_A$=1000, on the other hand, the state shifts to the first excited state only on reaching the second anti-crossing. Since the original minimum gap is larger for this problem, the original success probability is larger for this annealing time.
+
+\begin{figure}[H]
+\centering 
+\includegraphics[scale=0.35]{selected_T100_g2.png}
+\caption{For the cases with higher success probability for $T_A$=100 after adding the anti-ferromagnetic trigger with g=2, the scatter plot of energy gaps $\Delta^A $ with $\Delta^O$. 118 out of 158 of such cases were found to have larger minimum energy gaps after adding the trigger.}
+\label{fig:a40}
+\end{figure}
+
+118 cases out of 158 cases found to have an improved success probability after adding the trigger, for $T_A$=100, also had a larger minimum energy gap as a result of adding the trigger. It was also noted that all of these cases also had a  relative success probability greater than 1 for $T_A$=1000. The energy spectra for 6 of the remaining 40 cases were studied to understand the evolution of the state, leading to an improve success probability. Same mechanics was found to be governing the dynamics of the state.
+\begin{figure}[H]
+\centering 
+\includegraphics[scale=0.35]{selected_T1000_g2.png}
+\caption{For the cases with higher success probability for $T_A$=1000 after adding the anti-ferromagnetic trigger with g=2, the scatter plot of energy gaps $\Delta^A $ with $\Delta^O$. 189 out of 225 of such cases were found to have larger minimum energy gaps after adding the trigger.}
+\label{fig:a41}
+\end{figure}
+For $T_A$=1000, 189 out of 225 cases where the success probability after adding the trigger was noted to be larger than the original success probability were found to have a larger minimum energy gap after adding the trigger. The energy spectra for 4 of the rest 36 cases were also studied. Furthermore, 13 of these cases were also found to have larger success probability for $T_A$=100.
+
+
+Finally, fig. (\ref{fig:a42}) shows the success probability versus minimum energy gap for all the problems of the set, for the original Hamiltonian, and the Hamiltonian after adding the trigger. 
+
+\begin{figure}[H]
+\centering 
+\includegraphics[scale=0.3]{SuccVsGap_OA_g2.png}
+\caption{Success probability versus minimum energy plot for all the problems belonging to the set of 12-spin SAT problems, for annealing times 10, 100 an 1000, in the absence and presence of ferromagnetic trigger.}
+\label{fig:a42}
+\end{figure}
+
+In this case, the scattering was found to have increased even more as compared to the case with g=1. This indicates that more problems deviated from the Landau-Zener formula in this case, suggesting a non-adiabatic evolution of the state in more number of problems.
 \end{document}

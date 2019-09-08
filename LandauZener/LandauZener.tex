@@ -1,35 +1,13 @@
-\documentclass[12]{article}
-\usepackage{prettyref}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
-\usepackage{graphicx}
-\usepackage{bbold}
-\usepackage{amsmath, amssymb}
-\usepackage{mathtools}
-\usepackage{physics}
-\usepackage{textcomp}
-\usepackage{float}
-\usepackage{subcaption}
-\usepackage{hyperref}
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,      
-    urlcolor=cyan,
-}
+\documentclass[../main.tex]{subfiles}
 \begin{document}
-\begin{center}
-\begin{Huge}
-LANDAU ZENER
-\end{Huge}
-\end{center}
 %\chapter{Landau Zener}\label{ch:LZ}
-The Landau-Zener model gives the solution for the dynamics of the magnetization of a 2-level spin system, under the action of slowly reversing external magnetic field at zero temperature [Hans Landau-Zener paper]. Consider, the following single spin- $\frac{1}{2}$ Hamiltonian as an example
+The Landau-Zener model gives the solution for the dynamics of the magnetization of a 2-level spin system, under the action of slowly reversing external magnetic field at zero temperature [Hans Landau-Zener paper]. Consider, the following single spin- $\frac{1}{2}$ Hamiltonian as an example:
 \begin{equation}
-H_{LZ}(t)=-\Gamma \sigma_x -c t \sigma_z \label{eq:lz1}
+H_{LZ}(t)=-\Gamma \sigma_x -c t \sigma_z, \label{eq:lz1}
 \end{equation}
 where $\Gamma$ sets the scale of the splitting between the two energy levels, and c is the sweep rate of the applied magnetic field, i.e H(t)=ct. Thus for a field switching its value from $-H_0$ to $H_0$ in time T, $c=\Delta H/T= 2H_0/T$.
 
-Now, for large negative times t, and $\abs{H(t)} \leq \abs{\Gamma}$, $H_{LZ}(t)\approx ct \sigma_z$. Thus, the spin-down state, $\ket{\psi}$ is close to the ground state of the Hamiltonian, as $ct \sigma_z \ket{\downarrow}=-ct \ket{\downarrow}$. As t goes to infinity, $H_{LZ}(t)\approx -ct \sigma_z$, so that the ground state now lies close to the spin up state, as $-ct \sigma_z \ket{\uparrow}=-ct \ket{\uparrow}$. According to quantum adiabatic theorem the state of the system should always lie close to the instantaneous ground state of the Hamiltonian H(t), if the field is changed slowly enough. However, there is a finite probability that the state transits to a higher excited level during the sweep. The probability, p', for this nonadiabatic transition (Landau-Zener tunnelling), as given by the Landau-Zener formula, is
+Now, for large negative times t, and $\abs{H(t)} \leq \abs{\Gamma}$, $H_{LZ}(t)\approx ct \sigma_z$. Thus, the spin-down state, $\ket{\psi}$ is close to the ground state of the Hamiltonian, as $ct \sigma_z \ket{\downarrow}=-ct \ket{\downarrow}$. As t goes to infinity, $H_{LZ}(t)\approx -ct \sigma_z$, so that the ground state now lies close to the spin up state, as $-ct \sigma_z \ket{\uparrow}=-ct \ket{\uparrow}$. According to quantum adiabatic theorem the state of the system should always lie close to the instantaneous ground state of the Hamiltonian H(t), if one starts with the ground state and if the field is changed slowly enough. However, there is a finite probability that the state transits to a higher excited level during the sweep. The probability, p', for this nonadiabatic transition (Landau-Zener tunnelling), as given by the Landau-Zener formula, is
 \begin{equation}
 p'=exp(\frac{-\pi {\Gamma}^2}{c}) . 
 \end{equation}
@@ -74,7 +52,7 @@ From equation (\ref{eq:lz2}), $p=1-e^{-\frac{\pi \Gamma^2}{2H_0} T}=1-e^{-aT}$, 
 
 
 
-Although both Quantum annealing and Landau-Zener model deal with time dependent Hamiltonians, and the main task consists of studying the evolution of the state of the system under its action, there are two major points of difference. Landau-Zener formula is applicable for 2-level systems, and the process of reversing the magnetic field is ideally carried over an infinite amount of time. On the other hand, quantum annealing problems generally consist of more than two energy levels, and the evolution is carried out for a limited time, i.e. from s=0 to s=1 in terms of the annealing parameter: s.
+Although both Quantum annealing and Landau-Zener model deal with time dependent Hamiltonians, and the main task consists of studying the evolution of the state of the system under its action, there are two major points of difference. Landau-Zener formula is applicable to 2-level systems, and the process of reversing the magnetic field is ideally carried over an infinite amount of time. On the other hand, quantum annealing problems generally consist of more than two energy levels, and the evolution is carried out for a limited time, i.e. from s=0 to s=1 in terms of the annealing parameter: s=t/$T_A$, where $T_A$ is the total annealing time.
 
 Despite of these differences, Landau-Zener formula, with minor modifications, can be used as a measure to test if the evolution during the process of quantum annealing is adiabatic. If the dependence of success probability, p, is found to satisfy (\ref{eq:lz3}) the evolution can be regarded as adiabatic.
 
@@ -82,7 +60,7 @@ The Ising model in a transverse field, encoding the optimization problem for qua
 \begin{equation}
 H=-J \sum \limits_{<i,j>} \sigma_i^z \sigma_j^z - \Gamma \sum \limits_i \limits^N \sigma_i^x -H(t) \sum \limits_i \limits^N\sigma_i^z, \label{eq:lz4}
 \end{equation} 
-where set $<i,j>$ defines the interactions between pairs of spins in the cluster. The modified probability for N spins is then given by [Hans paper, 5-6 reference there]\\
+where set $<i,j>$ defines the interactions between pairs of spins in the cluster. The modified probability for the system state consisting of N spins to stay close to the ground state is then given by [Hans paper, 5-6 reference there]\\
 \begin{equation}
 p_N=1-p'=1-exp(\frac{-\pi {\Delta E}^2}{4Nc}). \label{eq:lz5}
 \end{equation}
