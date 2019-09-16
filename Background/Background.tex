@@ -2,13 +2,13 @@
 \begin{document}
 %\chapter{Theoretical Background}\label{ch:Theory}
 \section{Quantum Computing}
-Analogous to the digital bits used for classical computation, a quantum computer requires quantum bits, more commonly known as qubits, as the fundamental register. However, unlike the classical bits which can acquire the value of either a 0 or a 1, a qubit state can a be a linear superposition of the $\ket{0}$ and $\ket{1}$ states, where $\ket{}$ represent the Dirac notation, i.e.,
+Analogous to the digital bits used for classical computation, a quantum computer requires quantum bits, more commonly known as qubits, as the fundamental register. However, unlike the classical bits which can acquire the value of either a 0 or a 1, a qubit state can a be a linear superposition of the states $\ket{0}$ and $\ket{1}$, where $\ket{}$ represents a quantum state in the Dirac notation, i.e.,
 \begin{equation}
 \ket{\psi}= a_0 \ket{0} + a_1 \ket{1},  \label{eq:b1}
 \end{equation}
-where $a_0$ and $a_1$ are the complex amplitudes such that ${\abs{a_1}}^2 +{\abs{a_0}}^2 =1$. According to the principles of quantum mechanics, upon measurement, the qubit state collapses to the states $\ket{0}$ or $\ket{1}$, with probabilities ${\abs{a_0}}^2$ and ${\abs{a_1}}^2$ respectively. 
+where $a_0$ and $a_1$ are the complex amplitudes such that ${\abs{a_1}}^2 +{\abs{a_0}}^2 =1$. According to the principles of quantum mechanics, a measurement of the qubit state then yields either $\ket{0}$, with probability ${\abs{a_0}}^2$ or $\ket{1}$, with probability ${\abs{a_1}}^2$. 
 
-A qubit state can also be represented in terms of spin of a particle, whose internal angular momentum can take two values : $\hbar/2$ corresponding to spin-up state ($\ket{\uparrow}$), or $-\hbar/2$ corresponding to spin-down state ($\ket{\downarrow}$). In this notation, it is conventional to associate state $\ket{0}$ with $\ket{\downarrow}$ and state $\ket{1}$ with $\ket{\uparrow}$. Since there are only two values that the internal angular momentum can acquire, the total angular momentum associated with the particle is S=1/2 [Kristel and Hans, and their references]. The three components of the Pauli matrices corresponding to the spin-1/2 operator \textbf{S} spanned by these states are:
+In its simplest form, a qubit is therefore a two-level system. A spin-$1/2$ particle with its two levels being the up spin and the down spin, can naturally be used as a qubit. In this notation, it is conventional to associate state $\ket{0}$ with $\ket{\uparrow}$, and state $\ket{1}$ with $\ket{\downarrow}$. The three components of the Pauli matrices corresponding to the spin-1/2 operator \textbf{S} spanned by these states are:
 \begin{center}
 $ \sigma_x= \begin{pmatrix}
 0 & 1\\
@@ -19,43 +19,46 @@ i & 0
 \end{pmatrix}, \sigma_z= \begin{pmatrix}
 1 & 0\\
 0 & -1
-\end{pmatrix}.
+\end{pmatrix},
 $\\
 \end{center}
-For N such qubits, the state is a tensor product of the single qubit states. Since each single state is described using two complex amplitudes, a state with N qubits requires $2^N=L$ coefficients for its description, i.e. 
-\begin{equation}
-\begin{split}
-\ket{\psi} &= (a_{01}\ket{0}_1+a_{11}\ket{1}_1)\otimes(a_{02}\ket{0}_2+a_{12}\ket{1}_12)\otimes...\otimes(a_{0N}\ket{0}_N+a_{1N}\ket{1}_N),\\ 
-		  &=a_{01}a_{02}...a_{0N}\ket{00...0}+a_{01}a_{02}...a_{1N}\ket{00...1}+a_{11}a_{12}...a_{1N}\ket{11...1},\\
-		  &=a_0 \ket{00...0}+a_1 \ket{00...1}+...+a_L \ket{11...1},\\ \label{eq:b2}
-\end{split}
-\end{equation}
-where $a_0=a_{01}a_{02}...a_{0N}$, $a_1=a_{01}a_{02}...a_{1N}$ and similarly, $a_L=a_{11}a_{12}...a_{1N}$.
+which are then used as the fundamental elements of quantum computing.\\
 
-The basis in equation (\ref{eq:b2}) is known as the computational basis, and is more conveniently notated as $\ket{00...0}=\ket{0}$, $\ket{00..1}=\ket{1}=$,..., $\ket{11...1}=\ket{L}$. In this representation, equation (\ref{eq:b2}) thus becomes
+For N such qubits, the basis state is a tensor product of the single-qubit basis states. Since each single state constitutes two basis vectors, the N-qubit state comprises of $L=2^N$ basis vectors. This constitutes of the computational basis -
+$\ket{00...0}, \ket{00...1},..., \ket{11...1}$. Therefore, a general N-qubit state  can be represented as
+
+\begin{equation}
+\ket{\psi} =a_0 \ket{00...0}+a_1 \ket{00...1}+...+a_L \ket{11...1},
+\label{eq:b2}
+\end{equation}
+which requires L complex amplitudes for its description.
+
+The computational basis can be more conveniently notated as $\ket{00...0}=\ket{0}$, $\ket{00..1}=\ket{1}$,..., $\ket{11...1}=\ket{L}$. In this representation, eq. (\ref{eq:b2}) thus becomes
 \begin{equation}
 \ket{\psi}= a_0\ket{0}+a_1\ket{1}+....+a_L\ket{L}.  \label{eq:b3}
 \end{equation}
-Therefore, the Hilbert space spanned by N qubits is a L=$2^N$ dimensional space.
+Therefore, the Hilbert space spanned by N qubits is an L-dimensional space.
 
-Since Pauli matrices form a complete basis for a vector in $2 \times 2$ space, any operator acting on a qubit can be expressed as a linear combination of Pauli matrices [Quantum Walks and search algorithms, Renato Portugal]. The action of a Pauli matrix, $\sigma^\alpha$, where $\alpha \in \{x,y,z\}$ on the $i^{th}$ of the N qubits is represented as $\sigma_i^\alpha$. Since the state in equation (\ref{eq:b2}) is a product state, the Pauli operator $\sigma_j^\alpha$ can act just on the the $j^{th}$ qubit, while the other qubits are acted upon by identity matrices $\mathbb{1}$=$\begin{pmatrix}
+Since Pauli matrices, together with the identity operator I, form a complete basis for a vector in $2 \times 2$ space, any gate acting on a qubit can be expressed as a linear combination of Pauli matrices [Quantum Walks and search algorithms, Renato Portugal]. The action of a Pauli matrix, $\sigma^\alpha$, where $\alpha \in \{x,y,z\}$ on the $j^{th}$ of the N bits of the basis vector is represented as $\sigma_j^\alpha$. Thus, the Pauli operator $\sigma_j^\alpha$ acting on the general state $\ket{\psi}$, given in eq. (\ref{eq:b2}), just acts on the $j^{th}$ bit of the basis vector, altering the coefficients $a_0$, $a_1$,...,$a_L$. The other bits of the basis vector remain unchanged as a result of being acted upon by identity matrices I=$\begin{pmatrix}
 1&0\\
 0&1
 \end{pmatrix}_{i \neq j}
 $.\\
-\section{Optimization Problems}
-Mathematically, an optimization problem comprises of a cost function, $f_0(x)$ involving N variables $x_1$, $x_2$, $x_3$,...,$x_N$, such that $x=(x_1,...,x_N)$. The goal, then, is to find the solution $x_0$ that optimizes the cost function (generally,interpretable in terms of energy), subjected to a certain number of constraints $f_i(x_1,..,x_k)$, each imposed to a set of k variables (k-SAT problems)[Convex Optimization, Stephen Boyd (book)]. These multiple constraints, however, can cause frustration in the system, which can give rise to many local minima. This makes the determination of the optimal solution harder [Optimization using quantum mechanics: quantum annealing through adiabatic evolution: Santoro and Tosatti].
+\section{Optimization Problems and Quantum Annealing} 
+Mathematically, an optimization problem comprises of a cost function, $f_0(\textbf{x})$ involving N variables $x_1$, $x_2$, $x_3$,...,$x_N$, such that $\textbf{x}=(x_1,...,x_N)$. The goal is then to find the solution $\mathbf{x_0}$ that minimises (or maximises) the cost function. In the computing language the cost function is written as a Boolean expression in the form of conjunction (a Boolean AND operation) of r clauses, where each clause is a disjunction (a Boolean OR operation) of k variables or their negations (k-SAT problems)[Convex Optimization, Stephen Boyd (book)],[Ting Hsu et. al]. A 2-SAT instance is thus formulated as a Boolean expression where each clause is a disjunction of two literals. The literals, $L_{i,j}$, are Boolean variables or their negations. The task is then to find a truth assignment to the Boolean variables that makes the formula $G=(L_{1,1} \lor L_{1,2}) \land (L_{2,1} \lor L_{2,2}) \land ... \land (L_{r,1} \lor L_{r,2})$ true. If G=1 then the 2-SAT instance is satisfiable.
 
-For finding the optimal solution, the whole spectrum of the cost function needs to be explored. This requires that the system should be able to escape from a local minimum, if it gets trapped in one, during this course. The method of simulated annealing was therefore devised [Kirkpatrick S, Gelatt C D Jr and Vecchi M P 1983 Science 220 671], where adding thermal fluctuations to the cost function, keeps the system from getting trapped in the local minima. If the barrier potential diverges or becomes very high, this approach can no longer be helpful. However, the quantum tunnelling effect can still allow for the search of global minima of a function of many Boolean variables by escaping from the poor local minima through tunnelling. It was in this spirit that the technique of quantum annealing was originally devised by B.Apolloni, C.Carvalho and D.de Falco in 1988 [Quantum stochastic optimization, Appoloni, Carvalho, de Falco].
-\section{Quantum Annealing}
-Quantum annealing was conceived with the idea of encoding the solution of combinatorial optimization problems in the ground state of a quantum Hamiltonian [Tameem Albash, Lidar: Adiabatic Quantum Computation]. 
-The cost function can then be mapped on to the Ising model of spins, making use of the external magnetic field ${h_i}^z$ and the spin couplings ${J_{ij}^z}$ of the model. Thus, the optimization problem can be expressed in the terms of the following Hamiltonian:
+Many physically inspired approaches have also been adopted to find the solution for the optimization problems. One of the widely used techniques is to encode the problem into the couplings of Ising Hamiltonians [Nonstoquastic Hamiltonians]. The ground state of this Hamiltonian, corresponding to the state of the minimum energy, then represents the optimal solution of the problem. At low enough temperatures, the system state should eventually relax to the ground state, yielding the required solution.
+
+For finding the optimal solution, the whole spectrum of the cost function needs to be explored. This requires that the system should be able to escape from a local minimum, if it gets trapped in one, during the course. The presence of multiple local minima thus makes the determination of the optimal solution harder [Optimization using quantum mechanics: quantum annealing through adiabatic evolution: Santoro and Tosatti].\\
+ 
+The method of simulated annealing was therefore utilised for [Kirkpatrick S, Gelatt C D Jr and Vecchi M P 1983 Science 220 671], where adding thermal fluctuations to the cost function, keeps the system from getting trapped in the local minima. Yet if the barrier potential diverges or becomes very high, this approach can no longer be helpful. It was in this spirit that the technique of quantum annealing was first employed by B.Apolloni, C.Carvalho and D.de Falco in 1988 [Quantum stochastic optimization, Appoloni, Carvalho, de Falco], wherein quantum fluctuations were used in place of thermal fluctuations. By making use of the quantum tunnelling effect, this approach can still allow for the search of global minima as the system state can tunnel through the poor local minima.\\
+ 
+The cost function is mapped on to the Ising model of spins, making use of the external magnetic field ${h_i}^z$ and the spin couplings ${J_{ij}^z}$ of the model, and thus has the following form:
 \begin{equation}
-H_P=-\sum\limits_{i=1}\limits^{N}{h_i}^z{\sigma_i}^z - \sum\limits_{<i,j>}{J_{ij}^z} {\sigma_i}^z{\sigma_j}^z, \label{eq:b4}
+H_P=-\sum\limits_{i=1}\limits^{N}{h_i}^z{\sigma_i}^z - \sum\limits_{\langle i,j \rangle}{J_{ij}^z} {\sigma_i}^z{\sigma_j}^z, \label{eq:b4}
 \end{equation}
-where ${\sigma_i}^z$ denotes the z component of Pauli-spin matrix acting on the $i^{th}$ spin, and the set $<i,j>$ represents the set of pairwise couplings.
+where ${\sigma_i}^z$ denotes the z component of Pauli-spin matrix acting on the $i^{th}$ spin, and the set $\langle i,j \rangle$ represents the set of pairwise couplings.
 
-Although the Hamiltonian in equation (\ref{eq:b4}) is a 2-local Hamiltonian, the solution for problems with higher order interactions ($k \geq 3$) can still be encoded in the ground state of the Ising Hamiltonian by combining $\sigma_k^z$ terms into products, such that at each point there are just two terms effectively, but at the expense of imposing more constraints to the cost function. This can lead to a large overhead in the number of variables [Perspectives of quantum annealing :Methods and implementations]. For the present work, we shall confine ourselves to 2-SAT problems. \\
 
 The recipe for the annealing algorithm consists of starting with an initial Hamiltonian $H_I$, whose ground state can be easily determined and realised. Most commonly used is the transverse field Hamiltonian: 
 \begin{equation}
@@ -65,11 +68,12 @@ The ground state for $H_I$ is therefore the uniform superposition state:
 \begin{equation}
 \ket{\psi}=\frac{1}{{(\sqrt{2})}^N}{(\ket{0}+\ket{1})}_1*{(\ket{0}+\ket{1})}_2*....*{(\ket{0}+\ket{1})}_N. \label{eq:b6}
 \end{equation}
-The Hamiltonian is then slowly swept towards the problem Hamiltonian, with the means of an annealing parameter, say s, defined as $s=t/T$, where t is the instantaneous time, and T is the total annealing time. The instantaneous Hamiltonian, H(t), corresponding to the most straightforward annealing scheme, is then given by: 
+The Hamiltonian is then slowly swept towards the problem Hamiltonian, with the means of an annealing parameter, say s, defined as $s=t/T_A$, where t is the instantaneous time, and $T_A$ is the total annealing time. The Hamiltonian, H(t), corresponding to the most straightforward annealing scheme, is then given by: 
 \begin{equation}
 H(t)= (1-s(t))H_I + s(t)H_P. \label{eq:b7}
 \end{equation}
 
+\begin{comment}
 Figure (\ref{fig:b1}) shows the chosen annealing scheme in terms of the annealing parameter.
 \begin{figure}[H]
 \centering 
@@ -77,100 +81,94 @@ Figure (\ref{fig:b1}) shows the chosen annealing scheme in terms of the annealin
 \caption{The linear annealing scheme chosen, in terms of the annealing parameter s.}
 \label{fig:b1}
 \end{figure}
-Therefore, the instantaneous Hamiltonian transitions from the initial Hamiltonian, $H(t=0)=H_I$ to the problem Hamiltonian, $H(t=T_A)=H_P$. \\
+\end{comment}
+Therefore, the Hamiltonian transitions from the initial Hamiltonian, $H(t=0)=H_I$ to the final Hamiltonian, $H(t=T_A)=H_P$. \\
 
-According to the \textbf{quantum adiabatic theorem}, the instantaneous state of the system stays close to the ground state of Hamiltonian H(t), if one starts with ground state of the initial Hamiltonian and if the driving from the initial Hamiltonian to the problem Hamiltonian is slow enough for the given minimum energy gap, $\Delta_{min}$, between the ground state and the first excited state of the Hamiltonian H(t) for t $\epsilon$ [0,$T_A$]. [ADIABATIC QUANTUM COMPUTATION, Enej Ilievsk]. Mathematically, adiabatic theorem of evolution holds when 
+According to the \textbf{quantum adiabatic theorem}, the instantaneous state of the system stays close to the ground state of Hamiltonian H(t), if one starts with ground state of the initial Hamiltonian and if the driving from the initial Hamiltonian to the problem Hamiltonian is slow enough, which is determined by the minimum energy gap, $\Delta_{min}$, between the ground state and the first excited state of the Hamiltonian H(t) during the course of annealing. [ADIABATIC QUANTUM COMPUTATION, Enej Ilievsk]. Mathematically, adiabatic theorem of evolution holds when 
 \begin{equation}
-T_A>> {\Delta}_{min}^{-2}, \label{eq:b8}
+T_A \propto {\Delta}_{min}^{-2}, \label{eq:b8}
 \end{equation}
-where $T_A$ is the total annealing time. [Perspectives of quantum annealing: Methods and implementations].\\
-Thus, the problem of finding the optimal solution reduces to the problem of solving the time dependent Schr{\"o}dinger equation for the resulting H(t) (equation \ref{eq:b7}):
+where $T_A$ is the total annealing time. [Perspectives of quantum annealing: Methods and implementations]. Therefore, the performance of quantum annealing depends strongly on the minimum energy gap.\\
+Thus, the problem of finding the optimal solution reduces to the problem of solving the time dependent Schr{\"o}dinger equation for the resulting H(t) (see eq. \ref{eq:b7}):
 \begin{equation}
 i\frac{\partial}{\partial t}\ket{\psi}=H(t)\ket{\psi}.    \label{eq:b9}
 \end{equation}
 
-However, the process of evolution, starting from the trivial ground state of the initial Hamiltonian and going to a non-trivial ground state of the problem Hamiltonian, is accompanied by a quantum phase transition. For such a transition, the minimum gap $\Delta_{min}$ can be assumed to follow
-\begin{equation}
-\Delta_{min} \propto e^{-cN}, \label{eq:b10}
-\end{equation}
-for a positive constant c and N number of spins. [Perspectives of quantum annealing: Methods and implementations]. Substituting equation (\ref{eq:b10}) in equation (\ref{eq:b8}),
-\begin{equation}
- T>> e^{2cN}, \label{eq:b11}
-\end{equation}
-i.e., the total annealing time required for the evolution to be adiabatic grows exponentially with the number of spins. This approach is therefore rendered unsuitable for systems with large number of spins.
+However, the process of evolution, starting from the trivial ground state of the initial Hamiltonian and going to a non-trivial ground state of the problem Hamiltonian, is accompanied by a quantum phase transition. Such a transition is characterized by a vanishing energy gap in the thermodynamic limit. For the problems which are considered to be difficult, the minimum gap is found to close exponentially as a function of the system size, i.e., $\Delta_{min} \propto e^{-cN}$, for a positive constant c and N number of spins. This suggests that the annealing time required to ascertain that the evolution is adiabatic also grows exponentially,   $T_A \propto e^{2cN}$. On the other hand, if the gap closes polynomially ($\Delta_{min} \propto N^{-l}$, for a positive constant l), the computation time is also polynomial, $T_A \propto N^{2l+1}$, and the problem is considered easy [Perspectives, Nishimori].
 
-However, altering the annealing scheme can help overcome this difficulty of an exponential increase in the computational resources with the number of variables [Perspectives of quantum annealing: Methods and implementations, Adiabatic quantum computation: Tameem Albash, Quantum Adiabatic Evolution Algorithms with Different Paths: Farhi, Different strategies for Optimization Using the Quantum Adiabatic Algorithm: Farhi, Nonstoquastic Hamiltonians and quantum annealing of an Ising spin glass]. In this work we include a third Hamiltonian, the Trigger Hamiltonian - $H_T$ in the time dependent Hamiltonian H(t) (equation \ref{eq:b7})[Farhi-Goldstein, Farhi (Different), Review, Non-stoquastic]. The trigger Hamiltonian is constituted by the transverse spin couplings $J_{ij}^x$. Moreover, $H_T$ should vanish at both the start and end of the annealing process, so that one can still start with the easily realizable ground state of the initial Hamiltonian, and the resulting state of the problem Hamiltonian remains unaffected. The instantaneous Hamiltonian thus takes the form: 
+Therefore, the dependence of the minimum energy gap on the size of the system determines the annealing time required to make the evolution of the state of the system to be adiabatic. Thus, one method of improving the performance of quantum annealers is by controlling the closing of the gap. Altering the annealing scheme is believed to be one of the ways in which this can be achieved [Perspectives of quantum annealing: Methods and implementations, Adiabatic quantum computation: Tameem Albash, Quantum Adiabatic Evolution Algorithms with Different Paths: Farhi, Different strategies for Optimization Using the Quantum Adiabatic Algorithm: Farhi, Nonstoquastic Hamiltonians and quantum annealing of an Ising spin glass]. In this work we aim to achieve the same by including a third Hamiltonian, the Trigger Hamiltonian - $H_T$ in the time dependent Hamiltonian H(t) (see eq. \ref{eq:b7})[Farhi-Goldstein, Farhi (Different), Review, Non-stoquastic]. The trigger Hamiltonian should vanish at both the start and end of the annealing process, so that one can still start with the easily realizable ground state of the initial Hamiltonian, and the resulting state of the problem Hamiltonian remains unaffected. The Hamiltonian thus takes the form: 
 \begin{equation}
-H(t)= (1-s)H_I + g*s(1-s)H_T + sH_P ,\label{eq:b12}
+H(t)= (1-s)H_I + g s(1-s)H_T + sH_P ,\label{eq:b12}
 \end{equation} 
 where parameter g controls the strength of the added trigger.\\
-Furthermore, for this thesis we deal with two types of trigger Hamiltonians - The ferromagnetic trigger (F) and the anti-ferromagnetic trigger (A), given as
+Furthermore, for this thesis we deal with two types of trigger Hamiltonians - The ferromagnetic trigger (F) and the anti-ferromagnetic trigger (A)[Nonstoquastic...], given as
 \begin{equation}
-H_T^F = - \sum\limits_{<i,j>}{\sigma_i}^x{\sigma_j}^x,    \label{eq:b13}
+H_T^F = - \sum\limits_{\langle i,j\rangle}{\sigma_i}^x{\sigma_j}^x,    \label{eq:b13}
 \end{equation}
 and
 \begin{equation}
-H_T^A= +\sum\limits_{<i,j>}{\sigma_i}^z{\sigma_j}^z,          \label{eq:b14}
+H_T^A= +\sum\limits_{\langle i,j \rangle}{\sigma_i}^x{\sigma_j}^x,          \label{eq:b14}
 \end{equation}
-with the same pairwise coupling set $<i,j>$ as for the problem Hamiltonian.
-As will be seen in the following chapters, adding these triggers alter the energy spectrum considerably, which in turn affects the overlap of the final state with the ground state in different ways. \\
+with the same pairwise coupling set $\langle i,j \rangle$ as for the problem Hamiltonian. The trigger can also be chosen to have the form $\pm  \sum\limits_{\langle i,j\rangle}{\sigma_i}^y{\sigma_j}^y $.
+As will be seen in the following chapters, adding these triggers alters the energy spectrum considerably, which in turn affects the overlap of the final state with the ground state in different ways. \\
 
 
-There can be yet another approach for increasing the overlap of the final state obtained from the annealing process, with the ground state of the problem Hamiltonian. As seen in (\ref{eq:b8}) for problems with small minimum gap $\Delta_{min}$, the annealing time required for the evolution to be adiabatic (so that the state of the system always stays close to the instantaneous ground state) can be very large. In such cases, even what otherwise looks like a reasonable time, might actually be short, causing the system to transit to the first excited state at the minimum gap anti-crossing. Since most of the amplitude of the state then lies in the first excited state, the overlap with the ground state might become negligible. 
-
-However, if one chooses much smaller annealing times, the state can leak to higher excited states of the spectrum, even before the minimum gap anti-crossing. This gives the system a chance to shift some amplitude of the wave function back to the ground state at the minimum gap. Furthermore, the system can even end in a superposition state consisting of higher energy levels. As a result of this non-adiabatic evolution, the final state can have more chances of having a larger overlap with the ground state of the instantaneous Hamiltonian, than in the case of it closely following the first excited state with vanishing overlap with the ground state. This observation has been confirmed in the work by [Farhi et al: Different Perspectives], where reducing the total annealing time in problems with very small success probabilities, increases the probability of finding the final state close to the ground state of the problem Hamiltonian.\\
-
-The following sections focus on two approaches that have been used in this work to solve the time-dependent Schr{\"o}dinger equation. Suzuki-Trotter product formula has been adopted to track the evolution of the state, and to compute the overlap of the final state with the already determined ground state of the problem Hamiltonian. The full diagonalization method, on the other hand, has been used to calculate the errors involved in using the Suzuki-Trotter approximation, and to determine the energy spectra and minimum gaps for H(t) for $t \in [0,T_A]$, where $T_A$ is the total annealing time.
+The following sections focus on two approaches that have been used in this work to solve the time-dependent Schr{\"o}dinger equation. The Suzuki-Trotter product formula has been adopted to track the evolution of the state, and to compute the overlap of the final state with the already determined ground state of the problem Hamiltonian. The full diagonalization method, on the other hand, has been used to calculate the errors involved in using the Suzuki-Trotter approximation, and to determine the energy spectra and minimum gaps for H(t) for $t \in [0,T_A]$, where $T_A$ is the total annealing time.
 
 \section{Exact Diagonalization}
-This method consists of determining the eigenvalues and eigenvectors of the Hamiltonian matrix, which is a $L\times L$ ($2^N \times 2^N$) matrix, at each time step.
+This method consists of determining the eigenvalues and eigenvectors of the Hamiltonian matrix, which is an $L\times L$ ($2^N \times 2^N$) matrix, at each time step.
 
-For constructing the Hamiltonian matrix at time step t $\in [0,T_A]$, all the basis vectors in the computational basis are acted upon by the instantaneous Hamiltonian, given by equation (\ref{eq:b12}). The action of the Hamiltonian on the $i^{th}$ basis vector corresponds to the $i^{th}$ column of the Hamiltonian matrix, e.g. for $\ket{\psi}=(1,0,...,0)^T$, $H\ket{\psi}$ gives the first column of the Hamiltonian matrix. \\
+For constructing the Hamiltonian matrix at time step t $\in [0,T_A]$, all the basis vectors in the computational basis are acted upon by the instantaneous Hamiltonian, given by eq. (\ref{eq:b12}). The action of the Hamiltonian on the $i^{th}$ basis vector corresponds to the $i^{th}$ column of the Hamiltonian matrix, e.g. for $\ket{\psi}=(1,0,...,0)^T$, $H\ket{\psi}$ gives the first column of the Hamiltonian matrix. \\
 The resulting matrix is then diagonalized to obtain the eigenvalues $\Lambda$, and unitary matrix of the eigenvectors, V. Since $V^{\dagger}HV=\Lambda$, the unitary evolution operator $U(t)=e^{-itH}=Ve^{-it\Lambda}V^{\dagger}$.
 
 
-This approach, however, has some serious limitations. Firstly, the memory requirement to store the Hamiltonian matrix grows exponentially with the number of qubits. Additionally, the full diagonalization takes $\mathcal{O}(2^{3N})$ floating-point operations [Kristel-Hans paper]. Therefore, this method is rendered impractical for solving the time dependent Schr{\"o}dinger equation for systems more than 20 qubits.
+This approach, however, has some serious limitations. Firstly, the memory requirement to store the Hamiltonian matrix grows exponentially with the number of qubits ($\mathcal{O}(2^{2N})$). Additionally, full diagonalization takes $\mathcal{O}(2^{3N})$ floating-point operations [Kristel-Hans paper]. Therefore, this method is rendered impractical for solving the time dependent Schr{\"o}dinger equation for systems more than 20 qubits.
 
 \section{Suzuki-Trotter Product Formula} 
-Since solving the time dependent Schr{\"o}dinger equation requires to compute unitary matrix exponentials, Lie-Trotter-Suzuki product formula can be used to construct the following unitary approximations:
+For solving the time dependent Schr{\"o}dinger eq.(\ref{eq:b9}), one needs to evaluate the  unitary matrix exponentials of the evolution operator, $U(t)$ given as:
 \begin{equation}
 U(t)= e^{-itH}= e^{-it(H_1+...+H_K)}= \lim\limits_{m \to \infty} {\bigg(\prod_{k=1}^{K}e^{-itH_k/m} \bigg)}^m.    \label{eq:b15}
 \end{equation}
-For sufficiently small time step t, the first order approximation for U(t) in equation (\ref{eq:b15}) is
+In this work, the Lie-Trotter-Suzuki product formula is employed to construct unitary approximations to the evolution operator. Defining $\tau$ as $t/m$, to be the time step at which the evolution operator is applied, a repeated application of $U(\tau)$ yields U(t). For a sufficiently small time step $\tau$, the first order approximation for U(t) in eq. (\ref{eq:b15}) is
 \begin{equation}
-\tilde{U}_1(t)=e^{-itH_1}...e^{-itH_K},    \label{eq:b16}
+\tilde{U}_1(\tau)=e^{-i\tau H_1}...e^{-i\tau H_K},    \label{eq:b16}
 \end{equation}
-which holds good for $t \left| \left| H \right| \right| << 1$.
+which holds good for $\tau \left| \left| H \right| \right| << 1$.
 
-For an improved accuracy, a second order approximation is made to U(t) in equation (\ref{eq:b15}), using $\tilde{U}_1(t)$ from (\ref{eq:b16}):
+For an improved accuracy, a second order approximation is made to U(t) in eq. (\ref{eq:b15}), using $\tilde{U}_1(\tau)$ from eq. (\ref{eq:b16}):
 \begin{equation}
-\tilde{U}_2(t)=\tilde{U_1}^{\dagger}(-t/2)\tilde{U_1}(t/2)=e^{-itH_K/2}...e^{-itH_1/2}e^{-itH_1/2}...e^{-itH_K/2}.
+\tilde{U}_2(\tau)=\tilde{U_1}^{\dagger}(-\tau/2)\tilde{U_1}(\tau /2)=e^{-i\tau H_K/2}...e^{-i\tau H_1/2}e^{-i\tau H_1/2}...e^{-i\tau H_K/2}.
 \end{equation}
-If $\tilde{U}_1(t)$ is unitary, so is $\tilde{U}_2(t)$. For unitary $\tilde{U}_2(t)$, the measure of error, calculated using the absolute difference between U(t) and $\tilde{U}_2(t)$ grows cubically in t [Kristel-Hans paper, 62 from there], i.e.
+Since $\tilde{U}_1(\tau)$ is unitary, as all $H_k$ in eq. (\ref{eq:b15}) are Hermitian , $\tilde{U}_2(\tau)$ is also unitary. Thus the measure of error, calculated using the absolute difference between $U(\tau)$ and  $\tilde{U}_2(\tau)$, grows cubically in $\tau$ [Kristel-Hans paper, 62 from there], i.e.
 \begin{equation}
-\left| \left| U(t)-\tilde{U}_2(t) \right| \right| \leq ct^3    
+\left| \left| U(\tau)-\tilde{U}_2(\tau) \right| \right| \leq c\tau ^3    
 \end{equation} 
-for a positive constant c. If the whole annealing process requires n such time steps, the involved error becomes
+for a positive constant c. Since the whole annealing process requires m such time steps, the involved error becomes
 \begin{equation}
-\left| \left| U(t)-\tilde{U}_2(t) \right| \right| \leq nct^3.  \label{eq:b17}
+\left| \left| U(m \tau)-\tilde{U}_2(m \tau) \right| \right| \leq m^3 c \tau^3.  \label{eq:b17}
 \end{equation}
-Since $nt=T_A$, (\ref{eq:b17}) is equivalent to
+Since $m \tau=t$, (\ref{eq:b17}) is equivalent to
 \begin{equation}
-\left| \left| U(t)-\tilde{U}_2(t) \right| \right| \leq cnT_At^2 = c't^2 \label{eq:b18}
+\left| \left| U(m \tau)-\tilde{U}_2(m \tau) \right| \right| \leq cm^2t\tau^2 = c_2t\tau^2, \label{eq:b18}
 \end{equation}
+where $c_2$=$cm^2$.\\
+
+
+\begin{comment}
 Substituting (\ref{eq:b5}),(\ref{eq:b13} or \ref{eq:b14}) and (\ref{eq:b4}) in (\ref{eq:b12}), we obtain:
 \begin{equation}
 H(t)=(1-s)\Big(-\sum \limits_{i=1}\limits^N h_i^x \sigma_i^x \Big)+g*s(1-s)\Big(\mp \sum \limits_{<i,j>}\sigma_{j}^x\Big) +s \Big(-\sum\limits_{i=1}\limits^{N}{h_i}^z{\sigma_i}^z - \sum\limits_{<i,j>}{J_{ij}^z} {\sigma_i}^z{\sigma_j}^z \Big).  \label{eq:b19}
 \end{equation}
-The Hamiltonian is then decomposed as follows:
+\end{comment}
+The Hamiltonian H(t) is then decomposed as follows:
 \begin{equation}
-H=H_{single}+H_x+H_z, \label{eq:b20}
+H=H_{single}+H_x+H_Y+H_z, \label{eq:b20}
 \end{equation}
-where $H_{single}=-(1-s)\Big(\sum \limits_{i=1}\limits^N h_i^x \sigma_i^x \Big)-s\Big(\sum\limits_{i=1}\limits^{N}{h_i}^z{\sigma_i}^z \Big)$, $H_x= \mp (1-s) \Big( \sum \limits_{<i,j>} J_{i,j}^x \sigma_{i}^x \sigma_{j}^x \Big)$, and $H_z= -s \Big(\sum \limits_{<i,j>} J_{i,j}^z \sigma_{i}^z\sigma_{j}^z\Big )$. In general, 
+where $H_{single}=-(1-s)\Big(\sum \limits_{i=1}\limits^N h_i^x \sigma_i^x \Big)-s\Big(\sum\limits_{i=1}\limits^{N}{h_i}^z{\sigma_i}^z \Big)$, $H_x= \mp (1-s) \Big( \sum \limits_{<i,j>} J_{i,j}^x \sigma_{i}^x \sigma_{j}^x \Big)$, $H_y= \mp (1-s) \Big( \sum \limits_{<i,j>} J_{i,j}^y \sigma_{i}^y \sigma_{j}^y \Big)$, and $H_z= -s \Big(\sum \limits_{<i,j>} J_{i,j}^z \sigma_{i}^z\sigma_{j}^z\Big )$. In general, 
 \begin{equation}
-e^{i \mathbf{v.\sigma}}=cos(v) \mathbb{1} +i \frac{sin(v)}{v}\mathbf{v.\sigma},
+e^{i \mathbf{v.\sigma}}=cos(v) I +i \frac{sin(v)}{v}\mathbf{v.\sigma},
 \end{equation}
-where $\mathbb{1}$ represents the identity matrix, and $v=\sqrt{v_x^2 +v_y^2 +v_Z^2}$. Then, 
+where I represents the identity matrix, and $v=\sqrt{v_x^2 +v_y^2 +v_Z^2}$. Then, 
 \begin{equation}
 e^{-itH_{single}}=\prod \limits_{i=1} \limits^{N} e^{it[(1-s)\sum \limits_i h_i^x \sigma_i^x +s \sum \limits_{i} h_i^z \sigma_i^z]} = \prod \limits_{i=1} \limits^{N} \begin{pmatrix}
 cos(th_i) +i \frac{sh_i^z}{h_i} sin(th_i) &  i \frac{(1-s)h_i^x}{h_i} sin(th_i)\\
@@ -183,7 +181,7 @@ The computational basis states are the eigenstates of the Pauli-z operator, $\si
 
 The same approach can be adopted for implementing $H_x$ operations as well, by using the rotation operators $Y_j$ as follows. Writing $Y=\prod \limits_{i=1} \limits^{N} Y_i$, we obtain
 \begin{equation}
-e^{-itH^x}=\bar{Y}Y e^{-itH^z}\bar{Y}Y=\bar{Y}e^{it \sum \limits_{<i,j>} J_ij^x \sigma_i^z \sigma_j^z} Y.
+e^{-itH^x}=\bar{Y}Y e^{-itH^x}\bar{Y}Y=\bar{Y}e^{it \sum \limits_{<i,j>} J_{ij}^x \sigma_i^z \sigma_j^z} Y.
 \end{equation}
 
 \end{document}

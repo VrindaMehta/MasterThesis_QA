@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.20)  3 SEP 2019 09:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.20)  12 SEP 2019 09:43
 entering extended mode
 **./LandauZener.tex
 (LandauZener.tex
@@ -875,12 +875,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: EnergySpec_1spin_H100.png Graphic file (type png)
 <use EnergySpec_1spin_H100.png>
 Package pdftex.def Info: EnergySpec_1spin_H100.png  used on input line 27.
-(pdftex.def)             Requested size: 446.67868pt x 260.64532pt.
+(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
 <Magnetization_500.png, id=12, 1505.1013pt x 868.81108pt>
 File: Magnetization_500.png Graphic file (type png)
 <use Magnetization_500.png>
 Package pdftex.def Info: Magnetization_500.png  used on input line 36.
-(pdftex.def)             Requested size: 451.53387pt x 260.64532pt.
+(pdftex.def)             Requested size: 361.23169pt x 208.51892pt.
 [1{C:/Users/Vrind/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
  <./EnergySpec_1spin_H100.png (PNG copy)>]
@@ -897,66 +897,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--43
 File: Prob_1spin_H100.png Graphic file (type png)
 <use Prob_1spin_H100.png>
 Package pdftex.def Info: Prob_1spin_H100.png  used on input line 48.
-(pdftex.def)             Requested size: 451.53387pt x 260.64532pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2 <./Magnetization_500.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 62--64
-
- []
-
-<EnergySpectrum_H100.png, id=46, 1488.91742pt x 868.81108pt>
+(pdftex.def)             Requested size: 361.23169pt x 208.51892pt.
+[2 <./Magnetization_500.png (PNG copy)> <./Prob_1spin_H100.png (PNG copy)>]
+<EnergySpectrum_H100.png, id=45, 1488.91742pt x 868.81108pt>
 File: EnergySpectrum_H100.png Graphic file (type png)
 <use EnergySpectrum_H100.png>
-Package pdftex.def Info: EnergySpectrum_H100.png  used on input line 70.
-(pdftex.def)             Requested size: 446.67868pt x 260.64532pt.
+Package pdftex.def Info: EnergySpectrum_H100.png  used on input line 72.
+(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+<Mag_13_H100.png, id=48, 1505.1013pt x 868.81108pt>
+File: Mag_13_H100.png Graphic file (type png)
+<use Mag_13_H100.png>
+Package pdftex.def Info: Mag_13_H100.png  used on input line 79.
+(pdftex.def)             Requested size: 361.23169pt x 208.51892pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3 <./Prob_1spin_H100.png (PNG copy)>]
-<Mag_13_H100.png, id=59, 1505.1013pt x 868.81108pt>
-File: Mag_13_H100.png Graphic file (type png)
-<use Mag_13_H100.png>
-Package pdftex.def Info: Mag_13_H100.png  used on input line 78.
-(pdftex.def)             Requested size: 451.53387pt x 260.64532pt.
+ [3 <./EnergySpectrum_H100.png (PNG copy)>]
 <Mag_9_H100.png, id=60, 1505.1013pt x 868.81108pt>
 File: Mag_9_H100.png Graphic file (type png)
 <use Mag_9_H100.png>
-Package pdftex.def Info: Mag_9_H100.png  used on input line 83.
-(pdftex.def)             Requested size: 451.53387pt x 260.64532pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4 <./EnergySpectrum_H100.png (PNG copy)> <./Mag_13_H100.png (PNG copy)>]
-<Probability_H100.png, id=72, 1505.1013pt x 868.81108pt>
+Package pdftex.def Info: Mag_9_H100.png  used on input line 88.
+(pdftex.def)             Requested size: 361.23169pt x 208.51892pt.
+<Probability_H100.png, id=61, 1505.1013pt x 868.81108pt>
 File: Probability_H100.png Graphic file (type png)
 <use Probability_H100.png>
-Package pdftex.def Info: Probability_H100.png  used on input line 94.
-(pdftex.def)             Requested size: 451.53387pt x 260.64532pt.
+Package pdftex.def Info: Probability_H100.png  used on input line 95.
+(pdftex.def)             Requested size: 361.23169pt x 208.51892pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5 <./Mag_9_H100.png (PNG copy)>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
- [6 <./Probability_H100.png (PNG copy)>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
+ [4 <./Mag_13_H100.png (PNG copy)> <./Mag_9_H100.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
-(LandauZener.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
+[5 <./Probability_H100.png (PNG copy)>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
+ (LandauZener.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
 Package rerunfilecheck Info: File `LandauZener.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 99.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
  ) 
 Here is how much of TeX's memory you used:
- 18213 strings out of 492946
- 314980 string characters out of 3126266
- 406097 words of memory out of 3000000
- 21932 multiletter control sequences out of 15000+200000
+ 18214 strings out of 492946
+ 314996 string characters out of 3126266
+ 406162 words of memory out of 3000000
+ 21933 multiletter control sequences out of 15000+200000
  534390 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,8n,67p,891b,365s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,8n,67p,916b,365s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmex10.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmmi10.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/f
@@ -968,9 +960,9 @@ Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 r7.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmsy7.pfb>
-Output written on LandauZener.pdf (6 pages, 703348 bytes).
+Output written on LandauZener.pdf (5 pages, 703132 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
+ 113 PDF objects out of 1000 (max. 8388607)
  20 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

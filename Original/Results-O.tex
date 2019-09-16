@@ -2,30 +2,30 @@
 \begin{document}
 %\chapter{Results}\label{ch:O}
 \section{Second order}
-Since Suzuki-Trotter product formula is only an approximation to solve the time dependent Schr{\"o}dinger equation, the error involved depends on the time interval t - the time step at which the evolution is computed (equation \ref{eq:b17}). 
+Since Suzuki-Trotter product formula is only an approximation to solve the time dependent Schr{\"o}dinger equation, the error involved depends on the time interval $\tau$ - the time step at which the evolution is computed (see eq. \ref{eq:b17}). 
 
-Thus, for checking if the evolution using the Suzuki-Trotter product formula is indeed second order, the dependence of the error should be verified to be quadratic in t, in accordance with equation (\ref{eq:b18}). 
+Thus, for checking if the evolution using the Suzuki-Trotter product formula is indeed second order, the dependence of the error should be verified to be quadratic in $\tau$, in accordance with eq. (\ref{eq:b18}). 
 \begin{figure}[H]
 \centering 
-\includegraphics[scale=0.3]{Error.png}
-\caption{The error in Suzuki-Trotter formula relative to the full diagonalization method. The involved error grows quadratically in t.}
+\includegraphics[scale=0.2]{Error.png}
+\caption{The error in Suzuki-Trotter formula relative to the full diagonalization method. The involved error grows quadratically in $\tau$.}
 \label{fig:o1}
 \end{figure}
-Since the dependence of error on t can be approximated well by a straight line in the log scale, as shown in figure (\ref{fig:o1}), the simulation implementing TDSE can be trusted to be following second order Suzuki-Trotter product formula.
+Since the dependence of error on $\tau$ can be approximated to be linear in the log scale, as shown in fig. (\ref{fig:o1}), the simulation implementing TDSE can be trusted to be following second order Suzuki-Trotter product formula.
 
-For the course of this thesis, we worked with 8 spin and 12 spin 2-SAT problems. The first set had 91 unique problems, while the second set had 1000 such problems. All the problems had a predetermined unique ground state, and only one avoided crossing between the ground and the first excited state. The success probability was then obtained by calculating the overlap between the known ground state and the final state resulting from the code performing product evolution. Furthermore, for determining the energy spectra for specific problems, the exact diagonalization method was employed.
+For the course of this thesis, we worked with 8 spin and 12 spin 2-local problems. The first set had 91 unique problems, while the second set had 1000 such problems. All the problems had a predetermined unique ground state, and only one avoided crossing between the ground and the first excited state. The 8 spin problems had 9 clauses, while the 12 spin problems had 13 clauses. The success probability was then obtained by calculating the overlap between the known ground state and the final state resulting from the code performing product evolution. Furthermore, for determining the energy spectra for specific problems, the exact diagonalization method was employed.
 
-This chapter focusses on the results obtained for original annealing Hamiltonian, that is in the absence of any triggers. 
-
-
-For every problem belonging to both the sets, three annealing times were chosen to calculate the success probability. These correspond to $T_A \in \{ 10,100,1000 \}$. For a given $T_A$, the resulting success probability is a function of the minimum energy gap, $\Delta_{min}$, between the ground and the first excited state. The smaller the value of the minimum energy gap, the smaller is the success probability expected to be, for an adiabatic sweep through the Hamiltonian in a fixed time $T_A$. Thus, the hardness of a problem can be estimated by its minimum energy gap.\\
+This chapter focusses on the results obtained for original annealing Hamiltonian, i.e. in the absence of any triggers. 
 
 
-As the first example, considered here is a 12-spin problem with high success probability, $p=0.9944$ for $T_A=100$. Figure (\ref{fig:o2}), shows the energy spectrum for this problem. The minimum energy gap, $\Delta_{min}$ was found to be 0.4407 in this case.  Also plotted in the figure are the instantaneous energy values obtained from annealing with the above-mentioned annealing times.
+For every problem belonging to both the sets, three annealing times were chosen to calculate the success probability. These correspond to $T_A \in \{ 10,100,1000 \}$. For a given $T_A$, the resulting success probability is a function of the minimum energy gap, $\Delta_{min}$, between the ground and the first excited state. For a fixed $T_A$, the success probability is expected to decrease with decreasing $\Delta_{min}$, if the evolution of the state is adiabatic. Thus, the hardness of a problem can be estimated by its minimum energy gap.\\
+
+
+As the first example, considered here is the 12-spin problem number 733 with high success probability, i.e., $p=0.9944$ for $T_A=100$. Fig. (\ref{fig:o2}), shows the energy spectrum for this problem. $\Delta_{min}$ was found to be 0.4407 in this case.  Also plotted in the figure are the energy expectation values of the instantaneous state obtained for the three different annealing times.
 \begin{figure}[H]
 \centering 
-\includegraphics[scale=0.3]{733_s12_O.png}
-\caption{The energy spectrum for the selected problem, with instantaneous energy values corresponding to three annealing times. For $T_A$=100, $p$ was found to be 0.9944, while $\Delta-{min}=0.4407.$}
+\includegraphics[scale=0.24]{733_s12_O.png}
+\caption{The energy spectrum for the selected problem, with energy expectation values for the instantaneous state corresponding to three annealing times. For $T_A$=100, $p$ was found to be 0.9944, while $\Delta_{min}=0.4407.$}
 \label{fig:o2}
 \end{figure}
 
@@ -34,7 +34,7 @@ As expected, the overlap of the final state with the ground state of the problem
 Secondly, a 12-spin problem with small success probability, $p= $0.0146 at $T_A=100$, was chosen. Figure (\ref{fig:o3}) shows the energy spectrum and the instantaneous energy values corresponding to three annealing times, for this problem. It should be noted, that the minimum gap in figure (\ref{fig:o3}) has decreased, to $\Delta_{min} = 0.0312$, in comparison to that in figure (\ref{fig:o2}). This explains the decrease in success probability for same annealing time.\\
 \begin{figure}[H]
 \centering 
-\includegraphics[scale=0.3]{950_s12_O.png}
+\includegraphics[scale=0.24]{950_s12_O.png}
 \caption{The energy spectrum for the selected problem, with instantaneous energy values corresponding to three annealing times. For $T_A$=100, $p$ was found to be 0.0146, while $\Delta_{min}=0.0312.$}
 \label{fig:o3}
 \end{figure}
@@ -43,18 +43,16 @@ Secondly, a 12-spin problem with small success probability, $p= $0.0146 at $T_A=
 As the third case, another 12-spin problem with an intermediate success probability of $p=0.5199$ at $T_A= 100$ has been considered. For this case too, the energy spectrum and the instantaneous energy values for the three annealing times was determined, as is shown in figure (\ref{fig:o4}). As expected, the value of minimum gap is $\Delta=0.1573$ for this problem, which lies in between the above two cases. 
 \begin{figure}[H]
 \centering 
-\includegraphics[scale=0.3]{528_s12_O.png}
+\includegraphics[scale=0.24]{528_s12_O.png}
 \caption{The energy spectrum for the selected problem, with instantaneous energy values corresponding to three annealing times. For $T_A$=100, $p$ was found to be 0.5199, while $\Delta=0.1573.$}
 \label{fig:o4}
 \end{figure}
-
-\newpage
 A similar trend was also obtained for 8-spin problems, where the cases with high success probability also were the ones with comparatively larger minimum energy gaps than cases with low success probability.  As examples, three cases, with relatively large, small and intermediate success probabilities were chosen. The respective plots for their energy spectrum and the instantaneous energy values for the different annealing times are shown in the following figures (\ref{fig:o5}, \ref{fig:o6}, \ref{fig:o7}).
 
 The main feature of difference between the 12-spin and 8-spin problems is that the minimum energy gaps of the 8-spin problems were found to be larger than those of 12-spin problems. This can be understood with the help of equation (\ref{eq:b10}), where the minimum gap is expected to close exponentially with increasing N. Even the gap corresponding to the case with smallest success probability in 8-spin problems (the smallest energy gap amongst 91 8-spin problems, $\Delta_{min}=0.4725$) is still larger than the the gap corresponding to the case with largest success probability in 12-spin problems (the largest energy gap amongst 1000 12-spin problems, $\Delta_{min}=0.4407$). Therefore, even an annealing time of $T_A=100$ yields a large success probability for almost all 8-spin cases. 
 \begin{figure}[H]
 \centering 
-\includegraphics[scale=0.3]{98_s8_O.png}
+\includegraphics[scale=0.24]{98_s8_O.png}
 \caption{The energy spectrum for the selected problem, with instantaneous energy values corresponding to three annealing times. For $T_A$=100, $p$ was found to be 0.9999, while $\Delta_{min}=0.5875$.}
 \label{fig:o5}
 \end{figure}

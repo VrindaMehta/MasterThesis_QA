@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.20)  3 SEP 2019 13:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.20)  11 SEP 2019 11:44
 entering extended mode
 **./Results-O.tex
 (Results-O.tex
@@ -862,137 +862,135 @@ LaTeX Info: Redefining \nameref on input line 2.
 \@outlinefile=\write3
 \openout3 = `Results-O.out'.
 
+LaTeX Font Info:    Try loading font information for U+msa on input line 5.
 
+("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 5.
+("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 
 LaTeX Warning: Reference `eq:b17' on page 1 undefined on input line 5.
 
 
 LaTeX Warning: Reference `eq:b18' on page 1 undefined on input line 7.
 
-<Error.png, id=7, 1488.91742pt x 868.81108pt>
+<Error.png, id=7, 1806.75pt x 1053.9375pt>
 File: Error.png Graphic file (type png)
 <use Error.png>
 Package pdftex.def Info: Error.png  used on input line 10.
-(pdftex.def)             Requested size: 446.67868pt x 260.64532pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 21.
-("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 21.
-("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+(pdftex.def)             Requested size: 361.3436pt x 210.78377pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
-<733_s12_O.png, id=10, 1505.1013pt x 868.81108pt>
+<733_s12_O.png, id=10, 1488.91742pt x 868.81108pt>
 File: 733_s12_O.png Graphic file (type png)
 <use 733_s12_O.png>
 Package pdftex.def Info: 733_s12_O.png  used on input line 27.
-(pdftex.def)             Requested size: 451.53387pt x 260.64532pt.
+(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
 
-Underfull \vbox (badness 3068) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1{C:/Users/Vrind/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
- <./Error.png (PNG copy)>]
+ <./Error.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-<950_s12_O.png, id=29, 1488.91742pt x 840.53152pt>
+<950_s12_O.png, id=29, 1488.91742pt x 868.81108pt>
 File: 950_s12_O.png Graphic file (type png)
 <use 950_s12_O.png>
 Package pdftex.def Info: 950_s12_O.png  used on input line 37.
-(pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
+(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 34--40
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2 <./733_s12_O.png (PNG copy)>]
-<528_s12_O.png, id=36, 1488.91742pt x 840.53152pt>
+<528_s12_O.png, id=31, 1488.91742pt x 840.53152pt>
 File: 528_s12_O.png Graphic file (type png)
 <use 528_s12_O.png>
 Package pdftex.def Info: 528_s12_O.png  used on input line 46.
-(pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
- [3 <./950_s12_O.png (PNG copy)> <./528_s12_O.png (PNG copy)>]
+(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
+[2 <./733_s12_O.png (PNG copy)> <./950_s12_O.png (PNG copy)>]
 
-LaTeX Warning: Reference `eq:b10' on page 4 undefined on input line 54.
+LaTeX Warning: Reference `eq:b10' on page 3 undefined on input line 52.
 
-<98_s8_O.png, id=45, 1505.1013pt x 868.81108pt>
+<98_s8_O.png, id=41, 1505.1013pt x 868.81108pt>
 File: 98_s8_O.png Graphic file (type png)
 <use 98_s8_O.png>
-Package pdftex.def Info: 98_s8_O.png  used on input line 57.
-(pdftex.def)             Requested size: 451.53387pt x 260.64532pt.
-<79_s8_O.png, id=46, 1505.1013pt x 868.81108pt>
+Package pdftex.def Info: 98_s8_O.png  used on input line 55.
+(pdftex.def)             Requested size: 361.23169pt x 208.51892pt.
+<79_s8_O.png, id=42, 1505.1013pt x 868.81108pt>
 File: 79_s8_O.png Graphic file (type png)
 <use 79_s8_O.png>
-Package pdftex.def Info: 79_s8_O.png  used on input line 63.
+Package pdftex.def Info: 79_s8_O.png  used on input line 61.
 (pdftex.def)             Requested size: 451.53387pt x 260.64532pt.
-<59_s8_O.png, id=47, 1505.1013pt x 868.81108pt>
+<59_s8_O.png, id=43, 1505.1013pt x 868.81108pt>
 File: 59_s8_O.png Graphic file (type png)
 <use 59_s8_O.png>
-Package pdftex.def Info: 59_s8_O.png  used on input line 69.
+Package pdftex.def Info: 59_s8_O.png  used on input line 67.
 (pdftex.def)             Requested size: 451.53387pt x 260.64532pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4 <./98_s8_O.png (PNG copy)>] [5 <./79_s8_O.png (PNG copy)> <./59_s8_O.png (P
-NG copy)>]
-<O_s12_T100_g0.png, id=60, 1488.91742pt x 840.53152pt>
+ [3 <./528_s12_O.png (PNG copy)> <./98_s8_O.png (PNG copy)>] [4 <./79_s8_O.png 
+(PNG copy)> <./59_s8_O.png (PNG copy)>]
+<O_s12_T100_g0.png, id=56, 1488.91742pt x 840.53152pt>
 File: O_s12_T100_g0.png Graphic file (type png)
 <use O_s12_T100_g0.png>
-Package pdftex.def Info: O_s12_T100_g0.png  used on input line 77.
+Package pdftex.def Info: O_s12_T100_g0.png  used on input line 75.
 (pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
-<O_s8_T10_g0.png, id=62, 1488.91742pt x 840.53152pt>
+<O_s8_T10_g0.png, id=58, 1488.91742pt x 840.53152pt>
 File: O_s8_T10_g0.png Graphic file (type png)
 <use O_s8_T10_g0.png>
-Package pdftex.def Info: O_s8_T10_g0.png  used on input line 84.
+Package pdftex.def Info: O_s8_T10_g0.png  used on input line 82.
 (pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
-<GapVsSucc_s12_T10_100_1000.png, id=64, 1488.91742pt x 868.81108pt>
+<GapVsSucc_s12_T10_100_1000.png, id=60, 1488.91742pt x 868.81108pt>
 File: GapVsSucc_s12_T10_100_1000.png Graphic file (type png)
 <use GapVsSucc_s12_T10_100_1000.png>
-Package pdftex.def Info: GapVsSucc_s12_T10_100_1000.png  used on input line 91.
+Package pdftex.def Info: GapVsSucc_s12_T10_100_1000.png  used on input line 89.
 
 (pdftex.def)             Requested size: 446.67868pt x 260.64532pt.
+ [5 <./O_s12_T100_g0.png (PNG copy)> <./O_s8_T10_g0.png (PNG copy)>]
 
-[6 <./O_s12_T100_g0.png (PNG copy)> <./O_s8_T10_g0.png (PNG copy)>]
+LaTeX Warning: Reference `eq:lz3' on page 6 undefined on input line 93.
 
-LaTeX Warning: Reference `eq:lz3' on page 7 undefined on input line 95.
-
-<GapVsSucc_s8_T10_100_1000.png, id=72, 1488.91742pt x 868.81108pt>
+<GapVsSucc_s8_T10_100_1000.png, id=68, 1488.91742pt x 868.81108pt>
 File: GapVsSucc_s8_T10_100_1000.png Graphic file (type png)
 <use GapVsSucc_s8_T10_100_1000.png>
-Package pdftex.def Info: GapVsSucc_s8_T10_100_1000.png  used on input line 100.
-
+Package pdftex.def Info: GapVsSucc_s8_T10_100_1000.png  used on input line 98.
 (pdftex.def)             Requested size: 446.67868pt x 260.64532pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7 <./GapVsSucc_s12_T10_100_1000.png (PNG copy)>] [8 <./GapVsSucc_s8_T10_100_1
+ [6 <./GapVsSucc_s12_T10_100_1000.png (PNG copy)>] [7 <./GapVsSucc_s8_T10_100_1
 000.png (PNG copy)>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
  (Results-O.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 104.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 104.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
 Package rerunfilecheck Info: File `Results-O.out' has not changed.
 (rerunfilecheck)             Checksum: 666847F89B3E9BF0423D02F3C95BE824;50.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 104.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
  ) 
 Here is how much of TeX's memory you used:
- 18246 strings out of 492946
- 315279 string characters out of 3126266
- 405958 words of memory out of 3000000
+ 18245 strings out of 492946
+ 315273 string characters out of 3126266
+ 405986 words of memory out of 3000000
  21957 multiletter control sequences out of 15000+200000
  535303 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1006,9 +1004,9 @@ cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Vrin
 d/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><
 C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb>
-Output written on Results-O.pdf (8 pages, 1338737 bytes).
+Output written on Results-O.pdf (7 pages, 1327024 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
+ 110 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
  64 words of extra memory for PDF output out of 10000 (max. 10000000)
 

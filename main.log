@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.20)  3 SEP 2019 09:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.20)  13 SEP 2019 08:38
 entering extended mode
 **./main.tex
 (main.tex
@@ -736,7 +736,10 @@ LaTeX Warning: Unused global option(s):
 
 (main.aux
 
-LaTeX Warning: Label `fig:a30' multiply defined.
+LaTeX Warning: Label `fig:a28' multiply defined.
+
+
+LaTeX Warning: Label `fig:a29' multiply defined.
 
 )
 \openout1 = `main.aux'.
@@ -874,69 +877,83 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 Chapter 1.
 (Background/Background.tex
-Underfull \hbox (badness 10000) in paragraph at lines 41--46
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--47
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
-<Images/Scheme.png, id=80, 1488.91742pt x 840.53152pt>
-File: Images/Scheme.png Graphic file (type png)
-<use Images/Scheme.png>
-Package pdftex.def Info: Images/Scheme.png  used on input line 76.
-(pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 111--114
 
  []
 
-[5 <./Images/Scheme.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 114--117
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 153--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
-
+Overfull \hbox (2.42287pt too wide) in paragraph at lines 166--168
+\OT1/cmr/m/n/10 where $\OML/cmm/m/it/10 H[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 
+ \OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 s\OT1/cmr/m/n/10 )[] []
+ \OML/cmm/m/it/10 h[][][] \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 s[] [] [][][][][
+]$\OT1/cmr/m/n/10 , $\OML/cmm/m/it/10 H[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 \
+OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 s\OT1/cmr/m/n/10 )[] [] \
+OML/cmm/m/it/10 J[][][][]$\OT1/cmr/m/n/10 , $\OML/cmm/m/it/10 H[] \OT1/cmr/m/
+n/10 = \OMS/cmsy/m/n/10 \OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10
+ s\OT1/cmr/m/n/10 )[] [] \OML/cmm/m/it/10 J[][][][]$\OT1/cmr/m/n/10 ,
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 179--181
+Underfull \hbox (badness 10000) in paragraph at lines 177--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
-[7]) [8]
+) [7] [8
+
+]
 Chapter 2.
 (LandauZener/LandauZener.tex
-<Images/EnergySpec_1spin_H100.png, id=146, 1488.91742pt x 868.81108pt>
+<Images/EnergySpec_1spin_H100.png, id=123, 1488.91742pt x 868.81108pt>
 File: Images/EnergySpec_1spin_H100.png Graphic file (type png)
 <use Images/EnergySpec_1spin_H100.png>
 Package pdftex.def Info: Images/EnergySpec_1spin_H100.png  used on input line 2
 7.
-(pdftex.def)             Requested size: 446.67868pt x 260.64532pt.
+(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9
-
-]
-<Images/Magnetization_500.png, id=162, 1505.1013pt x 868.81108pt>
+ [9]
+<Images/Magnetization_500.png, id=139, 1505.1013pt x 868.81108pt>
 File: Images/Magnetization_500.png Graphic file (type png)
 <use Images/Magnetization_500.png>
 Package pdftex.def Info: Images/Magnetization_500.png  used on input line 36.
-(pdftex.def)             Requested size: 451.53387pt x 260.64532pt.
+(pdftex.def)             Requested size: 361.23169pt x 208.51892pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10 <./Images/EnergySpec_1spin_H100.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
@@ -946,83 +963,90 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
-<Images/Prob_1spin_H100.png, id=175, 1505.1013pt x 868.81108pt>
+[10 <./Images/EnergySpec_1spin_H100.png (PNG copy)> <./Images/Magnetization_500
+.png (PNG copy)>]
+<Images/Prob_1spin_H100.png, id=153, 1505.1013pt x 868.81108pt>
 File: Images/Prob_1spin_H100.png Graphic file (type png)
 <use Images/Prob_1spin_H100.png>
 Package pdftex.def Info: Images/Prob_1spin_H100.png  used on input line 48.
-(pdftex.def)             Requested size: 451.53387pt x 260.64532pt.
+(pdftex.def)             Requested size: 361.23169pt x 208.51892pt.
+<Images/EnergySpectrum_H100.png, id=155, 1488.91742pt x 868.81108pt>
+File: Images/EnergySpectrum_H100.png Graphic file (type png)
+<use Images/EnergySpectrum_H100.png>
+Package pdftex.def Info: Images/EnergySpectrum_H100.png  used on input line 72.
+
+(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+ [11 <./Images/Prob_1spin_H100.png (PNG copy)>]
+<Images/Mag_13_H100.png, id=166, 1505.1013pt x 868.81108pt>
+File: Images/Mag_13_H100.png Graphic file (type png)
+<use Images/Mag_13_H100.png>
+Package pdftex.def Info: Images/Mag_13_H100.png  used on input line 79.
+(pdftex.def)             Requested size: 361.23169pt x 208.51892pt.
+<Images/Mag_9_H100.png, id=169, 1505.1013pt x 868.81108pt>
+File: Images/Mag_9_H100.png Graphic file (type png)
+<use Images/Mag_9_H100.png>
+Package pdftex.def Info: Images/Mag_9_H100.png  used on input line 88.
+(pdftex.def)             Requested size: 361.23169pt x 208.51892pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11 <./Images/Magnetization_500.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 62--64
+ [12 <./Images/EnergySpectrum_H100.png (PNG copy)> <./Images/Mag_13_H100.png (P
+NG copy)>]
+<Images/Probability_H100.png, id=176, 1505.1013pt x 868.81108pt>
+File: Images/Probability_H100.png Graphic file (type png)
+<use Images/Probability_H100.png>
+Package pdftex.def Info: Images/Probability_H100.png  used on input line 95.
+(pdftex.def)             Requested size: 361.23169pt x 208.51892pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-<Images/EnergySpectrum_H100.png, id=183, 1488.91742pt x 868.81108pt>
-File: Images/EnergySpectrum_H100.png Graphic file (type png)
-<use Images/EnergySpectrum_H100.png>
-Package pdftex.def Info: Images/EnergySpectrum_H100.png  used on input line 70.
-
-(pdftex.def)             Requested size: 446.67868pt x 260.64532pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12 <./Images/Prob_1spin_H100.png (PNG copy)>]
-<Images/Mag_13_H100.png, id=195, 1505.1013pt x 868.81108pt>
-File: Images/Mag_13_H100.png Graphic file (type png)
-<use Images/Mag_13_H100.png>
-Package pdftex.def Info: Images/Mag_13_H100.png  used on input line 78.
-(pdftex.def)             Requested size: 451.53387pt x 260.64532pt.
-<Images/Mag_9_H100.png, id=196, 1505.1013pt x 868.81108pt>
-File: Images/Mag_9_H100.png Graphic file (type png)
-<use Images/Mag_9_H100.png>
-Package pdftex.def Info: Images/Mag_9_H100.png  used on input line 83.
-(pdftex.def)             Requested size: 451.53387pt x 260.64532pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13 <./Images/EnergySpectrum_H100.png (PNG copy)> <./Images/Mag_13_H100.png (P
-NG copy)>]
-<Images/Probability_H100.png, id=209, 1505.1013pt x 868.81108pt>
-File: Images/Probability_H100.png Graphic file (type png)
-<use Images/Probability_H100.png>
-Package pdftex.def Info: Images/Probability_H100.png  used on input line 94.
-(pdftex.def)             Requested size: 451.53387pt x 260.64532pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14 <./Images/Mag_9_H100.png (PNG copy)>]) [15 <./Images/Probability_H100.png 
-(PNG copy)>] [16
+) [13 <./Images/Mag_9_H100.png (PNG copy)> <./Images/Probability_H100.png (PNG 
+copy)>] [14
 
 ]
 Chapter 3.
-(Original/Results-O.tex
-<Images/Error.png, id=226, 1488.91742pt x 868.81108pt>
+(Original/O.tex
+<Images/Error.png, id=195, 1806.75pt x 1053.9375pt>
 File: Images/Error.png Graphic file (type png)
 <use Images/Error.png>
 Package pdftex.def Info: Images/Error.png  used on input line 10.
-(pdftex.def)             Requested size: 446.67868pt x 260.64532pt.
- [17 <./Images/Error.png (PNG copy)>]
+(pdftex.def)             Requested size: 361.3436pt x 210.78377pt.
+
+
+LaTeX Warning: Reference `fig:o1' on page 15 undefined on input line 14.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
-<Images/733_s12_O.png, id=234, 1505.1013pt x 868.81108pt>
+[15 <./Images/Error.png>]
+
+LaTeX Warning: Reference `fig:o2' on page 16 undefined on input line 24.
+
+<Images/733_s12_O.png, id=202, 1488.91742pt x 868.81108pt>
 File: Images/733_s12_O.png Graphic file (type png)
 <use Images/733_s12_O.png>
 Package pdftex.def Info: Images/733_s12_O.png  used on input line 27.
-(pdftex.def)             Requested size: 451.53387pt x 260.64532pt.
+(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+
+LaTeX Warning: Reference `fig:o2' on page 16 undefined on input line 32.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-<Images/950_s12_O.png, id=239, 1488.91742pt x 840.53152pt>
+
+LaTeX Warning: Reference `fig:o3' on page 16 undefined on input line 34.
+
+<Images/950_s12_O.png, id=203, 1488.91742pt x 868.81108pt>
 File: Images/950_s12_O.png Graphic file (type png)
 <use Images/950_s12_O.png>
 Package pdftex.def Info: Images/950_s12_O.png  used on input line 37.
-(pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
+(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 34--40
 
@@ -1031,238 +1055,232 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--40
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18 <./Images/733_s12_O.png (PNG copy)>]
-<Images/528_s12_O.png, id=247, 1488.91742pt x 840.53152pt>
+ [16 <./Images/733_s12_O.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig:o4' on page 17 undefined on input line 43.
+
+<Images/528_s12_O.png, id=209, 1488.91742pt x 840.53152pt>
 File: Images/528_s12_O.png Graphic file (type png)
 <use Images/528_s12_O.png>
 Package pdftex.def Info: Images/528_s12_O.png  used on input line 46.
-(pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
- [19 <./Images/950_s12_O.png (PNG copy)> <./Images/528_s12_O.png (PNG copy)>]
-<Images/98_s8_O.png, id=258, 1505.1013pt x 868.81108pt>
-File: Images/98_s8_O.png Graphic file (type png)
-<use Images/98_s8_O.png>
-Package pdftex.def Info: Images/98_s8_O.png  used on input line 57.
-(pdftex.def)             Requested size: 451.53387pt x 260.64532pt.
-<Images/79_s8_O.png, id=259, 1505.1013pt x 868.81108pt>
-File: Images/79_s8_O.png Graphic file (type png)
-<use Images/79_s8_O.png>
-Package pdftex.def Info: Images/79_s8_O.png  used on input line 63.
-(pdftex.def)             Requested size: 451.53387pt x 260.64532pt.
-<Images/59_s8_O.png, id=260, 1505.1013pt x 868.81108pt>
-File: Images/59_s8_O.png Graphic file (type png)
-<use Images/59_s8_O.png>
-Package pdftex.def Info: Images/59_s8_O.png  used on input line 69.
-(pdftex.def)             Requested size: 451.53387pt x 260.64532pt.
+(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
+
+LaTeX Warning: Reference `fig:o8' on page 17 undefined on input line 56.
+
+<Images/O_s12_T100_g0.png, id=210, 1488.91742pt x 840.53152pt>
+File: Images/O_s12_T100_g0.png Graphic file (type png)
+<use Images/O_s12_T100_g0.png>
+Package pdftex.def Info: Images/O_s12_T100_g0.png  used on input line 59.
+(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20 <./Images/98_s8_O.png (PNG copy)>] [21 <./Images/79_s8_O.png (PNG copy)> <
-./Images/59_s8_O.png (PNG copy)>]
-<Images/O_s12_T100_g0.png, id=273, 1488.91742pt x 840.53152pt>
-File: Images/O_s12_T100_g0.png Graphic file (type png)
-<use Images/O_s12_T100_g0.png>
-Package pdftex.def Info: Images/O_s12_T100_g0.png  used on input line 77.
-(pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
-<Images/O_s8_T10_g0.png, id=275, 1488.91742pt x 840.53152pt>
-File: Images/O_s8_T10_g0.png Graphic file (type png)
-<use Images/O_s8_T10_g0.png>
-Package pdftex.def Info: Images/O_s8_T10_g0.png  used on input line 84.
-(pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
-<Images/GapVsSucc_s12_T10_100_1000.png, id=277, 1488.91742pt x 868.81108pt>
+ [17 <./Images/950_s12_O.png (PNG copy)> <./Images/528_s12_O.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig:o10' on page 18 undefined on input line 64.
+
+<Images/GapVsSucc_s12_T10_100_1000.png, id=217, 1488.91742pt x 868.81108pt>
 File: Images/GapVsSucc_s12_T10_100_1000.png Graphic file (type png)
 <use Images/GapVsSucc_s12_T10_100_1000.png>
 Package pdftex.def Info: Images/GapVsSucc_s12_T10_100_1000.png  used on input l
-ine 91.
-(pdftex.def)             Requested size: 446.67868pt x 260.64532pt.
- [22 <./Images/O_s12_T100_g0.png (PNG copy)> <./Images/O_s8_T10_g0.png (PNG cop
-y)>]
-<Images/GapVsSucc_s8_T10_100_1000.png, id=286, 1488.91742pt x 868.81108pt>
-File: Images/GapVsSucc_s8_T10_100_1000.png Graphic file (type png)
-<use Images/GapVsSucc_s8_T10_100_1000.png>
-Package pdftex.def Info: Images/GapVsSucc_s8_T10_100_1000.png  used on input li
-ne 100.
-(pdftex.def)             Requested size: 446.67868pt x 260.64532pt.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ine 67.
+(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
 
- [23 <./Images/GapVsSucc_s12_T10_100_1000.png (PNG copy)>] [24 <./Images/GapVsS
-ucc_s8_T10_100_1000.png (PNG copy)>]
+LaTeX Warning: Reference `fig:o10' on page 18 undefined on input line 71.
+
+) [18 <./Images/O_s12_T100_g0.png (PNG copy)> <./Images/GapVsSucc_s12_T10_100_1
+000.png (PNG copy)>]
 Chapter 4.
 (Ferro/F.tex
 
-LaTeX Warning: Reference `eq:n23' on page 25 undefined on input line 5.
+LaTeX Warning: Reference `eq:n23' on page 19 undefined on input line 5.
 
-<Images/733_s12_F_g0.png, id=300, 1488.91742pt x 840.53152pt>
+<Images/733_s12_F_g0.png, id=228, 1488.91742pt x 840.53152pt>
 File: Images/733_s12_F_g0.png Graphic file (type png)
 <use Images/733_s12_F_g0.png>
 Package pdftex.def Info: Images/733_s12_F_g0.png  used on input line 11.
-(pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
-<Images/733_s12_F_g1.png, id=301, 1488.91742pt x 840.53152pt>
+(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
+<Images/733_s12_F_g1.png, id=229, 1488.91742pt x 840.53152pt>
 File: Images/733_s12_F_g1.png Graphic file (type png)
 <use Images/733_s12_F_g1.png>
 Package pdftex.def Info: Images/733_s12_F_g1.png  used on input line 17.
-(pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
-<Images/733_s12_F_g2.png, id=302, 1488.91742pt x 840.53152pt>
+(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
+<Images/733_s12_F_g2.png, id=230, 1488.91742pt x 840.53152pt>
 File: Images/733_s12_F_g2.png Graphic file (type png)
 <use Images/733_s12_F_g2.png>
 Package pdftex.def Info: Images/733_s12_F_g2.png  used on input line 23.
-(pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
+(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25
+ [19
 
- <./Images/733_s12_F_g0.png (PNG copy)>] [26 <./Images/733_s12_F_g1.png (PNG co
-py)> <./Images/733_s12_F_g2.png (PNG copy)>]
-<Images/950_s12_F_g0.png, id=319, 1488.91742pt x 840.53152pt>
+ <./Images/733_s12_F_g0.png (PNG copy)>]
+Underfull \vbox (badness 4441) has occurred while \output is active []
+
+ [20 <./Images/733_s12_F_g1.png (PNG copy)> <./Images/733_s12_F_g2.png (PNG cop
+y)>]
+<Images/950_s12_F_g0.png, id=248, 1488.91742pt x 840.53152pt>
 File: Images/950_s12_F_g0.png Graphic file (type png)
 <use Images/950_s12_F_g0.png>
-Package pdftex.def Info: Images/950_s12_F_g0.png  used on input line 55.
-(pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
-<Images/950_s12_F_g1.png, id=320, 1488.91742pt x 840.53152pt>
+Package pdftex.def Info: Images/950_s12_F_g0.png  used on input line 53.
+(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
+<Images/950_s12_F_g1.png, id=249, 1488.91742pt x 840.53152pt>
 File: Images/950_s12_F_g1.png Graphic file (type png)
 <use Images/950_s12_F_g1.png>
-Package pdftex.def Info: Images/950_s12_F_g1.png  used on input line 62.
-(pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--65
-
- []
-
-<Images/950_s12_F_g2.png, id=321, 1488.91742pt x 840.53152pt>
-File: Images/950_s12_F_g2.png Graphic file (type png)
-<use Images/950_s12_F_g2.png>
-Package pdftex.def Info: Images/950_s12_F_g2.png  used on input line 68.
-(pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
+Package pdftex.def Info: Images/950_s12_F_g1.png  used on input line 60.
+(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27 <./Images/950_s12_F_g0.png (PNG copy)>] [28 <./Images/950_s12_F_g1.png (PN
-G copy)> <./Images/950_s12_F_g2.png (PNG copy)>]
-<Images/528_s12_F_g0.png, id=339, 1488.91742pt x 840.53152pt>
+ [21 <./Images/950_s12_F_g0.png (PNG copy)>]
+<Images/950_s12_F_g2.png, id=257, 1488.91742pt x 840.53152pt>
+File: Images/950_s12_F_g2.png Graphic file (type png)
+<use Images/950_s12_F_g2.png>
+Package pdftex.def Info: Images/950_s12_F_g2.png  used on input line 67.
+(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--70
+
+ []
+
+
+LaTeX Warning: Reference `fig:o2' on page 22 undefined on input line 71.
+
+[22 <./Images/950_s12_F_g1.png (PNG copy)> <./Images/950_s12_F_g2.png (PNG copy
+)>]
+<Images/528_s12_F_g0.png, id=266, 1488.91742pt x 840.53152pt>
 File: Images/528_s12_F_g0.png Graphic file (type png)
 <use Images/528_s12_F_g0.png>
-Package pdftex.def Info: Images/528_s12_F_g0.png  used on input line 99.
-(pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
-<Images/528_s12_F_g1.png, id=340, 1488.91742pt x 840.53152pt>
+Package pdftex.def Info: Images/528_s12_F_g0.png  used on input line 96.
+(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
+<Images/528_s12_F_g1.png, id=267, 1488.91742pt x 840.53152pt>
 File: Images/528_s12_F_g1.png Graphic file (type png)
 <use Images/528_s12_F_g1.png>
-Package pdftex.def Info: Images/528_s12_F_g1.png  used on input line 106.
-(pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
+Package pdftex.def Info: Images/528_s12_F_g1.png  used on input line 103.
+(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--109
+Underfull \hbox (badness 10000) in paragraph at lines 100--106
 
  []
 
-[29 <./Images/528_s12_F_g0.png (PNG copy)>]
-<Images/528_s12_F_g2.png, id=349, 1488.91742pt x 840.53152pt>
+<Images/528_s12_F_g2.png, id=268, 1488.91742pt x 840.53152pt>
 File: Images/528_s12_F_g2.png Graphic file (type png)
 <use Images/528_s12_F_g2.png>
-Package pdftex.def Info: Images/528_s12_F_g2.png  used on input line 112.
-(pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
+Package pdftex.def Info: Images/528_s12_F_g2.png  used on input line 109.
+(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--136
+Underfull \vbox (badness 2393) has occurred while \output is active []
 
- []
+ [23 <./Images/528_s12_F_g0.png (PNG copy)>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[30 <./Images/528_s12_F_g1.png (PNG copy)> <./Images/528_s12_F_g2.png (PNG copy
-)>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 137.
+ [24 <./Images/528_s12_F_g1.png (PNG copy)> <./Images/528_s12_F_g2.png (PNG cop
+y)>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 132.
 
- ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+
+("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 137.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 132.
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
-<Images/Mingap_F_g0_1_2.png, id=357, 1806.75pt x 1053.9375pt>
+<Images/Mingap_F_g0_1_2.png, id=284, 1806.75pt x 1053.9375pt>
 File: Images/Mingap_F_g0_1_2.png Graphic file (type png)
 <use Images/Mingap_F_g0_1_2.png>
-Package pdftex.def Info: Images/Mingap_F_g0_1_2.png  used on input line 143.
-(pdftex.def)             Requested size: 451.6864pt x 263.48373pt.
-<Images/Scatt_s12_F_g0.png, id=361, 1488.91742pt x 840.53152pt>
+Package pdftex.def Info: Images/Mingap_F_g0_1_2.png  used on input line 138.
+(pdftex.def)             Requested size: 361.3436pt x 210.78377pt.
+<Images/Scatt_s12_F_g0.png, id=288, 1488.91742pt x 840.53152pt>
 File: Images/Scatt_s12_F_g0.png Graphic file (type png)
 <use Images/Scatt_s12_F_g0.png>
-Package pdftex.def Info: Images/Scatt_s12_F_g0.png  used on input line 152.
-(pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
-<Images/Scatt_s12_F_g1.png, id=362, 1488.91742pt x 840.53152pt>
+Package pdftex.def Info: Images/Scatt_s12_F_g0.png  used on input line 147.
+(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
+<Images/Scatt_s12_F_g1.png, id=289, 1488.91742pt x 840.53152pt>
 File: Images/Scatt_s12_F_g1.png Graphic file (type png)
 <use Images/Scatt_s12_F_g1.png>
-Package pdftex.def Info: Images/Scatt_s12_F_g1.png  used on input line 158.
-(pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
-[31 <./Images/Mingap_F_g0_1_2.png>]
-<Images/Scatt_s12_F_g2.png, id=372, 1488.91742pt x 840.53152pt>
+Package pdftex.def Info: Images/Scatt_s12_F_g1.png  used on input line 153.
+(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25 <./Images/Mingap_F_g0_1_2.png>]
+<Images/Scatt_s12_F_g2.png, id=299, 1488.91742pt x 840.53152pt>
 File: Images/Scatt_s12_F_g2.png Graphic file (type png)
 <use Images/Scatt_s12_F_g2.png>
-Package pdftex.def Info: Images/Scatt_s12_F_g2.png  used on input line 164.
-(pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
+Package pdftex.def Info: Images/Scatt_s12_F_g2.png  used on input line 159.
+(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32 <./Images/Scatt_s12_F_g0.png (PNG copy)> <./Images/Scatt_s12_F_g1.png (PNG
+ [26 <./Images/Scatt_s12_F_g0.png (PNG copy)> <./Images/Scatt_s12_F_g1.png (PNG
  copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
 
-<Images/SuccVsGap_OF_g.png, id=383, 1488.91742pt x 840.53152pt>
+<Images/SuccVsGap_OF_g.png, id=310, 1488.91742pt x 840.53152pt>
 File: Images/SuccVsGap_OF_g.png Graphic file (type png)
 <use Images/SuccVsGap_OF_g.png>
-Package pdftex.def Info: Images/SuccVsGap_OF_g.png  used on input line 181.
-(pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
+Package pdftex.def Info: Images/SuccVsGap_OF_g.png  used on input line 176.
+(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33 <./Images/Scatt_s12_F_g2.png (PNG copy)>]) [34 <./Images/SuccVsGap_OF_g.pn
+ [27 <./Images/Scatt_s12_F_g2.png (PNG copy)>]) [28 <./Images/SuccVsGap_OF_g.pn
 g (PNG copy)>]
 Chapter 5.
 (AntiFerro/A.tex
-<Images/733_s12_A_g0.png, id=400, 1488.91742pt x 840.53152pt>
+<Images/733_s12_A_g0.png, id=327, 1488.91742pt x 840.53152pt>
 File: Images/733_s12_A_g0.png Graphic file (type png)
 <use Images/733_s12_A_g0.png>
 Package pdftex.def Info: Images/733_s12_A_g0.png  used on input line 11.
 (pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
-<Images/733_s12_A_g1.png, id=401, 1488.91742pt x 840.53152pt>
+<Images/733_s12_A_g1.png, id=328, 1488.91742pt x 840.53152pt>
 File: Images/733_s12_A_g1.png Graphic file (type png)
 <use Images/733_s12_A_g1.png>
 Package pdftex.def Info: Images/733_s12_A_g1.png  used on input line 17.
 (pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
-<Images/733_s12_A_g2.png, id=402, 1488.91742pt x 840.53152pt>
+<Images/733_s12_A_g2.png, id=329, 1488.91742pt x 840.53152pt>
 File: Images/733_s12_A_g2.png Graphic file (type png)
 <use Images/733_s12_A_g2.png>
 Package pdftex.def Info: Images/733_s12_A_g2.png  used on input line 23.
 (pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
- [35
+ [29
 
  <./Images/733_s12_A_g0.png (PNG copy)>]
 Underfull \vbox (badness 2635) has occurred while \output is active []
 
- [36 <./Images/733_s12_A_g1.png (PNG copy)> <./Images/733_s12_A_g2.png (PNG cop
+ [30 <./Images/733_s12_A_g1.png (PNG copy)> <./Images/733_s12_A_g2.png (PNG cop
 y)>]
+
+LaTeX Warning: Reference `fig:o2' on page 31 undefined on input line 53.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 52--54
 
  []
 
-<Images/950_s12_A_g0.png, id=422, 1488.91742pt x 840.53152pt>
+<Images/950_s12_A_g0.png, id=348, 1488.91742pt x 840.53152pt>
 File: Images/950_s12_A_g0.png Graphic file (type png)
 <use Images/950_s12_A_g0.png>
 Package pdftex.def Info: Images/950_s12_A_g0.png  used on input line 60.
 (pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
-<Images/950_s12_A_g1.png, id=423, 1488.91742pt x 840.53152pt>
+<Images/950_s12_A_g1.png, id=349, 1488.91742pt x 840.53152pt>
 File: Images/950_s12_A_g1.png Graphic file (type png)
 <use Images/950_s12_A_g1.png>
 Package pdftex.def Info: Images/950_s12_A_g1.png  used on input line 66.
 (pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
-<Images/950_s12_A_g2.png, id=424, 1488.91742pt x 840.53152pt>
+<Images/950_s12_A_g2.png, id=350, 1488.91742pt x 840.53152pt>
 File: Images/950_s12_A_g2.png Graphic file (type png)
 <use Images/950_s12_A_g2.png>
 Package pdftex.def Info: Images/950_s12_A_g2.png  used on input line 72.
@@ -1270,11 +1288,14 @@ Package pdftex.def Info: Images/950_s12_A_g2.png  used on input line 72.
 
 Underfull \vbox (badness 1688) has occurred while \output is active []
 
- [37 <./Images/950_s12_A_g0.png (PNG copy)>] [38 <./Images/950_s12_A_g1.png (PN
+ [31 <./Images/950_s12_A_g0.png (PNG copy)>] [32 <./Images/950_s12_A_g1.png (PN
 G copy)> <./Images/950_s12_A_g2.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
+
+
+LaTeX Warning: Reference `fig:o3' on page 33 undefined on input line 105.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 105--107
@@ -1282,21 +1303,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--107
  []
 
 
+LaTeX Warning: Reference `fig:o3' on page 33 undefined on input line 108.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
+
+
+LaTeX Warning: Reference `fig:o3' on page 33 undefined on input line 110.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
-<Images/528_s12_A_g0.png, id=447, 1488.91742pt x 840.53152pt>
+<Images/528_s12_A_g0.png, id=370, 1488.91742pt x 840.53152pt>
 File: Images/528_s12_A_g0.png Graphic file (type png)
 <use Images/528_s12_A_g0.png>
 Package pdftex.def Info: Images/528_s12_A_g0.png  used on input line 122.
 (pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
-<Images/528_s12_A_g1.png, id=448, 1488.91742pt x 840.53152pt>
+<Images/528_s12_A_g1.png, id=371, 1488.91742pt x 840.53152pt>
 File: Images/528_s12_A_g1.png Graphic file (type png)
 <use Images/528_s12_A_g1.png>
 Package pdftex.def Info: Images/528_s12_A_g1.png  used on input line 128.
@@ -1304,8 +1331,8 @@ Package pdftex.def Info: Images/528_s12_A_g1.png  used on input line 128.
 
 Underfull \vbox (badness 3029) has occurred while \output is active []
 
- [39]
-<Images/528_s12_A_g2.png, id=456, 1488.91742pt x 840.53152pt>
+ [33]
+<Images/528_s12_A_g2.png, id=379, 1488.91742pt x 840.53152pt>
 File: Images/528_s12_A_g2.png Graphic file (type png)
 <use Images/528_s12_A_g2.png>
 Package pdftex.def Info: Images/528_s12_A_g2.png  used on input line 134.
@@ -1313,20 +1340,20 @@ Package pdftex.def Info: Images/528_s12_A_g2.png  used on input line 134.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40 <./Images/528_s12_A_g0.png (PNG copy)> <./Images/528_s12_A_g1.png (PNG cop
+ [34 <./Images/528_s12_A_g0.png (PNG copy)> <./Images/528_s12_A_g1.png (PNG cop
 y)>]
-[41 <./Images/528_s12_A_g2.png (PNG copy)>]
-<Images/A_T10_g0.png, id=470, 1488.91742pt x 868.81108pt>
+[35 <./Images/528_s12_A_g2.png (PNG copy)>]
+<Images/A_T10_g0.png, id=393, 1488.91742pt x 868.81108pt>
 File: Images/A_T10_g0.png Graphic file (type png)
 <use Images/A_T10_g0.png>
 Package pdftex.def Info: Images/A_T10_g0.png  used on input line 177.
 (pdftex.def)             Requested size: 446.67868pt x 260.64532pt.
-<Images/A_T100_g0.png, id=471, 1488.91742pt x 840.53152pt>
+<Images/A_T100_g0.png, id=394, 1488.91742pt x 840.53152pt>
 File: Images/A_T100_g0.png Graphic file (type png)
 <use Images/A_T100_g0.png>
 Package pdftex.def Info: Images/A_T100_g0.png  used on input line 183.
 (pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
-<Images/A_T1000_g0.png, id=472, 1488.91742pt x 840.53152pt>
+<Images/A_T1000_g0.png, id=395, 1488.91742pt x 840.53152pt>
 File: Images/A_T1000_g0.png Graphic file (type png)
 <use Images/A_T1000_g0.png>
 Package pdftex.def Info: Images/A_T1000_g0.png  used on input line 189.
@@ -1334,24 +1361,24 @@ Package pdftex.def Info: Images/A_T1000_g0.png  used on input line 189.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42 <./Images/A_T10_g0.png (PNG copy)>]
-<Images/MinGap_A_g0.png, id=482, 1806.75pt x 1053.9375pt>
+ [36 <./Images/A_T10_g0.png (PNG copy)>]
+<Images/MinGap_A_g0.png, id=405, 1806.75pt x 1053.9375pt>
 File: Images/MinGap_A_g0.png Graphic file (type png)
 <use Images/MinGap_A_g0.png>
 Package pdftex.def Info: Images/MinGap_A_g0.png  used on input line 197.
 (pdftex.def)             Requested size: 433.62886pt x 252.95016pt.
- [43 <./Images/A_T100_g0.png (PNG copy)> <./Images/A_T1000_g0.png (PNG copy)>]
+ [37 <./Images/A_T100_g0.png (PNG copy)> <./Images/A_T1000_g0.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
-<Images/ProbScat_g0.png, id=490, 1488.91742pt x 868.81108pt>
+<Images/ProbScat_g0.png, id=413, 1488.91742pt x 868.81108pt>
 File: Images/ProbScat_g0.png Graphic file (type png)
 <use Images/ProbScat_g0.png>
 Package pdftex.def Info: Images/ProbScat_g0.png  used on input line 215.
 (pdftex.def)             Requested size: 446.67868pt x 260.64532pt.
-[44 <./Images/MinGap_A_g0.png>]
-<Images/Mingap_709_g0_A.png, id=498, 1488.91742pt x 868.81108pt>
+[38 <./Images/MinGap_A_g0.png>]
+<Images/Mingap_709_g0_A.png, id=421, 1488.91742pt x 868.81108pt>
 File: Images/Mingap_709_g0_A.png Graphic file (type png)
 <use Images/Mingap_709_g0_A.png>
 Package pdftex.def Info: Images/Mingap_709_g0_A.png  used on input line 222.
@@ -1361,29 +1388,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
  []
 
-[45 <./Images/ProbScat_g0.png (PNG copy)> <./Images/Mingap_709_g0_A.png (PNG co
+[39 <./Images/ProbScat_g0.png (PNG copy)> <./Images/Mingap_709_g0_A.png (PNG co
 py)>]
 Underfull \hbox (badness 10000) in paragraph at lines 229--231
 
  []
 
-<Images/SuccVsGap_OA_g0.png, id=507, 1488.91742pt x 868.81108pt>
+<Images/SuccVsGap_OA_g0.png, id=430, 1488.91742pt x 868.81108pt>
 File: Images/SuccVsGap_OA_g0.png Graphic file (type png)
 <use Images/SuccVsGap_OA_g0.png>
 Package pdftex.def Info: Images/SuccVsGap_OA_g0.png  used on input line 236.
 (pdftex.def)             Requested size: 446.67868pt x 260.64532pt.
-[46 <./Images/SuccVsGap_OA_g0.png (PNG copy)>]
-<Images/A_T10_g1.png, id=517, 1488.91742pt x 868.81108pt>
+[40 <./Images/SuccVsGap_OA_g0.png (PNG copy)>]
+<Images/A_T10_g1.png, id=440, 1488.91742pt x 868.81108pt>
 File: Images/A_T10_g1.png Graphic file (type png)
 <use Images/A_T10_g1.png>
 Package pdftex.def Info: Images/A_T10_g1.png  used on input line 251.
 (pdftex.def)             Requested size: 446.67868pt x 260.64532pt.
-<Images/A_T100_g1.png, id=518, 1488.91742pt x 868.81108pt>
+<Images/A_T100_g1.png, id=441, 1488.91742pt x 868.81108pt>
 File: Images/A_T100_g1.png Graphic file (type png)
 <use Images/A_T100_g1.png>
 Package pdftex.def Info: Images/A_T100_g1.png  used on input line 257.
 (pdftex.def)             Requested size: 446.67868pt x 260.64532pt.
-<Images/A_T1000_g1.png, id=519, 1488.91742pt x 868.81108pt>
+<Images/A_T1000_g1.png, id=442, 1488.91742pt x 868.81108pt>
 File: Images/A_T1000_g1.png Graphic file (type png)
 <use Images/A_T1000_g1.png>
 Package pdftex.def Info: Images/A_T1000_g1.png  used on input line 263.
@@ -1391,14 +1418,14 @@ Package pdftex.def Info: Images/A_T1000_g1.png  used on input line 263.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47 <./Images/A_T10_g1.png (PNG copy)>] [48 <./Images/A_T100_g1.png (PNG copy)
+ [41 <./Images/A_T10_g1.png (PNG copy)>] [42 <./Images/A_T100_g1.png (PNG copy)
 > <./Images/A_T1000_g1.png (PNG copy)>]
-<Images/MinGap_A_g1.png, id=533, 1806.75pt x 1053.9375pt>
+<Images/MinGap_A_g1.png, id=456, 1806.75pt x 1053.9375pt>
 File: Images/MinGap_A_g1.png Graphic file (type png)
 <use Images/MinGap_A_g1.png>
 Package pdftex.def Info: Images/MinGap_A_g1.png  used on input line 272.
 (pdftex.def)             Requested size: 433.62886pt x 252.95016pt.
-<Images/ProbScat_g1.png, id=536, 1488.91742pt x 868.81108pt>
+<Images/ProbScat_g1.png, id=459, 1488.91742pt x 868.81108pt>
 File: Images/ProbScat_g1.png Graphic file (type png)
 <use Images/ProbScat_g1.png>
 Package pdftex.def Info: Images/ProbScat_g1.png  used on input line 305.
@@ -1406,7 +1433,7 @@ Package pdftex.def Info: Images/ProbScat_g1.png  used on input line 305.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49 <./Images/MinGap_A_g1.png>]
+ [43 <./Images/MinGap_A_g1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 310--311
 
  []
@@ -1416,7 +1443,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 312--314
 
  []
 
-<Images/selected_T10_g1.png, id=550, 1806.75pt x 1053.9375pt>
+<Images/selected_T10_g1.png, id=473, 1806.75pt x 1053.9375pt>
 File: Images/selected_T10_g1.png Graphic file (type png)
 <use Images/selected_T10_g1.png>
 Package pdftex.def Info: Images/selected_T10_g1.png  used on input line 321.
@@ -1424,13 +1451,13 @@ Package pdftex.def Info: Images/selected_T10_g1.png  used on input line 321.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50 <./Images/ProbScat_g1.png (PNG copy)>]
-<Images/705_O_T.png, id=560, 1488.91742pt x 840.53152pt>
+ [44 <./Images/ProbScat_g1.png (PNG copy)>]
+<Images/705_O_T.png, id=483, 1488.91742pt x 840.53152pt>
 File: Images/705_O_T.png Graphic file (type png)
 <use Images/705_O_T.png>
 Package pdftex.def Info: Images/705_O_T.png  used on input line 328.
 (pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
-<Images/705_A_T_g1.png, id=561, 1488.91742pt x 868.81108pt>
+<Images/705_A_T_g1.png, id=484, 1488.91742pt x 868.81108pt>
 File: Images/705_A_T_g1.png Graphic file (type png)
 <use Images/705_A_T_g1.png>
 Package pdftex.def Info: Images/705_A_T_g1.png  used on input line 334.
@@ -1438,17 +1465,17 @@ Package pdftex.def Info: Images/705_A_T_g1.png  used on input line 334.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51 <./Images/selected_T10_g1.png> <./Images/705_O_T.png (PNG copy)>]
+ [45 <./Images/selected_T10_g1.png> <./Images/705_O_T.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
 
-<Images/selected_T100_g1.png, id=568, 1084.05pt x 632.3625pt>
+<Images/selected_T100_g1.png, id=491, 1084.05pt x 632.3625pt>
 File: Images/selected_T100_g1.png Graphic file (type png)
 <use Images/selected_T100_g1.png>
 Package pdftex.def Info: Images/selected_T100_g1.png  used on input line 343.
 (pdftex.def)             Requested size: 466.13242pt x 271.91057pt.
-<Images/selected_T1000_g1.png, id=570, 1084.05pt x 632.3625pt>
+<Images/selected_T1000_g1.png, id=493, 1084.05pt x 632.3625pt>
 File: Images/selected_T1000_g1.png Graphic file (type png)
 <use Images/selected_T1000_g1.png>
 Package pdftex.def Info: Images/selected_T1000_g1.png  used on input line 349.
@@ -1456,16 +1483,16 @@ Package pdftex.def Info: Images/selected_T1000_g1.png  used on input line 349.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52 <./Images/705_A_T_g1.png (PNG copy)>]
+ [46 <./Images/705_A_T_g1.png (PNG copy)>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53 <./Images/selected_T100_g1.png>]
-<Images/441_O_T100_1000.png, id=582, 1488.91742pt x 840.53152pt>
+ [47 <./Images/selected_T100_g1.png>]
+<Images/441_O_T100_1000.png, id=507, 1488.91742pt x 840.53152pt>
 File: Images/441_O_T100_1000.png Graphic file (type png)
 <use Images/441_O_T100_1000.png>
 Package pdftex.def Info: Images/441_O_T100_1000.png  used on input line 357.
 (pdftex.def)             Requested size: 446.67868pt x 252.16139pt.
-<Images/441_A_g1_T100_1000.png, id=583, 1488.91742pt x 840.53152pt>
+<Images/441_A_g1_T100_1000.png, id=512, 1488.91742pt x 840.53152pt>
 File: Images/441_A_g1_T100_1000.png Graphic file (type png)
 <use Images/441_A_g1_T100_1000.png>
 Package pdftex.def Info: Images/441_A_g1_T100_1000.png  used on input line 363.
@@ -1474,24 +1501,22 @@ Package pdftex.def Info: Images/441_A_g1_T100_1000.png  used on input line 363.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [54 <./Images/selected_T1000_g1.png>]
+ [48 <./Images/selected_T1000_g1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 368--369
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--371
+LaTeX Warning: Reference `fig:o3' on page 49 undefined on input line 370.
 
- []
-
-[55 <./Images/441_O_T100_1000.png (PNG copy)> <./Images/441_A_g1_T100_1000.png 
+[49 <./Images/441_O_T100_1000.png (PNG copy)> <./Images/441_A_g1_T100_1000.png 
 (PNG copy)>]
-<Images/969_O_T100.png, id=600, 1488.91742pt x 868.81108pt>
+<Images/969_O_T100.png, id=536, 1488.91742pt x 868.81108pt>
 File: Images/969_O_T100.png Graphic file (type png)
 <use Images/969_O_T100.png>
 Package pdftex.def Info: Images/969_O_T100.png  used on input line 378.
 (pdftex.def)             Requested size: 446.67868pt x 260.64532pt.
-<Images/969_A_T100_g1.png, id=601, 1488.91742pt x 840.53152pt>
+<Images/969_A_T100_g1.png, id=538, 1488.91742pt x 840.53152pt>
 File: Images/969_A_T100_g1.png Graphic file (type png)
 <use Images/969_A_T100_g1.png>
 Package pdftex.def Info: Images/969_A_T100_g1.png  used on input line 385.
@@ -1499,23 +1524,111 @@ Package pdftex.def Info: Images/969_A_T100_g1.png  used on input line 385.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56 <./Images/969_O_T100.png (PNG copy)>]
-<Images/SuccVsGap_OA_g1.png, id=610, 1488.91742pt x 868.81108pt>
+ [50 <./Images/969_O_T100.png (PNG copy)>]
+<Images/SuccVsGap_OA_g1.png, id=548, 1488.91742pt x 868.81108pt>
 File: Images/SuccVsGap_OA_g1.png Graphic file (type png)
 <use Images/SuccVsGap_OA_g1.png>
 Package pdftex.def Info: Images/SuccVsGap_OA_g1.png  used on input line 394.
 (pdftex.def)             Requested size: 446.67868pt x 260.64532pt.
+ [51 <./Images/969_A_T100_g1.png (PNG copy)> <./Images/SuccVsGap_OA_g1.png (PNG
+ copy)>]
+<Images/A_T10_g2.png, id=557, 1806.75pt x 1053.9375pt>
+File: Images/A_T10_g2.png Graphic file (type png)
+<use Images/A_T10_g2.png>
+Package pdftex.def Info: Images/A_T10_g2.png  used on input line 407.
+(pdftex.def)             Requested size: 451.6864pt x 263.48373pt.
+<Images/A_T100_g2.png, id=558, 1806.75pt x 1053.9375pt>
+File: Images/A_T100_g2.png Graphic file (type png)
+<use Images/A_T100_g2.png>
+Package pdftex.def Info: Images/A_T100_g2.png  used on input line 413.
+(pdftex.def)             Requested size: 451.6864pt x 263.48373pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52 <./Images/A_T10_g2.png>]
+<Images/MinGap_A_g2.png, id=568, 1806.75pt x 1053.9375pt>
+File: Images/MinGap_A_g2.png Graphic file (type png)
+<use Images/MinGap_A_g2.png>
+Package pdftex.def Info: Images/MinGap_A_g2.png  used on input line 444.
+(pdftex.def)             Requested size: 433.62886pt x 252.95016pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53 <./Images/A_T100_g2.png>]
+<Images/ProbScat_g2.png, id=576, 1488.91742pt x 868.81108pt>
+File: Images/ProbScat_g2.png Graphic file (type png)
+<use Images/ProbScat_g2.png>
+Package pdftex.def Info: Images/ProbScat_g2.png  used on input line 454.
+(pdftex.def)             Requested size: 446.67868pt x 260.64532pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 458--459
+
+ []
+
+[54 <./Images/MinGap_A_g2.png> <./Images/ProbScat_g2.png (PNG copy)>]
+<Images/selected_T10_g2.png, id=585, 1084.05pt x 632.3625pt>
+File: Images/selected_T10_g2.png Graphic file (type png)
+<use Images/selected_T10_g2.png>
+Package pdftex.def Info: Images/selected_T10_g2.png  used on input line 463.
+(pdftex.def)             Requested size: 379.42319pt x 221.33018pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--469
+
+ []
+
+
+LaTeX Warning: Reference `fig:a43' on page 55 undefined on input line 470.
+
+<Images/693_O_g2.png, id=588, 1488.91742pt x 868.81108pt>
+File: Images/693_O_g2.png Graphic file (type png)
+<use Images/693_O_g2.png>
+Package pdftex.def Info: Images/693_O_g2.png  used on input line 475.
+(pdftex.def)             Requested size: 372.22844pt x 217.20224pt.
+<Images/693_A_g2.png, id=591, 1488.91742pt x 868.81108pt>
+File: Images/693_A_g2.png Graphic file (type png)
+<use Images/693_A_g2.png>
+Package pdftex.def Info: Images/693_A_g2.png  used on input line 481.
+(pdftex.def)             Requested size: 372.22844pt x 217.20224pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55 <./Images/selected_T10_g2.png>]
+<Images/selected_T100_g2.png, id=604, 1084.05pt x 632.3625pt>
+File: Images/selected_T100_g2.png Graphic file (type png)
+<use Images/selected_T100_g2.png>
+Package pdftex.def Info: Images/selected_T100_g2.png  used on input line 490.
+(pdftex.def)             Requested size: 379.42319pt x 221.33018pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56 <./Images/693_O_g2.png (PNG copy)> <./Images/693_A_g2.png (PNG copy)>]
+<Images/selected_T1000_g2.png, id=609, 1084.05pt x 632.3625pt>
+File: Images/selected_T1000_g2.png Graphic file (type png)
+<use Images/selected_T1000_g2.png>
+Package pdftex.def Info: Images/selected_T1000_g2.png  used on input line 498.
+(pdftex.def)             Requested size: 379.42319pt x 221.33018pt.
+ [57 <./Images/selected_T100_g2.png> <./Images/selected_T1000_g2.png>]
+<Images/SuccVsGap_OA_g2.png, id=617, 1488.91742pt x 868.81108pt>
+File: Images/SuccVsGap_OA_g2.png Graphic file (type png)
+<use Images/SuccVsGap_OA_g2.png>
+Package pdftex.def Info: Images/SuccVsGap_OA_g2.png  used on input line 509.
+(pdftex.def)             Requested size: 446.67868pt x 260.64532pt.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
- [57 <./Images/969_A_T100_g1.png (PNG copy)> <./Images/SuccVsGap_OA_g1.png (PNG
- copy)>] [58]
+ [58 <./Images/SuccVsGap_OA_g2.png (PNG copy)>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
  (main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B5DDB439C0EAA036E52B14470C54C9B6;733.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 6C6DF78F7F5CEB0210B275836FAFCD01;630
+(rerunfilecheck)             After:  ED6EE09A6F93A847186802589D0F8085;690.
 
 LaTeX Warning: There were undefined references.
 
@@ -1525,13 +1638,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
- 18831 strings out of 492946
- 325963 string characters out of 3126266
- 429454 words of memory out of 3000000
- 22299 multiletter control sequences out of 15000+200000
+ 18854 strings out of 492946
+ 326504 string characters out of 3126266
+ 428917 words of memory out of 3000000
+ 22316 multiletter control sequences out of 15000+200000
  542114 words of font info for 61 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,16n,65p,1282b,443s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,11n,65p,1555b,445s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Vrind\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
 tcrm1000.pk><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmbx10.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/font
@@ -1551,11 +1664,10 @@ sers/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
 onts/cm/cmr7.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmsl10.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Vrind/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Vrind/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (58 pages, 8425709 bytes).
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (58 pages, 8940651 bytes).
 PDF statistics:
- 718 PDF objects out of 1000 (max. 8388607)
- 177 named destinations out of 1000 (max. 500000)
- 409 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 716 PDF objects out of 1000 (max. 8388607)
+ 179 named destinations out of 1000 (max. 500000)
+ 413 words of extra memory for PDF output out of 10000 (max. 10000000)
 
