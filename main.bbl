@@ -1,0 +1,181 @@
+\begin{thebibliography}{10}
+
+\bibitem{Albash_2018}
+Tameem Albash and Daniel~A. Lidar.
+\newblock Adiabatic quantum computation.
+\newblock {\em Reviews of Modern Physics}, 90(1), Jan 2018.
+
+\bibitem{benioff1982quantum}
+Paul Benioff.
+\newblock Quantum mechanical hamiltonian models of turing machines.
+\newblock {\em Journal of Statistical Physics}, 29(3):515--546, 1982.
+
+\bibitem{feynman1982simulating}
+Richard~P Feynman.
+\newblock Simulating physics with computers.
+\newblock {\em International journal of theoretical physics}, 21(6):467--488,
+  1982.
+
+\bibitem{ladd2010quantum}
+Thaddeus~D Ladd, Fedor Jelezko, Raymond Laflamme, Yasunobu Nakamura,
+  Christopher Monroe, and Jeremy~Lloyd O’Brien.
+\newblock Quantum computers.
+\newblock {\em nature}, 464(7285):45, 2010.
+
+\bibitem{nielsen2002quantum}
+Michael~A Nielsen and Isaac Chuang.
+\newblock Quantum computation and quantum information, 2002.
+
+\bibitem{deutsch1992rapid}
+David Deutsch and Richard Jozsa.
+\newblock Rapid solution of problems by quantum computation.
+\newblock {\em Proceedings of the Royal Society of London. Series A:
+  Mathematical and Physical Sciences}, 439(1907):553--558, 1992.
+
+\bibitem{shor1994algorithms}
+Peter~W Shor.
+\newblock Algorithms for quantum computation: Discrete logarithms and
+  factoring.
+\newblock In {\em Proceedings 35th annual symposium on foundations of computer
+  science}, pages 124--134. Ieee, 1994.
+
+\bibitem{grover1996fast}
+Lov~K Grover.
+\newblock A fast quantum mechanical algorithm for database search.
+\newblock {\em arXiv preprint quant-ph/9605043}, 1996.
+
+\bibitem{hauke2019perspectives}
+Philipp Hauke, Helmut~G Katzgraber, Wolfgang Lechner, Hidetoshi Nishimori, and
+  William~D Oliver.
+\newblock Perspectives of quantum annealing: Methods and implementations.
+\newblock {\em arXiv preprint arXiv:1903.06559}, 2019.
+
+\bibitem{albash2015decoherence}
+Tameem Albash and Daniel~A Lidar.
+\newblock Decoherence in adiabatic quantum computation.
+\newblock {\em Physical Review A}, 91(6):062320, 2015.
+
+\bibitem{farhi2002quantum}
+Edward Farhi, Jeffrey Goldstone, and Sam Gutmann.
+\newblock Quantum adiabatic evolution algorithms with different paths.
+\newblock {\em arXiv preprint quant-ph/0208135}, 2002.
+
+\bibitem{crosson2014different}
+Elizabeth Crosson, Edward Farhi, Cedric Yen-Yu Lin, Han-Hsuan Lin, and Peter
+  Shor.
+\newblock Different strategies for optimization using the quantum adiabatic
+  algorithm.
+\newblock {\em arXiv preprint arXiv:1401.7320}, 2014.
+
+\bibitem{hormozi2017nonstoquastic}
+Layla Hormozi, Ethan~W Brown, Giuseppe Carleo, and Matthias Troyer.
+\newblock Nonstoquastic hamiltonians and quantum annealing of an ising spin
+  glass.
+\newblock {\em Physical Review B}, 95(18):184416, 2017.
+
+\bibitem{boyd2004convex}
+Stephen Boyd and Lieven Vandenberghe.
+\newblock {\em Convex optimization}.
+\newblock Cambridge university press, 2004.
+
+\bibitem{hsu2018quantum}
+Ting-Jui Hsu, Fengping Jin, Christian Seidel, Florian Neukart, Hans De~Raedt,
+  and Kristel Michielsen.
+\newblock Quantum annealing with anneal path control: application to 2-sat
+  problems with known energy landscapes.
+\newblock {\em arXiv preprint arXiv:1810.00194}, 2018.
+
+\bibitem{thomas2014quantum}
+Neuhaus Thomas.
+\newblock Quantum searches in a hard 2sat ensemble.
+\newblock {\em arXiv preprint arXiv:1412.5460}, 2014.
+
+\bibitem{santoro2006optimization}
+Giuseppe~E Santoro and Erio Tosatti.
+\newblock Optimization using quantum mechanics: quantum annealing through
+  adiabatic evolution.
+\newblock {\em Journal of Physics A: Mathematical and General}, 39(36):R393,
+  2006.
+
+\bibitem{kirkpatrick1983optimization}
+Scott Kirkpatrick, C~Daniel Gelatt, and Mario~P Vecchi.
+\newblock Optimization by simulated annealing.
+\newblock {\em science}, 220(4598):671--680, 1983.
+
+\bibitem{apolloni1989quantum}
+Bruno Apolloni, C~Carvalho, and Diego De~Falco.
+\newblock Quantum stochastic optimization.
+\newblock {\em Stochastic Processes and their Applications}, 33(2):233--244,
+  1989.
+
+\bibitem{born1928beweis}
+Max Born and Vladimir Fock.
+\newblock Beweis des adiabatensatzes.
+\newblock {\em Zeitschrift f{\"u}r Physik}, 51(3-4):165--180, 1928.
+
+\bibitem{farhi2000quantum}
+Edward Farhi, Jeffrey Goldstone, Sam Gutmann, and Michael Sipser.
+\newblock Quantum computation by adiabatic evolution.
+\newblock {\em arXiv preprint quant-ph/0001106}, 2000.
+
+\bibitem{de2004computational}
+Hans De~Raedt and K~Michielsen.
+\newblock Computational methods for simulating quantum computers.
+\newblock {\em arXiv preprint quant-ph/0406210}, 2004.
+
+\bibitem{trotter1959product}
+Hale~F Trotter.
+\newblock On the product of semi-groups of operators.
+\newblock {\em Proceedings of the American Mathematical Society},
+  10(4):545--551, 1959.
+
+\bibitem{suzuki1977monte}
+Masuo Suzuki, Seiji Miyashita, and Akira Kuroda.
+\newblock Monte carlo simulation of quantum spin systems. i.
+\newblock {\em Progress of Theoretical Physics}, 58(5):1377--1387, 1977.
+
+\bibitem{de1989simulation}
+Hans De~Raedt and Pedro de~Vries.
+\newblock Simulation of two and three-dimensional disordered systems: Lifshitz
+  tails and localization properties.
+\newblock {\em Zeitschrift f{\"u}r Physik B Condensed Matter}, 77(2):243--251,
+  1989.
+
+\bibitem{de1987product}
+Hans De~Raedt.
+\newblock Product formula algorithms for solving the time dependent
+  schr{\"o}dinger equation.
+\newblock {\em Computer Physics Reports}, 7(1):1--72, 1987.
+
+\bibitem{landau1932theorie}
+LD~Landau.
+\newblock Zur theorie der energieubertragung i.
+\newblock {\em Z. Sowjetunion}, 1:88--95, 1932.
+
+\bibitem{zener1932non}
+Clarence Zener.
+\newblock Non-adiabatic crossing of energy levels.
+\newblock {\em Proceedings of the Royal Society of London. Series A, Containing
+  Papers of a Mathematical and Physical Character}, 137(833):696--702, 1932.
+
+\bibitem{de1997theory}
+H~De~Raedt, S~Miyashita, K~Saito, D~Garcia-Pablos, and N~Garcia.
+\newblock Theory of quantum tunneling of the magnetization in magnetic
+  particles.
+\newblock {\em Physical Review B}, 56(18):11761, 1997.
+
+\bibitem{miyashita1995dynamics}
+Seiji Miyashita.
+\newblock Dynamics of the magnetization with an inversion of the magnetic
+  field.
+\newblock {\em Journal of the Physical Society of Japan}, 64(9):3207--3214,
+  1995.
+
+\bibitem{miyashita1996observation}
+Seiji Miyashita.
+\newblock Observation of the energy gap due to the quantum tunnelingmaking use
+  of the landau-zener mechanism.
+\newblock {\em Journal of the Physical Society of Japan}, 65(8):2734--2735,
+  1996.
+
+\end{thebibliography}

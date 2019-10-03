@@ -10,6 +10,8 @@
 \usepackage[british]{babel}
 \usepackage{hhline}
 \usepackage{multirow}
+%\usepackage[titletoc]{appendix}
+%\usepackage[toc,page]{appendix}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
@@ -17,37 +19,50 @@
     filecolor=magenta,      
     urlcolor=cyan,
 }
-\usepackage{subfiles}
- 
+\usepackage{subfiles} 
 \usepackage{blindtext}
 
 \usepackage{graphicx}
+\usepackage[nottoc,notlot,notlof]{tocbibind}
 \graphicspath{{Images/}{../Images/}}
-\title{Quantum Annealing With Trigger Hamiltonian}
-\author{Vrinda Mehta}
-\date{}
+\usepackage[toc,page]{appendix}
 \begin{document}
  
-\maketitle
- 
+
+%\listoffigures
+%\listoftables
+\include{Title}
+\subfile{Abstract}
+\tableofcontents
+\chapter{Introduction}
+\subfile{Introduction}
+
 \chapter{Theoretical Background}
  
 \subfile{Background/Background}
+
  
 \chapter{Landau-Zener Tunnelling}
  
 \subfile{LandauZener/LandauZener}
  
-\chapter{Results with Original Hamiltonian}
+\chapter{Results for the Original Hamiltonian}
  
 \subfile{Original/O}
  
-\chapter{Results with Ferromagnetic Trigger}
+\chapter{Results with the Ferromagnetic Trigger}
  
 \subfile{Ferro/F}
 
-\chapter{Results with Anti-ferromagnetic Trigger}
+\chapter{Results with the Anti-ferromagnetic Trigger}
  
 \subfile{AntiFerro/A}
 
+\chapter{Summary}
+\subfile{Summary}
+
+\subfile{Appendix/Appendix}
+
+\bibliographystyle{unsrt}
+\bibliography{References}
 \end{document}

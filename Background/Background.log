@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.20)  11 SEP 2019 15:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.20)  2 OCT 2019 16:24
 entering extended mode
 **./Background.tex
 (Background.tex
@@ -582,6 +582,13 @@ Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
 \multirow@dima=\skip57
 \bigstrutjot=\dimen164
 )
+("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/appendix\appendix.
+sty"
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count268
+\c@@ppsavesec=\count269
+\c@@ppsaveapp=\count270
+)
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref.
 sty"
 Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
@@ -636,8 +643,8 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen165
-\Hy@linkcounter=\count268
-\Hy@pagecounter=\count269
+\Hy@linkcounter=\count271
+\Hy@pagecounter=\count272
 
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.de
 f"
@@ -645,7 +652,7 @@ File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count270
+\Hy@SavedSpaceFactor=\count273
 
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperref.
 cfg"
@@ -658,14 +665,14 @@ Package hyperref Info: Plain pages OFF on input line 4534.
 Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count271
+\c@Hy@tempcnt=\count274
  ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5125.
 \XeTeXLinkMargin=\dimen166
-\Fld@menulength=\count272
+\Fld@menulength=\count275
 \Field@Width=\dimen167
 \Fld@charsize=\dimen168
 Package hyperref Info: Hyper figures OFF on input line 6380.
@@ -677,17 +684,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
 LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count273
-\c@Item=\count274
-\c@Hfootnote=\count275
+\Hy@abspage=\count276
+\c@Item=\count277
+\c@Hfootnote=\count278
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.d
 ef"
 File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
-\Fld@listcount=\count276
-\c@bookmark@seq@number=\count277
+\Fld@listcount=\count279
+\c@bookmark@seq@number=\count280
 
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunfile
 check.sty"
@@ -697,7 +704,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip58
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 19.
+Package hyperref Info: Option `colorlinks' set `true' on input line 21.
 
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfiles\subfiles.
 sty"
@@ -717,24 +724,33 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count278
-\c@Blindtext=\count279
-\c@blind@countparstart=\count280
-\blind@countxx=\count281
-\blindtext@numBlindtext=\count282
-\blind@countyy=\count283
-\c@blindlist=\count284
-\c@blindlistlevel=\count285
-\c@blindlist@level=\count286
-\blind@listitem=\count287
-\c@blind@listcount=\count288
-\c@blind@levelcount=\count289
-\blind@mathformula=\count290
-\blind@Mathformula=\count291
-\c@blind@randomcount=\count292
-\c@blind@randommax=\count293
-\c@blind@pangramcount=\count294
-\c@blind@pangrammax=\count295
+\c@blindtext=\count281
+\c@Blindtext=\count282
+\c@blind@countparstart=\count283
+\blind@countxx=\count284
+\blindtext@numBlindtext=\count285
+\blind@countyy=\count286
+\c@blindlist=\count287
+\c@blindlistlevel=\count288
+\c@blindlist@level=\count289
+\blind@listitem=\count290
+\c@blind@listcount=\count291
+\c@blind@levelcount=\count292
+\blind@mathformula=\count293
+\blind@Mathformula=\count294
+\c@blind@randomcount=\count295
+\c@blind@randommax=\count296
+\c@blind@pangramcount=\count297
+\c@blind@pangrammax=\count298
+)
+("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tocbibind\tocbibin
+d.sty"
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
 )))
 
 LaTeX Warning: Unused global option(s):
@@ -803,16 +819,16 @@ LaTeX Font Info:    ... okay on input line 2.
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/context/base\supp-pdf.mk
 ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count296
+\scratchcounter=\count299
 \scratchdimen=\dimen169
 \scratchbox=\box46
-\nofMPsegments=\count297
-\nofMParguments=\count298
+\nofMPsegments=\count300
+\nofMParguments=\count301
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count299
+\MPscratchCnt=\count302
 \MPscratchDim=\dimen170
-\MPnumerator=\count300
-\makeMPintoPDFobject=\count301
+\MPnumerator=\count303
+\makeMPintoPDFobject=\count304
 \everyMPtoPDFconversion=\toks26
 )
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
@@ -853,7 +869,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 estring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count302
+\c@section@level=\count305
 )
 LaTeX Info: Redefining \ref on input line 2.
 LaTeX Info: Redefining \pageref on input line 2.
@@ -875,79 +891,188 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 28.
+("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--47
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+LaTeX Warning: Citation `boyd2004convex' on page 1 undefined on input line 54.
+
+
+LaTeX Warning: Citation `hsu2018quantum' on page 1 undefined on input line 54.
+
+
+LaTeX Warning: Citation `thomas2014quantum' on page 1 undefined on input line 5
+4.
+
+
+LaTeX Warning: Citation `hormozi2017nonstoquastic' on page 1 undefined on input
+ line 56.
+
+
+LaTeX Warning: Citation `santoro2006optimization' on page 1 undefined on input 
+line 58.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
 [1{C:/Users/Vrind/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+LaTeX Warning: Citation `kirkpatrick1983optimization' on page 2 undefined on in
+put line 60.
+
+
+LaTeX Warning: Citation `apolloni1989quantum' on page 2 undefined on input line
+ 60.
+
+
+LaTeX Warning: Citation `Albash_2018' on page 2 undefined on input line 60.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
+
+
+LaTeX Warning: Citation `born1928beweis' on page 2 undefined on input line 93.
+
+
+LaTeX Warning: Citation `farhi2000quantum' on page 2 undefined on input line 93
+.
+
+
+LaTeX Warning: Citation `hauke2019perspectives' on page 2 undefined on input li
+ne 103.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 111--114
+
+LaTeX Warning: Citation `Albash_2018' on page 3 undefined on input line 105.
+
+
+LaTeX Warning: Citation `hauke2019perspectives' on page 3 undefined on input li
+ne 105.
+
+
+LaTeX Warning: Citation `farhi2002quantum' on page 3 undefined on input line 10
+5.
+
+
+LaTeX Warning: Citation `crosson2014different' on page 3 undefined on input lin
+e 105.
+
+
+LaTeX Warning: Citation `hormozi2017nonstoquastic' on page 3 undefined on input
+ line 105.
+
+
+LaTeX Warning: Citation `Albash_2018' on page 3 undefined on input line 105.
+
+
+LaTeX Warning: Citation `farhi2002quantum' on page 3 undefined on input line 10
+5.
+
+
+LaTeX Warning: Citation `crosson2014different' on page 3 undefined on input lin
+e 105.
+
+
+LaTeX Warning: Citation `hormozi2017nonstoquastic' on page 3 undefined on input
+ line 105.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--110
 
  []
+
+
+LaTeX Warning: Citation `hormozi2017nonstoquastic' on page 3 undefined on input
+ line 111.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--121
+
+ []
+
+
+LaTeX Warning: Citation `de2004computational' on page 3 undefined on input line
+ 132.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 153--155
+
+LaTeX Warning: Citation `de2004computational' on page 4 undefined on input line
+ 139.
+
+
+LaTeX Warning: Citation `trotter1959product' on page 4 undefined on input line 
+139.
+
+
+LaTeX Warning: Citation `suzuki1977monte' on page 4 undefined on input line 139
+.
+
+
+LaTeX Warning: Citation `de2004computational' on page 4 undefined on input line
+ 149.
+
+
+LaTeX Warning: Citation `de1989simulation' on page 4 undefined on input line 14
+9.
+
+
+LaTeX Warning: Citation `de1987product' on page 4 undefined on input line 149.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--187
 
  []
 
 
-Overfull \hbox (2.42287pt too wide) in paragraph at lines 166--168
-\OT1/cmr/m/n/10 where $\OML/cmm/m/it/10 H[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 
- \OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 s\OT1/cmr/m/n/10 )[] []
- \OML/cmm/m/it/10 h[][][] \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 s[] [] [][][][][
-]$\OT1/cmr/m/n/10 , $\OML/cmm/m/it/10 H[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 \
-OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 s\OT1/cmr/m/n/10 )[] [] \
-OML/cmm/m/it/10 J[][][][]$\OT1/cmr/m/n/10 , $\OML/cmm/m/it/10 H[] \OT1/cmr/m/
-n/10 = \OMS/cmsy/m/n/10 \OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10
- s\OT1/cmr/m/n/10 )[] [] \OML/cmm/m/it/10 J[][][][]$\OT1/cmr/m/n/10 ,
- []
+LaTeX Warning: Citation `de2004computational' on page 4 undefined on input line
+ 188.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--179
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
-
- []
-
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
 [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
- [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
  (Background.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 196.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
 Package rerunfilecheck Info: File `Background.out' has not changed.
 (rerunfilecheck)             Checksum: 5ADBB6C72E1FA6E7C65507444A18C8A3;263.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 196.
  ) 
 Here is how much of TeX's memory you used:
- 18207 strings out of 492946
- 314502 string characters out of 3126266
- 411095 words of memory out of 3000000
- 21917 multiletter control sequences out of 15000+200000
+ 18396 strings out of 492946
+ 317455 string characters out of 3126266
+ 413586 words of memory out of 3000000
+ 22097 multiletter control sequences out of 15000+200000
  535922 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,8n,67p,1282b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,8n,67p,1079b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/f
@@ -964,10 +1089,11 @@ l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Vrind/A
 ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/
 Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmsy7.pfb>
-Output written on Background.pdf (5 pages, 198779 bytes).
+msfonts/cm/cmsy5.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Background.pdf (4 pages, 203620 bytes).
 PDF statistics:
  139 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
+ 31 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

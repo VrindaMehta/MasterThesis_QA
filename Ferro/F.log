@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.20)  16 SEP 2019 13:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.20)  3 OCT 2019 11:26
 entering extended mode
 **./F.tex
 (F.tex
@@ -582,6 +582,13 @@ Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
 \multirow@dima=\skip57
 \bigstrutjot=\dimen164
 )
+("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/appendix\appendix.
+sty"
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count268
+\c@@ppsavesec=\count269
+\c@@ppsaveapp=\count270
+)
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref.
 sty"
 Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
@@ -636,8 +643,8 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen165
-\Hy@linkcounter=\count268
-\Hy@pagecounter=\count269
+\Hy@linkcounter=\count271
+\Hy@pagecounter=\count272
 
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.de
 f"
@@ -645,7 +652,7 @@ File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count270
+\Hy@SavedSpaceFactor=\count273
 
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperref.
 cfg"
@@ -658,14 +665,14 @@ Package hyperref Info: Plain pages OFF on input line 4534.
 Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count271
+\c@Hy@tempcnt=\count274
  ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5125.
 \XeTeXLinkMargin=\dimen166
-\Fld@menulength=\count272
+\Fld@menulength=\count275
 \Field@Width=\dimen167
 \Fld@charsize=\dimen168
 Package hyperref Info: Hyper figures OFF on input line 6380.
@@ -677,17 +684,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
 LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count273
-\c@Item=\count274
-\c@Hfootnote=\count275
+\Hy@abspage=\count276
+\c@Item=\count277
+\c@Hfootnote=\count278
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.d
 ef"
 File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
-\Fld@listcount=\count276
-\c@bookmark@seq@number=\count277
+\Fld@listcount=\count279
+\c@bookmark@seq@number=\count280
 
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunfile
 check.sty"
@@ -697,7 +704,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip58
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 19.
+Package hyperref Info: Option `colorlinks' set `true' on input line 21.
 
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfiles\subfiles.
 sty"
@@ -717,24 +724,33 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count278
-\c@Blindtext=\count279
-\c@blind@countparstart=\count280
-\blind@countxx=\count281
-\blindtext@numBlindtext=\count282
-\blind@countyy=\count283
-\c@blindlist=\count284
-\c@blindlistlevel=\count285
-\c@blindlist@level=\count286
-\blind@listitem=\count287
-\c@blind@listcount=\count288
-\c@blind@levelcount=\count289
-\blind@mathformula=\count290
-\blind@Mathformula=\count291
-\c@blind@randomcount=\count292
-\c@blind@randommax=\count293
-\c@blind@pangramcount=\count294
-\c@blind@pangrammax=\count295
+\c@blindtext=\count281
+\c@Blindtext=\count282
+\c@blind@countparstart=\count283
+\blind@countxx=\count284
+\blindtext@numBlindtext=\count285
+\blind@countyy=\count286
+\c@blindlist=\count287
+\c@blindlistlevel=\count288
+\c@blindlist@level=\count289
+\blind@listitem=\count290
+\c@blind@listcount=\count291
+\c@blind@levelcount=\count292
+\blind@mathformula=\count293
+\blind@Mathformula=\count294
+\c@blind@randomcount=\count295
+\c@blind@randommax=\count296
+\c@blind@pangramcount=\count297
+\c@blind@pangrammax=\count298
+)
+("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tocbibind\tocbibin
+d.sty"
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
 )))
 
 LaTeX Warning: Unused global option(s):
@@ -803,16 +819,16 @@ LaTeX Font Info:    ... okay on input line 2.
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/context/base\supp-pdf.mk
 ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count296
+\scratchcounter=\count299
 \scratchdimen=\dimen169
 \scratchbox=\box46
-\nofMPsegments=\count297
-\nofMParguments=\count298
+\nofMPsegments=\count300
+\nofMParguments=\count301
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count299
+\MPscratchCnt=\count302
 \MPscratchDim=\dimen170
-\MPnumerator=\count300
-\makeMPintoPDFobject=\count301
+\MPnumerator=\count303
+\makeMPintoPDFobject=\count304
 \everyMPtoPDFconversion=\toks26
 )
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
@@ -853,7 +869,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 estring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count302
+\c@section@level=\count305
 )
 LaTeX Info: Redefining \ref on input line 2.
 LaTeX Info: Redefining \pageref on input line 2.
@@ -872,182 +888,188 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-LaTeX Warning: Reference `eq:n23' on page 1 undefined on input line 5.
+LaTeX Warning: Reference `eq:b13' on page 1 undefined on input line 4.
 
-<733_s12_F_g0.png, id=6, 1488.91742pt x 840.53152pt>
+
+LaTeX Warning: Reference `eq:b12' on page 1 undefined on input line 5.
+
+<733_s12_F_g0.png, id=12, 1488.91742pt x 868.81108pt>
 File: 733_s12_F_g0.png Graphic file (type png)
 <use 733_s12_F_g0.png>
-Package pdftex.def Info: 733_s12_F_g0.png  used on input line 11.
-(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
-<733_s12_F_g1.png, id=7, 1488.91742pt x 840.53152pt>
+Package pdftex.def Info: 733_s12_F_g0.png  used on input line 12.
+(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+<733_s12_F_g1.png, id=13, 1488.91742pt x 868.81108pt>
 File: 733_s12_F_g1.png Graphic file (type png)
 <use 733_s12_F_g1.png>
-Package pdftex.def Info: 733_s12_F_g1.png  used on input line 17.
-(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
-<733_s12_F_g2.png, id=8, 1488.91742pt x 840.53152pt>
+Package pdftex.def Info: 733_s12_F_g1.png  used on input line 13.
+(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+<733_s12_F_g2.png, id=14, 1488.91742pt x 868.81108pt>
 File: 733_s12_F_g2.png Graphic file (type png)
 <use 733_s12_F_g2.png>
-Package pdftex.def Info: 733_s12_F_g2.png  used on input line 23.
-(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
-[1{C:/Users/Vrind/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
- <./733_s12_F_g0.png (PNG copy)> <./733_s12_F_g1.png (PNG copy)>]
-<950_s12_F_g0.png, id=25, 1488.91742pt x 840.53152pt>
+Package pdftex.def Info: 733_s12_F_g2.png  used on input line 14.
+(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+<950_s12_F_g0.png, id=17, 1488.91742pt x 868.81108pt>
 File: 950_s12_F_g0.png Graphic file (type png)
 <use 950_s12_F_g0.png>
-Package pdftex.def Info: 950_s12_F_g0.png  used on input line 53.
-(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2 <./733_s12_F_g2.png (PNG copy)>]
-<950_s12_F_g1.png, id=34, 1488.91742pt x 840.53152pt>
+Package pdftex.def Info: 950_s12_F_g0.png  used on input line 51.
+(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+<950_s12_F_g1.png, id=18, 1488.91742pt x 868.81108pt>
 File: 950_s12_F_g1.png Graphic file (type png)
 <use 950_s12_F_g1.png>
-Package pdftex.def Info: 950_s12_F_g1.png  used on input line 60.
-(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
-<950_s12_F_g2.png, id=35, 1488.91742pt x 840.53152pt>
+Package pdftex.def Info: 950_s12_F_g1.png  used on input line 52.
+(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+<950_s12_F_g2.png, id=19, 1488.91742pt x 868.81108pt>
 File: 950_s12_F_g2.png Graphic file (type png)
 <use 950_s12_F_g2.png>
-Package pdftex.def Info: 950_s12_F_g2.png  used on input line 67.
-(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
+Package pdftex.def Info: 950_s12_F_g2.png  used on input line 53.
+(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--70
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
+ [1{C:/Users/Vrind/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+] [2 <./733_s12_F_g0.png (PNG copy)> <./733_s12_F_g1.png (PNG copy)> <./733_s12
+_F_g2.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig:o2' on page 3 undefined on input line 58.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3 <./950_s12_F_g0.png (PNG copy)> <./950_s12_F_g1.png (PNG copy)>]
-
-LaTeX Warning: Reference `fig:o2' on page 4 undefined on input line 71.
-
-<528_s12_F_g0.png, id=44, 1488.91742pt x 840.53152pt>
+ [3 <./950_s12_F_g0.png (PNG copy)> <./950_s12_F_g1.png (PNG copy)> <./950_s12_
+F_g2.png (PNG copy)>]
+<528_s12_F_g0.png, id=45, 1488.91742pt x 868.81108pt>
 File: 528_s12_F_g0.png Graphic file (type png)
 <use 528_s12_F_g0.png>
-Package pdftex.def Info: 528_s12_F_g0.png  used on input line 96.
-(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
-
-Underfull \vbox (badness 3364) has occurred while \output is active []
-
- [4 <./950_s12_F_g2.png (PNG copy)>]
-<528_s12_F_g1.png, id=53, 1488.91742pt x 840.53152pt>
+Package pdftex.def Info: 528_s12_F_g0.png  used on input line 112.
+(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+<528_s12_F_g1.png, id=46, 1488.91742pt x 868.81108pt>
 File: 528_s12_F_g1.png Graphic file (type png)
 <use 528_s12_F_g1.png>
-Package pdftex.def Info: 528_s12_F_g1.png  used on input line 103.
-(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--106
-
- []
-
-<528_s12_F_g2.png, id=54, 1488.91742pt x 840.53152pt>
+Package pdftex.def Info: 528_s12_F_g1.png  used on input line 113.
+(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+<528_s12_F_g2.png, id=47, 1488.91742pt x 868.81108pt>
 File: 528_s12_F_g2.png Graphic file (type png)
 <use 528_s12_F_g2.png>
-Package pdftex.def Info: 528_s12_F_g2.png  used on input line 109.
-(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
-
+Package pdftex.def Info: 528_s12_F_g2.png  used on input line 114.
+(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+ [4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5 <./528_s12_F_g0.png (PNG copy)> <./528_s12_F_g1.png (PNG copy)>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 132.
+ [5 <./528_s12_F_g0.png (PNG copy)> <./528_s12_F_g1.png (PNG copy)> <./528_s12_
+F_g2.png (PNG copy)>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 122.
 
 
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 132.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 122.
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
-<Mingap_F_g0_1_2.png, id=61, 1806.75pt x 1053.9375pt>
+
+LaTeX Warning: Reference `fig:ap1' on page 6 undefined on input line 124.
+
+<Mingap_F_g0_1_2.png, id=60, 1806.75pt x 1053.9375pt>
 File: Mingap_F_g0_1_2.png Graphic file (type png)
 <use Mingap_F_g0_1_2.png>
-Package pdftex.def Info: Mingap_F_g0_1_2.png  used on input line 138.
+Package pdftex.def Info: Mingap_F_g0_1_2.png  used on input line 128.
 (pdftex.def)             Requested size: 361.3436pt x 210.78377pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Reference `fig:ap3' on page 6 undefined on input line 134.
 
- [6 <./528_s12_F_g2.png (PNG copy)>]
-<Scatt_s12_F_g0.png, id=72, 1488.91742pt x 840.53152pt>
+<Scatt_s12_F_g0.png, id=62, 1488.91742pt x 868.81108pt>
 File: Scatt_s12_F_g0.png Graphic file (type png)
 <use Scatt_s12_F_g0.png>
-Package pdftex.def Info: Scatt_s12_F_g0.png  used on input line 147.
-(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
-<Scatt_s12_F_g1.png, id=73, 1488.91742pt x 840.53152pt>
+Package pdftex.def Info: Scatt_s12_F_g0.png  used on input line 137.
+(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+<Scatt_s12_F_g1.png, id=63, 1488.91742pt x 868.81108pt>
 File: Scatt_s12_F_g1.png Graphic file (type png)
 <use Scatt_s12_F_g1.png>
-Package pdftex.def Info: Scatt_s12_F_g1.png  used on input line 153.
-(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
-<Scatt_s12_F_g2.png, id=74, 1488.91742pt x 840.53152pt>
+Package pdftex.def Info: Scatt_s12_F_g1.png  used on input line 138.
+(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+<Scatt_s12_F_g2.png, id=64, 1488.91742pt x 868.81108pt>
 File: Scatt_s12_F_g2.png Graphic file (type png)
 <use Scatt_s12_F_g2.png>
-Package pdftex.def Info: Scatt_s12_F_g2.png  used on input line 159.
-(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
+Package pdftex.def Info: Scatt_s12_F_g2.png  used on input line 139.
+(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7 <./Mingap_F_g0_1_2.png> <./Scatt_s12_F_g0.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+ [6 <./Mingap_F_g0_1_2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./Scatt_s12_F_g0.png (PNG copy)> <./Scatt_s12_F_g1.png (PNG copy)> <./Scat
+t_s12_F_g2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
-[8 <./Scatt_s12_F_g1.png (PNG copy)> <./Scatt_s12_F_g2.png (PNG copy)>]
 
-LaTeX Warning: Reference `eq:lz3' on page 9 undefined on input line 168.
+LaTeX Warning: Reference `eq:lz5' on page 8 undefined on input line 149.
 
 
-LaTeX Warning: Reference `eq:lz3' on page 9 undefined on input line 172.
+LaTeX Warning: Reference `eq:lz5' on page 8 undefined on input line 153.
 
-<SuccVsGap_OF_g.png, id=91, 1488.91742pt x 840.53152pt>
+
+LaTeX Warning: Reference `fig:ap5' on page 8 undefined on input line 153.
+
+<SuccVsGap_OF_g.png, id=79, 1488.91742pt x 868.81108pt>
 File: SuccVsGap_OF_g.png Graphic file (type png)
 <use SuccVsGap_OF_g.png>
-Package pdftex.def Info: SuccVsGap_OF_g.png  used on input line 176.
-(pdftex.def)             Requested size: 357.34749pt x 201.73167pt.
+Package pdftex.def Info: SuccVsGap_OF_g.png  used on input line 157.
+(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
 
-LaTeX Warning: Reference `eq:lz3' on page 9 undefined on input line 181.
+LaTeX Warning: Reference `eq:lz3' on page 8 undefined on input line 162.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
-[9 <./SuccVsGap_OF_g.png (PNG copy)>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
+[8 <./SuccVsGap_OF_g.png (PNG copy)>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
  (F.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 163.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 163.
 Package rerunfilecheck Info: File `F.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: F2C319B4E2401D768AF55567B180C916;115.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 163.
  ) 
 Here is how much of TeX's memory you used:
- 18286 strings out of 492946
- 315934 string characters out of 3126266
- 410150 words of memory out of 3000000
- 21986 multiletter control sequences out of 15000+200000
- 534698 words of font info for 34 fonts, out of 3000000 for 9000
+ 18456 strings out of 492946
+ 318536 string characters out of 3126266
+ 414339 words of memory out of 3000000
+ 22154 multiletter control sequences out of 15000+200000
+ 535303 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,11n,67p,1541b,365s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,11n,67p,1501b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmmi10.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Vrind/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Vrind/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Vrind/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on F.pdf (9 pages, 1918958 bytes).
+blic/amsfonts/cm/cmbx12.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Vrind/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Vrind/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Vri
+nd/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr7.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmsl10.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on F.pdf (8 pages, 2113519 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 125 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 87 words of extra memory for PDF output out of 10000 (max. 10000000)
 

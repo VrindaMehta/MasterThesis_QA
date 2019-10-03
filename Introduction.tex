@@ -1,0 +1,18 @@
+\documentclass[main.tex]{subfiles}
+\begin{document}
+%\chapter{Introduction}\label{ch:Intro}
+The idea of quantum computation emerged as early as 1980's with Benioff's proposals for quantum Turing machines and Feynman's suggestion for simulating quantum mechanics \cite{Albash_2018,benioff1982quantum,feynman1982simulating}. According to Feynman, for describing the full wavefunction for a quantum mechanical system, the number of variables, and hence the computational resources required to simulate the system, pose a limitation for the classical computers. Therefore, a need for a machine that utilizes the effects like superposition and entanglement from the quantum theory arose. A quantum computer is a machine that is expected to be able to utilise the full complexity of a  many-particle quantum wavefunction to solve a computational problem \cite{ladd2010quantum}.\\
+
+Soon after the conception of a quantum computer, a few algorithms were devised for which quantum computers should offer an advantage over the classical computers, thus motivating the designing of a quantum computer \cite{nielsen2002quantum}.
+Some of the well known algorithms are Deutsch-Jozsa algorithm for determining if a given function is constant or balanced \cite{deutsch1992rapid}, Shor's algorithm which can factorise a number only in polynomial time \cite{shor1994algorithms}, and Grover's search algorithm for finding the unique solution satisfying a unique property \cite{grover1996fast}.\\
+
+The gate based model for quantum computation, devised by Deutsch in 1989, is considered to be the standard model for quantum computing. In this model every computation is encoded as a sequence of unitary gates, applied to the input state to obtain the desired output, and can, in principle, explore the entire Hilbert space [Albash,Lidar]. A successful implementation of an algorithm usually requires many quantum-bits, and their coherence times to be longer than the time needed for performing the operation. However, the coupling between these quantum-bits and their interaction with the environment, leads to noise in the system, reducing their coherence times. This makes the task of scaling up the number of quantum-bits for implementing any algorithm very challenging \cite{hauke2019perspectives}.\\
+
+Another standard approach of devising a quantum computer is adiabatic quantum computing, where the computation proceeds from an initial Hamiltonian whose ground state is easy to prepare, to a final Hamiltonian whose ground state encodes the solution to the computational problem \cite{Albash_2018}. Since in this model, the energy-eigenbasis of the Hamiltonian becomes the relevant basis for computation, quantum adiabatic computation is believed to exhibit a degree of robustness against decoherence \cite{albash2015decoherence}.
+
+Quantum annealing is a concept related to adiabatic quantum computing which also allows non-ideal situations like non-adiabatic transitions. It has been designed to solve classical optimization problems, with a wide range of applications like classification, quantum chemistry, machine learning, search engine ranking, and protein folding \cite{hauke2019perspectives}.\\
+
+The focus of this thesis is on simulating a quantum annealer, for solving 12-spin 2-SAT problems, while studying the effects of adding a third term, namely the trigger Hamiltonian, as opposed to two terms (initial and final Hamiltonian) used by D-wave \cite{Albash_2018,hauke2019perspectives,farhi2002quantum,crosson2014different,hormozi2017nonstoquastic}.
+
+
+\end{document}
