@@ -90,11 +90,11 @@ Figure (\ref{fig:b1}) shows the chosen annealing scheme in terms of the annealin
 \end{comment}
 Therefore, the Hamiltonian transitions from the initial Hamiltonian, $H(t=0)=H_I$ to the final Hamiltonian, $H(t=T_A)=H_P$. \\
 
-According to the \textbf{quantum adiabatic theorem}, the instantaneous state of the system stays close to the ground state of the Hamiltonian $H(t)$, if one starts with the ground state of the initial Hamiltonian and if the driving from the initial Hamiltonian to the problem Hamiltonian is slow enough, which is determined by the minimum energy gap, $\Delta_{min}$, between the ground state and the first excited state of the Hamiltonian $H(t)$ during the course of annealing \cite{born1928beweis,farhi2000quantum}. Mathematically, adiabatic theorem of evolution holds when 
+According to the \textbf{quantum adiabatic theorem}, the instantaneous state of the system stays close to the ground state of the Hamiltonian $H(t)$, if one starts with the ground state of the initial Hamiltonian and if the driving from the initial Hamiltonian to the problem Hamiltonian is slow enough, which is determined by the minimum energy gap, $\Delta_{min}$, between the ground state and the first excited state of the Hamiltonian $H(t)$ during the course of annealing \cite{born1928beweis,kato1950adiabatic,farhi2000quantum}. Mathematically, adiabatic theorem of evolution holds when 
 \begin{equation}
-T_A \gg {\Delta}_{min}^{-2}, \label{eq:b8}
+t \gg \max\limits_{0 \leq s \leq 1} \frac{\left| \left| \bra{1(s)}\frac{dH(s)}{ds}\ket{0(s)}\right| \right|}{\Delta_{min}^2}, \label{eq:b8}
 \end{equation}
-where $T_A$ is the total annealing time. Therefore, the performance of quantum annealing depends strongly on the minimum energy gap.\\
+where $\ket{0(s)}$ and $\ket{1(s)}$ represent the instantaneous ground state and the first excited state of the Hamiltonian. Therefore, the performance of quantum annealing depends strongly on the minimum energy gap.\\
 Thus, the problem of finding the optimal solution reduces to the problem of solving the time dependent Schr{\"o}dinger equation for the resulting $H(t)$ (see Eq.~\ref{eq:b7}):
 \begin{equation}
 i\frac{\partial}{\partial t}\ket{\psi}=H(t)\ket{\psi}.    \label{eq:b9}

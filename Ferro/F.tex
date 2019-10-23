@@ -1,7 +1,7 @@
 \documentclass[../main.tex]{subfiles}
 \begin{document}
 %\chapter{Results}\label{ch:F}
-As mentioned in previously, in the course of this thesis we study two trigger Hamiltonians. This chapter focuses on the performance of quantum annealing algorithm upon adding the ferromagnetic trigger, $H_T^F$ (see Eq.~\ref{eq:b13}) to the Ising Hamiltonian. \\
+As mentioned previously, in the course of this thesis we study two trigger Hamiltonians. This chapter focuses on the performance of quantum annealing algorithm upon adding the ferromagnetic trigger, $H_T^F$ (see Eq.~\ref{eq:b13}) to the Ising Hamiltonian. \\
 For the same transverse-field initial Hamiltonian, and each problem from the set of problem Hamiltonians, ferromagnetic trigger was added with three different strengths, i.e. the strength parameter, $g$ in Eq.~(\ref{eq:b12}) was chosen to be 0.5, 1 and 2.\\
 We begin by studying the dynamics of the same cases as chosen in the previous chapter, to understand the effects of adding the ferromagnetic trigger. In the subsequent sections, the effects of adding the ferromagnetic trigger with different strengths will be discussed. 
 
@@ -9,9 +9,9 @@ We begin by studying the dynamics of the same cases as chosen in the previous ch
 We start with problem 733 having a large success probability in case of the original Hamiltonian. Figure~(\ref{fig:f1}) shows the energy spectra for this problem upon adding the ferromagnetic trigger with strengths 0.5, 1 and 2 for all the three annealing times. The corresponding  energy expectation values for the instantaneous state have also been included in these plots. 
 \begin{figure}
 \centering 
-\includegraphics[scale=0.24]{733_s12_F_g0.png}
-\includegraphics[scale=0.24]{733_s12_F_g1.png}
-\includegraphics[scale=0.24]{733_s12_F_g2.png}
+\includegraphics[scale=0.8]{733_s12_F_g0.eps}
+\includegraphics[scale=0.8]{733_s12_F_g1.eps}
+\includegraphics[scale=0.8]{733_s12_F_g2.eps}
 
 \caption{The energy spectrum and energy expectation values for the instantaneous state of problem 733, after adding the ferromagnetic trigger. (a): $g$=0.5; (b): $g$=1; (c): $g$=2. }
 \label{fig:f1}
@@ -46,11 +46,11 @@ value of $s$ at $\Delta_{min}$ & 0.459 & 0.552 & 0.629 & 0.733 \\
 \end{table}
 
 Next, we focus on problem 950, which has a small success probability for the original Hamiltonian. Figure~(\ref{fig:f4})) shows the energy spectra and the energy expectation values for the instantaneous state, upon adding the ferromagnetic trigger with $g$= 0.5, 1 and 2. 
-\begin{figure}[H]
+\begin{figure}
 \centering 
-\includegraphics[scale=0.24]{950_s12_F_g0.png}
-\includegraphics[scale=0.24]{950_s12_F_g1.png}
-\includegraphics[scale=0.24]{950_s12_F_g2.png}
+\includegraphics[scale=0.8]{950_s12_F_g0.eps}
+\includegraphics[scale=0.8]{950_s12_F_g1.eps}
+\includegraphics[scale=0.8]{950_s12_F_g2.eps}
 \caption{The energy spectrum and energy expectation values for the instantaneous state of problem 950, after adding the ferromagnetic trigger. (a): $g$=0.5; (b): $g$=1; (c): $g$=2.}
 \label{fig:f4}
 \end{figure}
@@ -109,9 +109,9 @@ value of $s$ at $\Delta_{min}$ & 0.514 & 0.595 & 0.665 & 0.760 \\
 \end{table}
 \begin{figure}[H]
 \centering 
-\includegraphics[scale=0.24]{528_s12_F_g0.png}
-\includegraphics[scale=0.24]{528_s12_F_g1.png}
-\includegraphics[scale=0.24]{528_s12_F_g2.png}
+\includegraphics[scale=0.8]{528_s12_F_g0.eps}
+\includegraphics[scale=0.8]{528_s12_F_g1.eps}
+\includegraphics[scale=0.8]{528_s12_F_g2.eps}
 \caption{The energy spectrum and energy expectation values for the instantaneous state of problem 528, after adding the ferromagnetic trigger. (a): $g$=0.5; (b): $g$=1; (c): $g$=2.}
 \label{fig:f7}
 \end{figure}
@@ -125,7 +125,7 @@ Figure~(\ref{fig:f10}) shows the scatter plot of the minimum energy gaps after a
 
 \begin{figure}[H]
 \centering 
-\includegraphics[scale=0.2]{Mingap_F_g0_1_2.png}
+\includegraphics[scale=0.8]{Mingap_F_g0_1_2.eps}
 \caption{Scatter plot of the minimum gaps upon adding the ferromagnetic trigger with $g$ $\in$ \{0.5,1,2\} against the original minimum energy gaps. The points lying above solid line represent the cases with enlarged minimum gaps.}
 \label{fig:f10}
 \end{figure}
@@ -134,9 +134,9 @@ With the ferromagnetic trigger, all the minimum energy gaps are increased, for  
 For gauging the performance of the quantum annealing algorithm after adding the ferromagnetic trigger, scatter plots of the success probabilities after adding the ferromagnetic trigger against the original success probabilities have been shown in Fig.~(\ref{fig:f11}) corresponding to $g$=0.5, 1 and 2. (See Fig.~\ref{fig:ap3} for the corresponding plot for the 8-spin problems.)
 \begin{figure}[H]
 \centering 
-\includegraphics[scale=0.24]{Scatt_s12_F_g0.png}
-\includegraphics[scale=0.24]{Scatt_s12_F_g1.png}
-\includegraphics[scale=0.24]{Scatt_s12_F_g2.png}
+\includegraphics[scale=0.8]{Scatt_s12_F_g0.eps}
+\includegraphics[scale=0.8]{Scatt_s12_F_g1.eps}
+\includegraphics[scale=0.8]{Scatt_s12_F_g2.eps}
 \caption{Scatter plot for the success probability after adding ferromagnetic trigger against the success probability of the original Hamiltonian, for annealing time $T_A \in \{10,100,1000\}$. (a): $g$=0.5; (b): $g$=1; (c): $g$=2. Points lying above the solid line represent the problems with improved success probability.}
 \label{fig:f11}
 \end{figure}
@@ -154,7 +154,7 @@ for some constant $C$. Since different problems belonging to the set may corresp
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.24]{SuccVsGap_OF_g.png}
+\includegraphics[scale=0.8]{SuccVsGap_OF_g.eps}
 \caption{Plot of the success probability versus minimum energy gaps for all the problems belonging to the set of the 12-variable 2-SAT problems. The plot shows the effect of adding ferromagnetic trigger to the original Hamiltonian with strengths 0.5, 1 and 2, while the annealing time is chosen to 10, 100 and 1000.}
 \label{fig:f14}
 \end{figure} 

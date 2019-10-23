@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.20)  3 OCT 2019 16:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.20)  21 OCT 2019 07:16
 entering extended mode
 **./main.tex
 (main.tex
@@ -576,6 +576,13 @@ Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
 \multirow@dima=\skip57
 \bigstrutjot=\dimen164
 )
+("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/appendix\appendix.
+sty"
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count268
+\c@@ppsavesec=\count269
+\c@@ppsaveapp=\count270
+)
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref.
 sty"
 Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
@@ -630,8 +637,8 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen165
-\Hy@linkcounter=\count268
-\Hy@pagecounter=\count269
+\Hy@linkcounter=\count271
+\Hy@pagecounter=\count272
 
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.de
 f"
@@ -639,12 +646,13 @@ File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count270
+\Hy@SavedSpaceFactor=\count273
 
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperref.
 cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 4393.
 Package hyperref Info: Hyper figures OFF on input line 4519.
 Package hyperref Info: Link nesting OFF on input line 4524.
 Package hyperref Info: Hyper index ON on input line 4527.
@@ -652,36 +660,36 @@ Package hyperref Info: Plain pages OFF on input line 4534.
 Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count271
+\c@Hy@tempcnt=\count274
  ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5125.
 \XeTeXLinkMargin=\dimen166
-\Fld@menulength=\count272
+\Fld@menulength=\count275
 \Field@Width=\dimen167
 \Fld@charsize=\dimen168
 Package hyperref Info: Hyper figures OFF on input line 6380.
 Package hyperref Info: Link nesting OFF on input line 6385.
 Package hyperref Info: Hyper index ON on input line 6388.
 Package hyperref Info: backreferencing OFF on input line 6395.
-Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring ON on input line 6398.
 Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
 LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count273
-\c@Item=\count274
-\c@Hfootnote=\count275
+\Hy@abspage=\count276
+\c@Item=\count277
+\c@Hfootnote=\count278
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.d
 ef"
 File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
-\Fld@listcount=\count276
-\c@bookmark@seq@number=\count277
+\Fld@listcount=\count279
+\c@bookmark@seq@number=\count280
 
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunfile
 check.sty"
@@ -711,24 +719,24 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count278
-\c@Blindtext=\count279
-\c@blind@countparstart=\count280
-\blind@countxx=\count281
-\blindtext@numBlindtext=\count282
-\blind@countyy=\count283
-\c@blindlist=\count284
-\c@blindlistlevel=\count285
-\c@blindlist@level=\count286
-\blind@listitem=\count287
-\c@blind@listcount=\count288
-\c@blind@levelcount=\count289
-\blind@mathformula=\count290
-\blind@Mathformula=\count291
-\c@blind@randomcount=\count292
-\c@blind@randommax=\count293
-\c@blind@pangramcount=\count294
-\c@blind@pangrammax=\count295
+\c@blindtext=\count281
+\c@Blindtext=\count282
+\c@blind@countparstart=\count283
+\blind@countxx=\count284
+\blindtext@numBlindtext=\count285
+\blind@countyy=\count286
+\c@blindlist=\count287
+\c@blindlistlevel=\count288
+\c@blindlist@level=\count289
+\blind@listitem=\count290
+\c@blind@listcount=\count291
+\c@blind@levelcount=\count292
+\blind@mathformula=\count293
+\blind@Mathformula=\count294
+\c@blind@randomcount=\count295
+\c@blind@randommax=\count296
+\c@blind@pangramcount=\count297
+\c@blind@pangrammax=\count298
 )
 ("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tocbibind\tocbibin
 d.sty"
@@ -738,13 +746,6 @@ Package tocbibind Info: The document has chapter divisions on input line 50.
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-)
-("C:\Users\Vrind\AppData\Local\Programs\MiKTeX 2.9\tex/latex/appendix\appendix.
-sty"
-Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count296
-\c@@ppsavesec=\count297
-\c@@ppsaveapp=\count298
 )
 
 LaTeX Warning: Unused global option(s):
@@ -970,22 +971,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--187
 
  []
 
-
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 188--189
 
  []
 
-[10]) [11] [12
+) [11] [12
 
 ]
 Chapter 3.
 (LandauZener/LandauZener.tex
-<Images/EnergySpec_1spin_H100.png, id=309, 1488.91742pt x 868.81108pt>
-File: Images/EnergySpec_1spin_H100.png Graphic file (type png)
-<use Images/EnergySpec_1spin_H100.png>
-Package pdftex.def Info: Images/EnergySpec_1spin_H100.png  used on input line 2
-7.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+Package epstopdf Info: Source file: <Images1/EnergySpec_1spin_H100.eps>
+(epstopdf)                    date: 2019-10-20 12:57:11
+(epstopdf)                    size: 69073 bytes
+(epstopdf)             Output file: <Images1/EnergySpec_1spin_H100-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2019-10-20 12:59:01
+(epstopdf)                    size: 29423 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/EnergySpec_1spin_H1
+00-eps-converted-to.pdf Images1/EnergySpec_1spin_H100.eps>
+(epstopdf)             \includegraphics on input line 27.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/EnergySpec_1spin_H100-eps-converte
+d-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
+lowed
+<Images1/EnergySpec_1spin_H100-eps-converted-to.pdf, id=311, 361.35pt x 252.945
+pt>
+File: Images1/EnergySpec_1spin_H100-eps-converted-to.pdf Graphic file (type pdf
+)
+<use Images1/EnergySpec_1spin_H100-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/EnergySpec_1spin_H100-eps-converted-to.pdf  us
+ed on input line 27.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--30
 
@@ -995,11 +1014,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--30
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13]
-<Images/Magnetization_500.png, id=330, 1488.91742pt x 868.81108pt>
-File: Images/Magnetization_500.png Graphic file (type png)
-<use Images/Magnetization_500.png>
-Package pdftex.def Info: Images/Magnetization_500.png  used on input line 36.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+Package epstopdf Info: Source file: <Images1/Magnetization_500.eps>
+(epstopdf)                    date: 2019-10-14 11:14:41
+(epstopdf)                    size: 29831 bytes
+(epstopdf)             Output file: <Images1/Magnetization_500-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2019-10-15 13:43:06
+(epstopdf)                    size: 5758 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/Magnetization_500-e
+ps-converted-to.pdf Images1/Magnetization_500.eps>
+(epstopdf)             \includegraphics on input line 36.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/Magnetization_500-eps-converted-to
+.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
+d
+<Images1/Magnetization_500-eps-converted-to.pdf, id=333, 361.35pt x 252.945pt>
+File: Images1/Magnetization_500-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/Magnetization_500-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/Magnetization_500-eps-converted-to.pdf  used o
+n input line 36.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
@@ -1010,59 +1046,154 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
-[14 <./Images/EnergySpec_1spin_H100.png (PNG copy)> <./Images/Magnetization_500
-.png (PNG copy)>]
-<Images/Prob_1spin_H100.png, id=344, 1488.91742pt x 868.81108pt>
-File: Images/Prob_1spin_H100.png Graphic file (type png)
-<use Images/Prob_1spin_H100.png>
-Package pdftex.def Info: Images/Prob_1spin_H100.png  used on input line 48.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/EnergySpectrum_H100.png, id=347, 1488.91742pt x 868.81108pt>
-File: Images/EnergySpectrum_H100.png Graphic file (type png)
-<use Images/EnergySpectrum_H100.png>
-Package pdftex.def Info: Images/EnergySpectrum_H100.png  used on input line 71.
+Package epstopdf Info: Source file: <Images1/Prob_1spin_H100.eps>
+(epstopdf)                    date: 2019-10-15 22:41:32
+(epstopdf)                    size: 26469 bytes
+(epstopdf)             Output file: <Images1/Prob_1spin_H100-eps-converted-to.p
+df>
+(epstopdf)                    date: 2019-10-15 22:43:40
+(epstopdf)                    size: 7094 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/Prob_1spin_H100-eps
+-converted-to.pdf Images1/Prob_1spin_H100.eps>
+(epstopdf)             \includegraphics on input line 48.
+Package epstopdf Info: Output file is already uptodate.
 
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
 
-Underfull \vbox (badness 3525) has occurred while \output is active []
+pdfTeX warning: pdflatex.exe (file ./Images1/Prob_1spin_H100-eps-converted-to.p
+df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/Prob_1spin_H100-eps-converted-to.pdf, id=340, 361.35pt x 252.945pt>
+File: Images1/Prob_1spin_H100-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/Prob_1spin_H100-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/Prob_1spin_H100-eps-converted-to.pdf  used on 
+input line 48.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+[14 <./Images1/EnergySpec_1spin_H100-eps-converted-to.pdf> <./Images1/Magnetiza
+tion_500-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Images1/EnergySpectrum_H100.eps>
+(epstopdf)                    date: 2019-10-14 11:55:49
+(epstopdf)                    size: 75317 bytes
+(epstopdf)             Output file: <Images1/EnergySpectrum_H100-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2019-10-15 13:43:07
+(epstopdf)                    size: 24533 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/EnergySpectrum_H100
+-eps-converted-to.pdf Images1/EnergySpectrum_H100.eps>
+(epstopdf)             \includegraphics on input line 71.
+Package epstopdf Info: Output file is already uptodate.
 
- [15 <./Images/Prob_1spin_H100.png (PNG copy)>]
-<Images/Mag_13_H100.png, id=359, 1488.91742pt x 868.81108pt>
-File: Images/Mag_13_H100.png Graphic file (type png)
-<use Images/Mag_13_H100.png>
-Package pdftex.def Info: Images/Mag_13_H100.png  used on input line 78.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/Mag_9_H100.png, id=362, 1488.91742pt x 868.81108pt>
-File: Images/Mag_9_H100.png Graphic file (type png)
-<use Images/Mag_9_H100.png>
-Package pdftex.def Info: Images/Mag_9_H100.png  used on input line 87.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+
+pdfTeX warning: pdflatex.exe (file ./Images1/EnergySpectrum_H100-eps-converted-
+to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
+wed
+<Images1/EnergySpectrum_H100-eps-converted-to.pdf, id=356, 361.35pt x 252.945pt
+>
+File: Images1/EnergySpectrum_H100-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/EnergySpectrum_H100-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/EnergySpectrum_H100-eps-converted-to.pdf  used
+ on input line 71.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+
+Underfull \vbox (badness 4518) has occurred while \output is active []
+
+ [15 <./Images1/Prob_1spin_H100-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Images1/Mag_13_H100.eps>
+(epstopdf)                    date: 2019-10-14 12:00:09
+(epstopdf)                    size: 29529 bytes
+(epstopdf)             Output file: <Images1/Mag_13_H100-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 13:43:08
+(epstopdf)                    size: 5707 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/Mag_13_H100-eps-con
+verted-to.pdf Images1/Mag_13_H100.eps>
+(epstopdf)             \includegraphics on input line 78.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/Mag_13_H100-eps-converted-to.pdf):
+ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/Mag_13_H100-eps-converted-to.pdf, id=371, 361.35pt x 252.945pt>
+File: Images1/Mag_13_H100-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/Mag_13_H100-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/Mag_13_H100-eps-converted-to.pdf  used on inpu
+t line 78.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/Mag_9_H100.eps>
+(epstopdf)                    date: 2019-10-14 11:21:13
+(epstopdf)                    size: 29637 bytes
+(epstopdf)             Output file: <Images1/Mag_9_H100-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 13:43:09
+(epstopdf)                    size: 5685 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/Mag_9_H100-eps-conv
+erted-to.pdf Images1/Mag_9_H100.eps>
+(epstopdf)             \includegraphics on input line 87.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/Mag_9_H100-eps-converted-to.pdf): 
+PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/Mag_9_H100-eps-converted-to.pdf, id=374, 361.35pt x 252.945pt>
+File: Images1/Mag_9_H100-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/Mag_9_H100-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/Mag_9_H100-eps-converted-to.pdf  used on input
+ line 87.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16 <./Images/EnergySpectrum_H100.png (PNG copy)> <./Images/Mag_13_H100.png (P
-NG copy)>]
-<Images/Probability_H100.png, id=369, 1488.91742pt x 868.81108pt>
-File: Images/Probability_H100.png Graphic file (type png)
-<use Images/Probability_H100.png>
-Package pdftex.def Info: Images/Probability_H100.png  used on input line 94.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+ [16 <./Images1/EnergySpectrum_H100-eps-converted-to.pdf> <./Images1/Mag_13_H10
+0-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Images1/Probability_H100.eps>
+(epstopdf)                    date: 2019-10-15 22:43:15
+(epstopdf)                    size: 28392 bytes
+(epstopdf)             Output file: <Images1/Probability_H100-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2019-10-15 22:43:41
+(epstopdf)                    size: 7842 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/Probability_H100-ep
+s-converted-to.pdf Images1/Probability_H100.eps>
+(epstopdf)             \includegraphics on input line 94.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/Probability_H100-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<Images1/Probability_H100-eps-converted-to.pdf, id=387, 361.35pt x 252.945pt>
+File: Images1/Probability_H100-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/Probability_H100-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/Probability_H100-eps-converted-to.pdf  used on
+ input line 94.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-) [17 <./Images/Mag_9_H100.png (PNG copy)> <./Images/Probability_H100.png (PNG 
-copy)>] [18
+) [17 <./Images1/Mag_9_H100-eps-converted-to.pdf> <./Images1/Probability_H100-e
+ps-converted-to.pdf>] [18
 
 ]
 Chapter 4.
 (Original/O.tex
-<Images/Error.png, id=387, 1806.75pt x 1053.9375pt>
-File: Images/Error.png Graphic file (type png)
-<use Images/Error.png>
-Package pdftex.def Info: Images/Error.png  used on input line 14.
-(pdftex.def)             Requested size: 361.3436pt x 210.78377pt.
+Package epstopdf Info: Source file: <Images1/Error.eps>
+(epstopdf)                    date: 2019-10-17 15:25:48
+(epstopdf)                    size: 27809 bytes
+(epstopdf)             Output file: <Images1/Error-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-17 15:26:46
+(epstopdf)                    size: 7331 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/Error-eps-converted
+-to.pdf Images1/Error.eps>
+(epstopdf)             \includegraphics on input line 14.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/Error-eps-converted-to.pdf): PDF i
+nclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/Error-eps-converted-to.pdf, id=411, 361.35pt x 252.945pt>
+File: Images1/Error-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/Error-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/Error-eps-converted-to.pdf  used on input line
+ 14.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1071,161 +1202,449 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
-<Images/733_s12_O.png, id=395, 1488.91742pt x 868.81108pt>
-File: Images/733_s12_O.png Graphic file (type png)
-<use Images/733_s12_O.png>
-Package pdftex.def Info: Images/733_s12_O.png  used on input line 26.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+Package epstopdf Info: Source file: <Images1/733_s12_O.eps>
+(epstopdf)                    date: 2019-10-14 17:04:00
+(epstopdf)                    size: 65102 bytes
+(epstopdf)             Output file: <Images1/733_s12_O-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:35:00
+(epstopdf)                    size: 35104 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/733_s12_O-eps-conve
+rted-to.pdf Images1/733_s12_O.eps>
+(epstopdf)             \includegraphics on input line 26.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/733_s12_O-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/733_s12_O-eps-converted-to.pdf, id=419, 361.35pt x 252.945pt>
+File: Images1/733_s12_O-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/733_s12_O-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/733_s12_O-eps-converted-to.pdf  used on input 
+line 26.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
-[20 <./Images/Error.png> <./Images/733_s12_O.png (PNG copy)>]
-<Images/950_s12_O.png, id=404, 1488.91742pt x 868.81108pt>
-File: Images/950_s12_O.png Graphic file (type png)
-<use Images/950_s12_O.png>
-Package pdftex.def Info: Images/950_s12_O.png  used on input line 36.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+[20 <./Images1/Error-eps-converted-to.pdf> <./Images1/733_s12_O-eps-converted-t
+o.pdf>]
+Package epstopdf Info: Source file: <Images1/950_s12_O.eps>
+(epstopdf)                    date: 2019-10-14 17:06:56
+(epstopdf)                    size: 64552 bytes
+(epstopdf)             Output file: <Images1/950_s12_O-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:35:01
+(epstopdf)                    size: 32551 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/950_s12_O-eps-conve
+rted-to.pdf Images1/950_s12_O.eps>
+(epstopdf)             \includegraphics on input line 36.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/950_s12_O-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/950_s12_O-eps-converted-to.pdf, id=436, 361.35pt x 252.945pt>
+File: Images1/950_s12_O-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/950_s12_O-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/950_s12_O-eps-converted-to.pdf  used on input 
+line 36.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 33--39
 
  []
 
-<Images/528_s12_O.png, id=406, 1488.91742pt x 868.81108pt>
-File: Images/528_s12_O.png Graphic file (type png)
-<use Images/528_s12_O.png>
-Package pdftex.def Info: Images/528_s12_O.png  used on input line 45.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+Package epstopdf Info: Source file: <Images1/528_s12_O.eps>
+(epstopdf)                    date: 2019-10-14 16:48:23
+(epstopdf)                    size: 65164 bytes
+(epstopdf)             Output file: <Images1/528_s12_O-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:35:02
+(epstopdf)                    size: 35078 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/528_s12_O-eps-conve
+rted-to.pdf Images1/528_s12_O.eps>
+(epstopdf)             \includegraphics on input line 45.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/528_s12_O-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/528_s12_O-eps-converted-to.pdf, id=438, 361.35pt x 252.945pt>
+File: Images1/528_s12_O-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/528_s12_O-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/528_s12_O-eps-converted-to.pdf  used on input 
+line 45.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21 <./Images/950_s12_O.png (PNG copy)>]
-<Images/O_s12_T100_g0.png, id=413, 1488.91742pt x 868.81108pt>
-File: Images/O_s12_T100_g0.png Graphic file (type png)
-<use Images/O_s12_T100_g0.png>
-Package pdftex.def Info: Images/O_s12_T100_g0.png  used on input line 60.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/GapVsSucc_s12_T10_100_1000.png, id=416, 1488.91742pt x 868.81108pt>
-File: Images/GapVsSucc_s12_T10_100_1000.png Graphic file (type png)
-<use Images/GapVsSucc_s12_T10_100_1000.png>
-Package pdftex.def Info: Images/GapVsSucc_s12_T10_100_1000.png  used on input l
-ine 69.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
- [22 <./Images/528_s12_O.png (PNG copy)> <./Images/O_s12_T100_g0.png (PNG copy)
->]) [23 <./Images/GapVsSucc_s12_T10_100_1000.png (PNG copy)>] [24
+ [21 <./Images1/950_s12_O-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Images1/O_s12_T100_g0.eps>
+(epstopdf)                    date: 2019-10-14 15:58:29
+(epstopdf)                    size: 23320 bytes
+(epstopdf)             Output file: <Images1/O_s12_T100_g0-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-10-15 11:35:03
+(epstopdf)                    size: 3692 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/O_s12_T100_g0-eps-c
+onverted-to.pdf Images1/O_s12_T100_g0.eps>
+(epstopdf)             \includegraphics on input line 60.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/O_s12_T100_g0-eps-converted-to.pdf
+): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/O_s12_T100_g0-eps-converted-to.pdf, id=448, 361.35pt x 252.945pt>
+File: Images1/O_s12_T100_g0-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/O_s12_T100_g0-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/O_s12_T100_g0-eps-converted-to.pdf  used on in
+put line 60.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/Orig_GapVsSucc.eps>
+(epstopdf)                    date: 2019-10-14 16:06:22
+(epstopdf)                    size: 77413 bytes
+(epstopdf)             Output file: <Images1/Orig_GapVsSucc-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2019-10-15 11:35:53
+(epstopdf)                    size: 146309 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/Orig_GapVsSucc-eps-
+converted-to.pdf Images1/Orig_GapVsSucc.eps>
+(epstopdf)             \includegraphics on input line 69.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/Orig_GapVsSucc-eps-converted-to.pd
+f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/Orig_GapVsSucc-eps-converted-to.pdf, id=451, 361.35pt x 252.945pt>
+File: Images1/Orig_GapVsSucc-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/Orig_GapVsSucc-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/Orig_GapVsSucc-eps-converted-to.pdf  used on i
+nput line 69.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+[22 <./Images1/528_s12_O-eps-converted-to.pdf> <./Images1/O_s12_T100_g0-eps-con
+verted-to.pdf>]) [23 <./Images1/Orig_GapVsSucc-eps-converted-to.pdf>] [24
 
 ]
 Chapter 5.
 (Ferro/F.tex
-<Images/733_s12_F_g0.png, id=436, 1488.91742pt x 868.81108pt>
-File: Images/733_s12_F_g0.png Graphic file (type png)
-<use Images/733_s12_F_g0.png>
-Package pdftex.def Info: Images/733_s12_F_g0.png  used on input line 12.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/733_s12_F_g1.png, id=437, 1488.91742pt x 868.81108pt>
-File: Images/733_s12_F_g1.png Graphic file (type png)
-<use Images/733_s12_F_g1.png>
-Package pdftex.def Info: Images/733_s12_F_g1.png  used on input line 13.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/733_s12_F_g2.png, id=438, 1488.91742pt x 868.81108pt>
-File: Images/733_s12_F_g2.png Graphic file (type png)
-<use Images/733_s12_F_g2.png>
-Package pdftex.def Info: Images/733_s12_F_g2.png  used on input line 14.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/950_s12_F_g0.png, id=441, 1488.91742pt x 868.81108pt>
-File: Images/950_s12_F_g0.png Graphic file (type png)
-<use Images/950_s12_F_g0.png>
-Package pdftex.def Info: Images/950_s12_F_g0.png  used on input line 51.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/950_s12_F_g1.png, id=442, 1488.91742pt x 868.81108pt>
-File: Images/950_s12_F_g1.png Graphic file (type png)
-<use Images/950_s12_F_g1.png>
-Package pdftex.def Info: Images/950_s12_F_g1.png  used on input line 52.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/950_s12_F_g2.png, id=443, 1488.91742pt x 868.81108pt>
-File: Images/950_s12_F_g2.png Graphic file (type png)
-<use Images/950_s12_F_g2.png>
-Package pdftex.def Info: Images/950_s12_F_g2.png  used on input line 53.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
- [25] [26 <./Images/733_s12_F_g0.png (PNG copy)> <./Images/733_s12_F_g1.png (PN
-G copy)> <./Images/733_s12_F_g2.png (PNG copy)>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Package epstopdf Info: Source file: <Images1/733_s12_F_g0.eps>
+(epstopdf)                    date: 2019-10-14 17:20:04
+(epstopdf)                    size: 65394 bytes
+(epstopdf)             Output file: <Images1/733_s12_F_g0-eps-converted-to.pdf>
 
- [27]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+(epstopdf)                    date: 2019-10-15 11:37:53
+(epstopdf)                    size: 35745 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/733_s12_F_g0-eps-co
+nverted-to.pdf Images1/733_s12_F_g0.eps>
+(epstopdf)             \includegraphics on input line 12.
+Package epstopdf Info: Output file is already uptodate.
 
- [28 <./Images/950_s12_F_g0.png (PNG copy)> <./Images/950_s12_F_g1.png (PNG cop
-y)> <./Images/950_s12_F_g2.png (PNG copy)>]
-<Images/528_s12_F_g0.png, id=468, 1488.91742pt x 868.81108pt>
-File: Images/528_s12_F_g0.png Graphic file (type png)
-<use Images/528_s12_F_g0.png>
-Package pdftex.def Info: Images/528_s12_F_g0.png  used on input line 112.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/528_s12_F_g1.png, id=469, 1488.91742pt x 868.81108pt>
-File: Images/528_s12_F_g1.png Graphic file (type png)
-<use Images/528_s12_F_g1.png>
-Package pdftex.def Info: Images/528_s12_F_g1.png  used on input line 113.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/528_s12_F_g2.png, id=470, 1488.91742pt x 868.81108pt>
-File: Images/528_s12_F_g2.png Graphic file (type png)
-<use Images/528_s12_F_g2.png>
-Package pdftex.def Info: Images/528_s12_F_g2.png  used on input line 114.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
- [29]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30 <./Images/528_s12_F_g0.png (PNG copy)> <./Images/528_s12_F_g1.png (PNG cop
-y)> <./Images/528_s12_F_g2.png (PNG copy)>]
+pdfTeX warning: pdflatex.exe (file ./Images1/733_s12_F_g0-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/733_s12_F_g0-eps-converted-to.pdf, id=480, 361.35pt x 252.945pt>
+File: Images1/733_s12_F_g0-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/733_s12_F_g0-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/733_s12_F_g0-eps-converted-to.pdf  used on inp
+ut line 12.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/733_s12_F_g1.eps>
+(epstopdf)                    date: 2019-10-14 17:21:03
+(epstopdf)                    size: 65410 bytes
+(epstopdf)             Output file: <Images1/733_s12_F_g1-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-10-15 11:37:54
+(epstopdf)                    size: 35712 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/733_s12_F_g1-eps-co
+nverted-to.pdf Images1/733_s12_F_g1.eps>
+(epstopdf)             \includegraphics on input line 13.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/733_s12_F_g1-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/733_s12_F_g1-eps-converted-to.pdf, id=481, 361.35pt x 252.945pt>
+File: Images1/733_s12_F_g1-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/733_s12_F_g1-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/733_s12_F_g1-eps-converted-to.pdf  used on inp
+ut line 13.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/733_s12_F_g2.eps>
+(epstopdf)                    date: 2019-10-14 17:22:20
+(epstopdf)                    size: 65343 bytes
+(epstopdf)             Output file: <Images1/733_s12_F_g2-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-10-15 11:37:54
+(epstopdf)                    size: 35908 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/733_s12_F_g2-eps-co
+nverted-to.pdf Images1/733_s12_F_g2.eps>
+(epstopdf)             \includegraphics on input line 14.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/733_s12_F_g2-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/733_s12_F_g2-eps-converted-to.pdf, id=482, 361.35pt x 252.945pt>
+File: Images1/733_s12_F_g2-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/733_s12_F_g2-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/733_s12_F_g2-eps-converted-to.pdf  used on inp
+ut line 14.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/950_s12_F_g0.eps>
+(epstopdf)                    date: 2019-10-14 17:24:09
+(epstopdf)                    size: 64655 bytes
+(epstopdf)             Output file: <Images1/950_s12_F_g0-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-10-15 11:37:55
+(epstopdf)                    size: 32569 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/950_s12_F_g0-eps-co
+nverted-to.pdf Images1/950_s12_F_g0.eps>
+(epstopdf)             \includegraphics on input line 51.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/950_s12_F_g0-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/950_s12_F_g0-eps-converted-to.pdf, id=485, 361.35pt x 252.945pt>
+File: Images1/950_s12_F_g0-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/950_s12_F_g0-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/950_s12_F_g0-eps-converted-to.pdf  used on inp
+ut line 51.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/950_s12_F_g1.eps>
+(epstopdf)                    date: 2019-10-14 17:25:51
+(epstopdf)                    size: 65240 bytes
+(epstopdf)             Output file: <Images1/950_s12_F_g1-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-10-15 11:37:56
+(epstopdf)                    size: 33429 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/950_s12_F_g1-eps-co
+nverted-to.pdf Images1/950_s12_F_g1.eps>
+(epstopdf)             \includegraphics on input line 52.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/950_s12_F_g1-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/950_s12_F_g1-eps-converted-to.pdf, id=486, 361.35pt x 252.945pt>
+File: Images1/950_s12_F_g1-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/950_s12_F_g1-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/950_s12_F_g1-eps-converted-to.pdf  used on inp
+ut line 52.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/950_s12_F_g2.eps>
+(epstopdf)                    date: 2019-10-14 17:29:45
+(epstopdf)                    size: 65499 bytes
+(epstopdf)             Output file: <Images1/950_s12_F_g2-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-10-15 11:37:57
+(epstopdf)                    size: 33274 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/950_s12_F_g2-eps-co
+nverted-to.pdf Images1/950_s12_F_g2.eps>
+(epstopdf)             \includegraphics on input line 53.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/950_s12_F_g2-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/950_s12_F_g2-eps-converted-to.pdf, id=487, 361.35pt x 252.945pt>
+File: Images1/950_s12_F_g2-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/950_s12_F_g2-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/950_s12_F_g2-eps-converted-to.pdf  used on inp
+ut line 53.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+[25] [26 <./Images1/733_s12_F_g0-eps-converted-to.pdf> <./Images1/733_s12_F_g1-
+eps-converted-to.pdf> <./Images1/733_s12_F_g2-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Images1/528_s12_F_g0.eps>
+(epstopdf)                    date: 2019-10-14 17:16:01
+(epstopdf)                    size: 65277 bytes
+(epstopdf)             Output file: <Images1/528_s12_F_g0-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-10-15 11:37:58
+(epstopdf)                    size: 35529 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/528_s12_F_g0-eps-co
+nverted-to.pdf Images1/528_s12_F_g0.eps>
+(epstopdf)             \includegraphics on input line 112.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/528_s12_F_g0-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/528_s12_F_g0-eps-converted-to.pdf, id=513, 361.35pt x 252.945pt>
+File: Images1/528_s12_F_g0-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/528_s12_F_g0-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/528_s12_F_g0-eps-converted-to.pdf  used on inp
+ut line 112.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/528_s12_F_g1.eps>
+(epstopdf)                    date: 2019-10-14 17:17:10
+(epstopdf)                    size: 65191 bytes
+(epstopdf)             Output file: <Images1/528_s12_F_g1-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-10-15 11:37:58
+(epstopdf)                    size: 35052 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/528_s12_F_g1-eps-co
+nverted-to.pdf Images1/528_s12_F_g1.eps>
+(epstopdf)             \includegraphics on input line 113.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/528_s12_F_g1-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/528_s12_F_g1-eps-converted-to.pdf, id=514, 361.35pt x 252.945pt>
+File: Images1/528_s12_F_g1-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/528_s12_F_g1-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/528_s12_F_g1-eps-converted-to.pdf  used on inp
+ut line 113.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/528_s12_F_g2.eps>
+(epstopdf)                    date: 2019-10-14 17:19:10
+(epstopdf)                    size: 65369 bytes
+(epstopdf)             Output file: <Images1/528_s12_F_g2-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-10-15 11:37:59
+(epstopdf)                    size: 36068 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/528_s12_F_g2-eps-co
+nverted-to.pdf Images1/528_s12_F_g2.eps>
+(epstopdf)             \includegraphics on input line 114.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/528_s12_F_g2-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/528_s12_F_g2-eps-converted-to.pdf, id=515, 361.35pt x 252.945pt>
+File: Images1/528_s12_F_g2-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/528_s12_F_g2-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/528_s12_F_g2-eps-converted-to.pdf  used on inp
+ut line 114.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+[27] [28 <./Images1/950_s12_F_g0-eps-converted-to.pdf> <./Images1/950_s12_F_g1-
+eps-converted-to.pdf> <./Images1/950_s12_F_g2-eps-converted-to.pdf>] [29 <./Ima
+ges1/528_s12_F_g0-eps-converted-to.pdf> <./Images1/528_s12_F_g1-eps-converted-t
+o.pdf> <./Images1/528_s12_F_g2-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
-<Images/Mingap_F_g0_1_2.png, id=484, 1806.75pt x 1053.9375pt>
-File: Images/Mingap_F_g0_1_2.png Graphic file (type png)
-<use Images/Mingap_F_g0_1_2.png>
-Package pdftex.def Info: Images/Mingap_F_g0_1_2.png  used on input line 128.
-(pdftex.def)             Requested size: 361.3436pt x 210.78377pt.
-<Images/Scatt_s12_F_g0.png, id=487, 1488.91742pt x 868.81108pt>
-File: Images/Scatt_s12_F_g0.png Graphic file (type png)
-<use Images/Scatt_s12_F_g0.png>
-Package pdftex.def Info: Images/Scatt_s12_F_g0.png  used on input line 137.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/Scatt_s12_F_g1.png, id=488, 1488.91742pt x 868.81108pt>
-File: Images/Scatt_s12_F_g1.png Graphic file (type png)
-<use Images/Scatt_s12_F_g1.png>
-Package pdftex.def Info: Images/Scatt_s12_F_g1.png  used on input line 138.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/Scatt_s12_F_g2.png, id=489, 1488.91742pt x 868.81108pt>
-File: Images/Scatt_s12_F_g2.png Graphic file (type png)
-<use Images/Scatt_s12_F_g2.png>
-Package pdftex.def Info: Images/Scatt_s12_F_g2.png  used on input line 139.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+Package epstopdf Info: Source file: <Images1/Mingap_F_g0_1_2.eps>
+(epstopdf)                    date: 2019-10-14 12:15:13
+(epstopdf)                    size: 81368 bytes
+(epstopdf)             Output file: <Images1/Mingap_F_g0_1_2-eps-converted-to.p
+df>
+(epstopdf)                    date: 2019-10-15 11:38:00
+(epstopdf)                    size: 170568 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/Mingap_F_g0_1_2-eps
+-converted-to.pdf Images1/Mingap_F_g0_1_2.eps>
+(epstopdf)             \includegraphics on input line 128.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/Mingap_F_g0_1_2-eps-converted-to.p
+df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/Mingap_F_g0_1_2-eps-converted-to.pdf, id=551, 361.35pt x 252.945pt>
+File: Images1/Mingap_F_g0_1_2-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/Mingap_F_g0_1_2-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/Mingap_F_g0_1_2-eps-converted-to.pdf  used on 
+input line 128.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/Scatt_s12_F_g0.eps>
+(epstopdf)                    date: 2019-10-14 13:29:54
+(epstopdf)                    size: 82818 bytes
+(epstopdf)             Output file: <Images1/Scatt_s12_F_g0-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2019-10-15 11:38:01
+(epstopdf)                    size: 136402 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/Scatt_s12_F_g0-eps-
+converted-to.pdf Images1/Scatt_s12_F_g0.eps>
+(epstopdf)             \includegraphics on input line 137.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/Scatt_s12_F_g0-eps-converted-to.pd
+f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/Scatt_s12_F_g0-eps-converted-to.pdf, id=554, 361.35pt x 252.945pt>
+File: Images1/Scatt_s12_F_g0-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/Scatt_s12_F_g0-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/Scatt_s12_F_g0-eps-converted-to.pdf  used on i
+nput line 137.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/Scatt_s12_F_g1.eps>
+(epstopdf)                    date: 2019-10-14 13:28:36
+(epstopdf)                    size: 82827 bytes
+(epstopdf)             Output file: <Images1/Scatt_s12_F_g1-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2019-10-15 11:38:02
+(epstopdf)                    size: 134512 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/Scatt_s12_F_g1-eps-
+converted-to.pdf Images1/Scatt_s12_F_g1.eps>
+(epstopdf)             \includegraphics on input line 138.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/Scatt_s12_F_g1-eps-converted-to.pd
+f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/Scatt_s12_F_g1-eps-converted-to.pdf, id=555, 361.35pt x 252.945pt>
+File: Images1/Scatt_s12_F_g1-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/Scatt_s12_F_g1-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/Scatt_s12_F_g1-eps-converted-to.pdf  used on i
+nput line 138.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/Scatt_s12_F_g2.eps>
+(epstopdf)                    date: 2019-10-14 13:34:13
+(epstopdf)                    size: 82818 bytes
+(epstopdf)             Output file: <Images1/Scatt_s12_F_g2-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2019-10-15 11:38:03
+(epstopdf)                    size: 130555 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/Scatt_s12_F_g2-eps-
+converted-to.pdf Images1/Scatt_s12_F_g2.eps>
+(epstopdf)             \includegraphics on input line 139.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/Scatt_s12_F_g2-eps-converted-to.pd
+f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/Scatt_s12_F_g2-eps-converted-to.pdf, id=556, 361.35pt x 252.945pt>
+File: Images1/Scatt_s12_F_g2-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/Scatt_s12_F_g2-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/Scatt_s12_F_g2-eps-converted-to.pdf  used on i
+nput line 139.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31 <./Images/Mingap_F_g0_1_2.png>]
+ [30 <./Images1/Mingap_F_g0_1_2-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32 <./Images/Scatt_s12_F_g0.png (PNG copy)> <./Images/Scatt_s12_F_g1.png (PNG
- copy)> <./Images/Scatt_s12_F_g2.png (PNG copy)>]
+[31 <./Images1/Scatt_s12_F_g0-eps-converted-to.pdf> <./Images1/Scatt_s12_F_g1-e
+ps-converted-to.pdf> <./Images1/Scatt_s12_F_g2-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
-<Images/SuccVsGap_OF_g.png, id=508, 1488.91742pt x 868.81108pt>
-File: Images/SuccVsGap_OF_g.png Graphic file (type png)
-<use Images/SuccVsGap_OF_g.png>
-Package pdftex.def Info: Images/SuccVsGap_OF_g.png  used on input line 157.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-) [33 <./Images/SuccVsGap_OF_g.png (PNG copy)>] [34
+Package epstopdf Info: Source file: <Images1/SuccVsGap_OF_g.eps>
+(epstopdf)                    date: 2019-10-14 14:39:52
+(epstopdf)                    size: 242414 bytes
+(epstopdf)             Output file: <Images1/SuccVsGap_OF_g-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2019-10-15 11:38:04
+(epstopdf)                    size: 558265 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/SuccVsGap_OF_g-eps-
+converted-to.pdf Images1/SuccVsGap_OF_g.eps>
+(epstopdf)             \includegraphics on input line 157.
+Package epstopdf Info: Output file is already uptodate.
 
-]
+
+pdfTeX warning: pdflatex.exe (file ./Images1/SuccVsGap_OF_g-eps-converted-to.pd
+f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/SuccVsGap_OF_g-eps-converted-to.pdf, id=589, 361.35pt x 252.945pt>
+File: Images1/SuccVsGap_OF_g-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/SuccVsGap_OF_g-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/SuccVsGap_OF_g-eps-converted-to.pdf  used on i
+nput line 157.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+) [32 <./Images1/SuccVsGap_OF_g-eps-converted-to.pdf>]
 Chapter 6.
 (AntiFerro/A.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
@@ -1237,58 +1656,156 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-<Images/733_s12_A_g0.png, id=524, 1488.91742pt x 868.81108pt>
-File: Images/733_s12_A_g0.png Graphic file (type png)
-<use Images/733_s12_A_g0.png>
-Package pdftex.def Info: Images/733_s12_A_g0.png  used on input line 14.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/733_s12_A_g1.png, id=525, 1488.91742pt x 868.81108pt>
-File: Images/733_s12_A_g1.png Graphic file (type png)
-<use Images/733_s12_A_g1.png>
-Package pdftex.def Info: Images/733_s12_A_g1.png  used on input line 15.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/733_s12_A_g2.png, id=526, 1488.91742pt x 868.81108pt>
-File: Images/733_s12_A_g2.png Graphic file (type png)
-<use Images/733_s12_A_g2.png>
-Package pdftex.def Info: Images/733_s12_A_g2.png  used on input line 16.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+Package epstopdf Info: Source file: <Images1/733_s12_A_g0.eps>
+(epstopdf)                    date: 2019-10-14 17:34:57
+(epstopdf)                    size: 66498 bytes
+(epstopdf)             Output file: <Images1/733_s12_A_g0-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-10-15 11:45:04
+(epstopdf)                    size: 35451 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/733_s12_A_g0-eps-co
+nverted-to.pdf Images1/733_s12_A_g0.eps>
+(epstopdf)             \includegraphics on input line 14.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/733_s12_A_g0-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/733_s12_A_g0-eps-converted-to.pdf, id=604, 361.35pt x 252.945pt>
+File: Images1/733_s12_A_g0-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/733_s12_A_g0-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/733_s12_A_g0-eps-converted-to.pdf  used on inp
+ut line 14.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/733_s12_A_g1.eps>
+(epstopdf)                    date: 2019-10-14 17:35:44
+(epstopdf)                    size: 67290 bytes
+(epstopdf)             Output file: <Images1/733_s12_A_g1-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-10-15 11:45:05
+(epstopdf)                    size: 35901 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/733_s12_A_g1-eps-co
+nverted-to.pdf Images1/733_s12_A_g1.eps>
+(epstopdf)             \includegraphics on input line 15.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/733_s12_A_g1-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/733_s12_A_g1-eps-converted-to.pdf, id=605, 361.35pt x 252.945pt>
+File: Images1/733_s12_A_g1-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/733_s12_A_g1-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/733_s12_A_g1-eps-converted-to.pdf  used on inp
+ut line 15.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/733_s12_A_g2.eps>
+(epstopdf)                    date: 2019-10-14 17:36:52
+(epstopdf)                    size: 67125 bytes
+(epstopdf)             Output file: <Images1/733_s12_A_g2-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-10-15 11:45:05
+(epstopdf)                    size: 34535 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/733_s12_A_g2-eps-co
+nverted-to.pdf Images1/733_s12_A_g2.eps>
+(epstopdf)             \includegraphics on input line 16.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/733_s12_A_g2-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/733_s12_A_g2-eps-converted-to.pdf, id=606, 361.35pt x 252.945pt>
+File: Images1/733_s12_A_g2-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/733_s12_A_g2-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/733_s12_A_g2-eps-converted-to.pdf  used on inp
+ut line 16.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35]
-[36 <./Images/733_s12_A_g0.png (PNG copy)> <./Images/733_s12_A_g1.png (PNG copy
-)> <./Images/733_s12_A_g2.png (PNG copy)>]
+ [33
+
+]
+[34 <./Images1/733_s12_A_g0-eps-converted-to.pdf> <./Images1/733_s12_A_g1-eps-c
+onverted-to.pdf> <./Images1/733_s12_A_g2-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
  []
 
-<Images/950_s12_A_g0.png, id=541, 1488.91742pt x 868.81108pt>
-File: Images/950_s12_A_g0.png Graphic file (type png)
-<use Images/950_s12_A_g0.png>
-Package pdftex.def Info: Images/950_s12_A_g0.png  used on input line 53.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/950_s12_A_g1.png, id=542, 1488.91742pt x 868.81108pt>
-File: Images/950_s12_A_g1.png Graphic file (type png)
-<use Images/950_s12_A_g1.png>
-Package pdftex.def Info: Images/950_s12_A_g1.png  used on input line 54.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/950_s12_A_g2.png, id=543, 1488.91742pt x 868.81108pt>
-File: Images/950_s12_A_g2.png Graphic file (type png)
-<use Images/950_s12_A_g2.png>
-Package pdftex.def Info: Images/950_s12_A_g2.png  used on input line 55.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+Package epstopdf Info: Source file: <Images1/950_s12_A_g0.eps>
+(epstopdf)                    date: 2019-10-14 17:39:38
+(epstopdf)                    size: 66012 bytes
+(epstopdf)             Output file: <Images1/950_s12_A_g0-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-10-15 11:45:06
+(epstopdf)                    size: 34257 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/950_s12_A_g0-eps-co
+nverted-to.pdf Images1/950_s12_A_g0.eps>
+(epstopdf)             \includegraphics on input line 53.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/950_s12_A_g0-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/950_s12_A_g0-eps-converted-to.pdf, id=630, 361.35pt x 252.945pt>
+File: Images1/950_s12_A_g0-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/950_s12_A_g0-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/950_s12_A_g0-eps-converted-to.pdf  used on inp
+ut line 53.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/950_s12_A_g1.eps>
+(epstopdf)                    date: 2019-10-14 17:40:41
+(epstopdf)                    size: 66438 bytes
+(epstopdf)             Output file: <Images1/950_s12_A_g1-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-10-15 11:45:07
+(epstopdf)                    size: 33819 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/950_s12_A_g1-eps-co
+nverted-to.pdf Images1/950_s12_A_g1.eps>
+(epstopdf)             \includegraphics on input line 54.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/950_s12_A_g1-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/950_s12_A_g1-eps-converted-to.pdf, id=631, 361.35pt x 252.945pt>
+File: Images1/950_s12_A_g1-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/950_s12_A_g1-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/950_s12_A_g1-eps-converted-to.pdf  used on inp
+ut line 54.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/950_s12_A_g2.eps>
+(epstopdf)                    date: 2019-10-14 17:49:32
+(epstopdf)                    size: 66495 bytes
+(epstopdf)             Output file: <Images1/950_s12_A_g2-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-10-15 11:45:08
+(epstopdf)                    size: 34390 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/950_s12_A_g2-eps-co
+nverted-to.pdf Images1/950_s12_A_g2.eps>
+(epstopdf)             \includegraphics on input line 55.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/950_s12_A_g2-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/950_s12_A_g2-eps-converted-to.pdf, id=632, 361.35pt x 252.945pt>
+File: Images1/950_s12_A_g2-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/950_s12_A_g2-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/950_s12_A_g2-eps-converted-to.pdf  used on inp
+ut line 55.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
 
-[37] [38 <./Images/950_s12_A_g0.png (PNG copy)> <./Images/950_s12_A_g1.png (PNG
- copy)> <./Images/950_s12_A_g2.png (PNG copy)>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 88--90
 
  []
 
-
+[35] [36 <./Images1/950_s12_A_g0-eps-converted-to.pdf> <./Images1/950_s12_A_g1-
+eps-converted-to.pdf> <./Images1/950_s12_A_g2-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
@@ -1298,54 +1815,177 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
-<Images/528_s12_A_g0.png, id=562, 1488.91742pt x 868.81108pt>
-File: Images/528_s12_A_g0.png Graphic file (type png)
-<use Images/528_s12_A_g0.png>
-Package pdftex.def Info: Images/528_s12_A_g0.png  used on input line 106.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/528_s12_A_g1.png, id=563, 1488.91742pt x 868.81108pt>
-File: Images/528_s12_A_g1.png Graphic file (type png)
-<use Images/528_s12_A_g1.png>
-Package pdftex.def Info: Images/528_s12_A_g1.png  used on input line 107.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/528_s12_A_g2.png, id=564, 1488.91742pt x 868.81108pt>
-File: Images/528_s12_A_g2.png Graphic file (type png)
-<use Images/528_s12_A_g2.png>
-Package pdftex.def Info: Images/528_s12_A_g2.png  used on input line 108.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+Package epstopdf Info: Source file: <Images1/528_s12_A_g0.eps>
+(epstopdf)                    date: 2019-10-14 17:52:49
+(epstopdf)                    size: 66637 bytes
+(epstopdf)             Output file: <Images1/528_s12_A_g0-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-10-15 11:45:09
+(epstopdf)                    size: 35800 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/528_s12_A_g0-eps-co
+nverted-to.pdf Images1/528_s12_A_g0.eps>
+(epstopdf)             \includegraphics on input line 106.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/528_s12_A_g0-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/528_s12_A_g0-eps-converted-to.pdf, id=659, 361.35pt x 252.945pt>
+File: Images1/528_s12_A_g0-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/528_s12_A_g0-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/528_s12_A_g0-eps-converted-to.pdf  used on inp
+ut line 106.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/528_s12_A_g1.eps>
+(epstopdf)                    date: 2019-10-14 17:52:10
+(epstopdf)                    size: 67323 bytes
+(epstopdf)             Output file: <Images1/528_s12_A_g1-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-10-15 11:45:10
+(epstopdf)                    size: 36061 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/528_s12_A_g1-eps-co
+nverted-to.pdf Images1/528_s12_A_g1.eps>
+(epstopdf)             \includegraphics on input line 107.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/528_s12_A_g1-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/528_s12_A_g1-eps-converted-to.pdf, id=660, 361.35pt x 252.945pt>
+File: Images1/528_s12_A_g1-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/528_s12_A_g1-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/528_s12_A_g1-eps-converted-to.pdf  used on inp
+ut line 107.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/528_s12_A_g2.eps>
+(epstopdf)                    date: 2019-10-14 18:01:17
+(epstopdf)                    size: 67557 bytes
+(epstopdf)             Output file: <Images1/528_s12_A_g2-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-10-15 11:45:10
+(epstopdf)                    size: 34867 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/528_s12_A_g2-eps-co
+nverted-to.pdf Images1/528_s12_A_g2.eps>
+(epstopdf)             \includegraphics on input line 108.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/528_s12_A_g2-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/528_s12_A_g2-eps-converted-to.pdf, id=661, 361.35pt x 252.945pt>
+File: Images1/528_s12_A_g2-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/528_s12_A_g2-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/528_s12_A_g2-eps-converted-to.pdf  used on inp
+ut line 108.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39]
-[40 <./Images/528_s12_A_g0.png (PNG copy)> <./Images/528_s12_A_g1.png (PNG copy
-)> <./Images/528_s12_A_g2.png (PNG copy)>]
-<Images/A_T10_g0.png, id=577, 1488.91742pt x 868.81108pt>
-File: Images/A_T10_g0.png Graphic file (type png)
-<use Images/A_T10_g0.png>
-Package pdftex.def Info: Images/A_T10_g0.png  used on input line 152.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/A_T100_g0.png, id=578, 1488.91742pt x 868.81108pt>
-File: Images/A_T100_g0.png Graphic file (type png)
-<use Images/A_T100_g0.png>
-Package pdftex.def Info: Images/A_T100_g0.png  used on input line 153.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/A_T1000_g0.png, id=579, 1488.91742pt x 868.81108pt>
-File: Images/A_T1000_g0.png Graphic file (type png)
-<use Images/A_T1000_g0.png>
-Package pdftex.def Info: Images/A_T1000_g0.png  used on input line 154.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/MinGap_A_g0.png, id=582, 1806.75pt x 1053.9375pt>
-File: Images/MinGap_A_g0.png Graphic file (type png)
-<use Images/MinGap_A_g0.png>
-Package pdftex.def Info: Images/MinGap_A_g0.png  used on input line 163.
-(pdftex.def)             Requested size: 361.3436pt x 210.78377pt.
- [41] [42 <./Images/A_T10_g0.png (PNG copy)> <./Images/A_T100_g0.png (PNG copy)
-> <./Images/A_T1000_g0.png (PNG copy)>]
-<Images/ProbScat_g0.png, id=593, 1488.91742pt x 868.81108pt>
-File: Images/ProbScat_g0.png Graphic file (type png)
-<use Images/ProbScat_g0.png>
-Package pdftex.def Info: Images/ProbScat_g0.png  used on input line 173.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+ [37]
+[38 <./Images1/528_s12_A_g0-eps-converted-to.pdf> <./Images1/528_s12_A_g1-eps-c
+onverted-to.pdf> <./Images1/528_s12_A_g2-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Images1/A_T10_g0.eps>
+(epstopdf)                    date: 2019-10-14 15:17:00
+(epstopdf)                    size: 25119 bytes
+(epstopdf)             Output file: <Images1/A_T10_g0-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:45:11
+(epstopdf)                    size: 3969 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/A_T10_g0-eps-conver
+ted-to.pdf Images1/A_T10_g0.eps>
+(epstopdf)             \includegraphics on input line 152.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/A_T10_g0-eps-converted-to.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/A_T10_g0-eps-converted-to.pdf, id=684, 361.35pt x 252.945pt>
+File: Images1/A_T10_g0-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/A_T10_g0-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/A_T10_g0-eps-converted-to.pdf  used on input l
+ine 152.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/A_T100_g0.eps>
+(epstopdf)                    date: 2019-10-14 15:21:08
+(epstopdf)                    size: 24691 bytes
+(epstopdf)             Output file: <Images1/A_T100_g0-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:45:12
+(epstopdf)                    size: 3917 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/A_T100_g0-eps-conve
+rted-to.pdf Images1/A_T100_g0.eps>
+(epstopdf)             \includegraphics on input line 153.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/A_T100_g0-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/A_T100_g0-eps-converted-to.pdf, id=685, 361.35pt x 252.945pt>
+File: Images1/A_T100_g0-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/A_T100_g0-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/A_T100_g0-eps-converted-to.pdf  used on input 
+line 153.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/A_T1000_g0.eps>
+(epstopdf)                    date: 2019-10-14 15:16:41
+(epstopdf)                    size: 26138 bytes
+(epstopdf)             Output file: <Images1/A_T1000_g0-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:45:13
+(epstopdf)                    size: 4192 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/A_T1000_g0-eps-conv
+erted-to.pdf Images1/A_T1000_g0.eps>
+(epstopdf)             \includegraphics on input line 154.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/A_T1000_g0-eps-converted-to.pdf): 
+PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/A_T1000_g0-eps-converted-to.pdf, id=686, 361.35pt x 252.945pt>
+File: Images1/A_T1000_g0-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/A_T1000_g0-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/A_T1000_g0-eps-converted-to.pdf  used on input
+ line 154.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/MinGap_A_g0.eps>
+(epstopdf)                    date: 2019-10-14 11:00:29
+(epstopdf)                    size: 45291 bytes
+(epstopdf)             Output file: <Images1/MinGap_A_g0-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:45:13
+(epstopdf)                    size: 61413 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/MinGap_A_g0-eps-con
+verted-to.pdf Images1/MinGap_A_g0.eps>
+(epstopdf)             \includegraphics on input line 163.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/MinGap_A_g0-eps-converted-to.pdf):
+ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/MinGap_A_g0-eps-converted-to.pdf, id=689, 361.35pt x 252.945pt>
+File: Images1/MinGap_A_g0-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/MinGap_A_g0-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/MinGap_A_g0-eps-converted-to.pdf  used on inpu
+t line 163.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+[39] [40 <./Images1/A_T10_g0-eps-converted-to.pdf> <./Images1/A_T100_g0-eps-con
+verted-to.pdf> <./Images1/A_T1000_g0-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Images1/ProbScat_g0.eps>
+(epstopdf)                    date: 2019-10-14 13:39:53
+(epstopdf)                    size: 83652 bytes
+(epstopdf)             Output file: <Images1/ProbScat_g0-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:45:14
+(epstopdf)                    size: 169102 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/ProbScat_g0-eps-con
+verted-to.pdf Images1/ProbScat_g0.eps>
+(epstopdf)             \includegraphics on input line 173.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/ProbScat_g0-eps-converted-to.pdf):
+ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/ProbScat_g0-eps-converted-to.pdf, id=709, 361.35pt x 252.945pt>
+File: Images1/ProbScat_g0-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/ProbScat_g0-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/ProbScat_g0-eps-converted-to.pdf  used on inpu
+t line 173.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 178--180
 
@@ -1356,44 +1996,151 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--183
 
  []
 
-[43 <./Images/MinGap_A_g0.png>]
-<Images/Mingap_709_g0_A.png, id=606, 1488.91742pt x 868.81108pt>
-File: Images/Mingap_709_g0_A.png Graphic file (type png)
-<use Images/Mingap_709_g0_A.png>
-Package pdftex.def Info: Images/Mingap_709_g0_A.png  used on input line 186.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/SuccVsGap_OA_g0.png, id=610, 1488.91742pt x 868.81108pt>
-File: Images/SuccVsGap_OA_g0.png Graphic file (type png)
-<use Images/SuccVsGap_OA_g0.png>
-Package pdftex.def Info: Images/SuccVsGap_OA_g0.png  used on input line 195.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
- [44 <./Images/ProbScat_g0.png (PNG copy)>]
-[45 <./Images/Mingap_709_g0_A.png> <./Images/SuccVsGap_OA_g0.png (PNG copy)>]
-<Images/A_T10_g1.png, id=625, 1488.91742pt x 868.81108pt>
-File: Images/A_T10_g1.png Graphic file (type png)
-<use Images/A_T10_g1.png>
-Package pdftex.def Info: Images/A_T10_g1.png  used on input line 209.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/A_T100_g1.png, id=626, 1488.91742pt x 868.81108pt>
-File: Images/A_T100_g1.png Graphic file (type png)
-<use Images/A_T100_g1.png>
-Package pdftex.def Info: Images/A_T100_g1.png  used on input line 210.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/A_T1000_g1.png, id=627, 1488.91742pt x 868.81108pt>
-File: Images/A_T1000_g1.png Graphic file (type png)
-<use Images/A_T1000_g1.png>
-Package pdftex.def Info: Images/A_T1000_g1.png  used on input line 211.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/MinGap_A_g1.png, id=629, 1806.75pt x 1053.9375pt>
-File: Images/MinGap_A_g1.png Graphic file (type png)
-<use Images/MinGap_A_g1.png>
-Package pdftex.def Info: Images/MinGap_A_g1.png  used on input line 221.
-(pdftex.def)             Requested size: 361.3436pt x 210.78377pt.
-<Images/ProbScat_g1.png, id=632, 1488.91742pt x 868.81108pt>
-File: Images/ProbScat_g1.png Graphic file (type png)
-<use Images/ProbScat_g1.png>
-Package pdftex.def Info: Images/ProbScat_g1.png  used on input line 254.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+[41 <./Images1/MinGap_A_g0-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Images1/Mingap_709_g0_A.eps>
+(epstopdf)                    date: 2019-10-16 23:50:13
+(epstopdf)                    size: 82991 bytes
+(epstopdf)             Output file: <Images1/Mingap_709_g0_A-eps-converted-to.p
+df>
+(epstopdf)                    date: 2019-10-16 23:51:45
+(epstopdf)                    size: 34815 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/Mingap_709_g0_A-eps
+-converted-to.pdf Images1/Mingap_709_g0_A.eps>
+(epstopdf)             \includegraphics on input line 186.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/Mingap_709_g0_A-eps-converted-to.p
+df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/Mingap_709_g0_A-eps-converted-to.pdf, id=727, 361.35pt x 252.945pt>
+File: Images1/Mingap_709_g0_A-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/Mingap_709_g0_A-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/Mingap_709_g0_A-eps-converted-to.pdf  used on 
+input line 186.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/SuccVsGap_OA_g0.eps>
+(epstopdf)                    date: 2019-10-14 14:11:33
+(epstopdf)                    size: 134259 bytes
+(epstopdf)             Output file: <Images1/SuccVsGap_OA_g0-eps-converted-to.p
+df>
+(epstopdf)                    date: 2019-10-15 11:45:15
+(epstopdf)                    size: 309882 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/SuccVsGap_OA_g0-eps
+-converted-to.pdf Images1/SuccVsGap_OA_g0.eps>
+(epstopdf)             \includegraphics on input line 195.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/SuccVsGap_OA_g0-eps-converted-to.p
+df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/SuccVsGap_OA_g0-eps-converted-to.pdf, id=730, 361.35pt x 252.945pt>
+File: Images1/SuccVsGap_OA_g0-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/SuccVsGap_OA_g0-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/SuccVsGap_OA_g0-eps-converted-to.pdf  used on 
+input line 195.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+[42 <./Images1/ProbScat_g0-eps-converted-to.pdf>] [43 <./Images1/Mingap_709_g0_
+A-eps-converted-to.pdf> <./Images1/SuccVsGap_OA_g0-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Images1/A_T10_g1.eps>
+(epstopdf)                    date: 2019-10-14 15:36:25
+(epstopdf)                    size: 24529 bytes
+(epstopdf)             Output file: <Images1/A_T10_g1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:45:16
+(epstopdf)                    size: 3859 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/A_T10_g1-eps-conver
+ted-to.pdf Images1/A_T10_g1.eps>
+(epstopdf)             \includegraphics on input line 209.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/A_T10_g1-eps-converted-to.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/A_T10_g1-eps-converted-to.pdf, id=753, 361.35pt x 252.945pt>
+File: Images1/A_T10_g1-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/A_T10_g1-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/A_T10_g1-eps-converted-to.pdf  used on input l
+ine 209.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/A_T100_g1.eps>
+(epstopdf)                    date: 2019-10-14 15:34:41
+(epstopdf)                    size: 24695 bytes
+(epstopdf)             Output file: <Images1/A_T100_g1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:45:17
+(epstopdf)                    size: 3934 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/A_T100_g1-eps-conve
+rted-to.pdf Images1/A_T100_g1.eps>
+(epstopdf)             \includegraphics on input line 210.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/A_T100_g1-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/A_T100_g1-eps-converted-to.pdf, id=754, 361.35pt x 252.945pt>
+File: Images1/A_T100_g1-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/A_T100_g1-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/A_T100_g1-eps-converted-to.pdf  used on input 
+line 210.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/A_T1000_g1.eps>
+(epstopdf)                    date: 2019-10-14 15:33:56
+(epstopdf)                    size: 25194 bytes
+(epstopdf)             Output file: <Images1/A_T1000_g1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:45:18
+(epstopdf)                    size: 4004 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/A_T1000_g1-eps-conv
+erted-to.pdf Images1/A_T1000_g1.eps>
+(epstopdf)             \includegraphics on input line 211.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/A_T1000_g1-eps-converted-to.pdf): 
+PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/A_T1000_g1-eps-converted-to.pdf, id=755, 361.35pt x 252.945pt>
+File: Images1/A_T1000_g1-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/A_T1000_g1-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/A_T1000_g1-eps-converted-to.pdf  used on input
+ line 211.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/MinGap_A_g1.eps>
+(epstopdf)                    date: 2019-10-14 11:00:29
+(epstopdf)                    size: 45703 bytes
+(epstopdf)             Output file: <Images1/MinGap_A_g1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:45:18
+(epstopdf)                    size: 61492 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/MinGap_A_g1-eps-con
+verted-to.pdf Images1/MinGap_A_g1.eps>
+(epstopdf)             \includegraphics on input line 221.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/MinGap_A_g1-eps-converted-to.pdf):
+ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/MinGap_A_g1-eps-converted-to.pdf, id=757, 361.35pt x 252.945pt>
+File: Images1/MinGap_A_g1-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/MinGap_A_g1-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/MinGap_A_g1-eps-converted-to.pdf  used on inpu
+t line 221.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/ProbScat_g1.eps>
+(epstopdf)                    date: 2019-10-14 13:48:00
+(epstopdf)                    size: 82724 bytes
+(epstopdf)             Output file: <Images1/ProbScat_g1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:45:19
+(epstopdf)                    size: 168439 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/ProbScat_g1-eps-con
+verted-to.pdf Images1/ProbScat_g1.eps>
+(epstopdf)             \includegraphics on input line 254.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/ProbScat_g1-eps-converted-to.pdf):
+ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/ProbScat_g1-eps-converted-to.pdf, id=760, 361.35pt x 252.945pt>
+File: Images1/ProbScat_g1-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/ProbScat_g1-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/ProbScat_g1-eps-converted-to.pdf  used on inpu
+t line 254.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 259--260
 
@@ -1404,221 +2151,643 @@ Underfull \hbox (badness 10000) in paragraph at lines 261--262
 
  []
 
-<Images/selected_T10_g1.png, id=634, 1806.75pt x 1053.9375pt>
-File: Images/selected_T10_g1.png Graphic file (type png)
-<use Images/selected_T10_g1.png>
-Package pdftex.def Info: Images/selected_T10_g1.png  used on input line 265.
-(pdftex.def)             Requested size: 361.3436pt x 210.78377pt.
-<Images/selected_T100_g1.png, id=635, 1084.05pt x 632.3625pt>
-File: Images/selected_T100_g1.png Graphic file (type png)
-<use Images/selected_T100_g1.png>
-Package pdftex.def Info: Images/selected_T100_g1.png  used on input line 266.
-(pdftex.def)             Requested size: 357.73761pt x 208.68027pt.
-<Images/selected_T1000_g1.png, id=636, 1084.05pt x 632.3625pt>
-File: Images/selected_T1000_g1.png Graphic file (type png)
-<use Images/selected_T1000_g1.png>
-Package pdftex.def Info: Images/selected_T1000_g1.png  used on input line 267.
-(pdftex.def)             Requested size: 357.73761pt x 208.68027pt.
-[46] [47 <./Images/A_T10_g1.png (PNG copy)> <./Images/A_T100_g1.png (PNG copy)>
- <./Images/A_T1000_g1.png (PNG copy)>] [48 <./Images/MinGap_A_g1.png> <./Images
-/ProbScat_g1.png (PNG copy)>] [49 <./Images/selected_T10_g1.png> <./Images/sele
-cted_T100_g1.png> <./Images/selected_T1000_g1.png>]
-<Images/705_O_T.png, id=662, 1488.91742pt x 868.81108pt>
-File: Images/705_O_T.png Graphic file (type png)
-<use Images/705_O_T.png>
-Package pdftex.def Info: Images/705_O_T.png  used on input line 278.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/705_A_T_g1.png, id=663, 1488.91742pt x 868.81108pt>
-File: Images/705_A_T_g1.png Graphic file (type png)
-<use Images/705_A_T_g1.png>
-Package pdftex.def Info: Images/705_A_T_g1.png  used on input line 279.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/selected_T10_g1.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/selected_T10_g1.pdf, id=762, 845.07724pt x 597.55246pt>
+File: Images1/selected_T10_g1.pdf Graphic file (type pdf)
+<use Images1/selected_T10_g1.pdf>
+Package pdftex.def Info: Images1/selected_T10_g1.pdf  used on input line 265.
+(pdftex.def)             Requested size: 295.78146pt x 209.14648pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/selected_T100_g1.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/selected_T100_g1.pdf, id=763, 845.07724pt x 597.55246pt>
+File: Images1/selected_T100_g1.pdf Graphic file (type pdf)
+<use Images1/selected_T100_g1.pdf>
+Package pdftex.def Info: Images1/selected_T100_g1.pdf  used on input line 266.
+(pdftex.def)             Requested size: 295.78146pt x 209.14648pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/selected_T1000_g1.pdf): PDF inclus
+ion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/selected_T1000_g1.pdf, id=764, 845.07724pt x 597.55246pt>
+File: Images1/selected_T1000_g1.pdf Graphic file (type pdf)
+<use Images1/selected_T1000_g1.pdf>
+Package pdftex.def Info: Images1/selected_T1000_g1.pdf  used on input line 267.
+
+(pdftex.def)             Requested size: 295.78146pt x 209.14648pt.
+[44] [45 <./Images1/A_T10_g1-eps-converted-to.pdf> <./Images1/A_T100_g1-eps-con
+verted-to.pdf> <./Images1/A_T1000_g1-eps-converted-to.pdf>] [46 <./Images1/MinG
+ap_A_g1-eps-converted-to.pdf> <./Images1/ProbScat_g1-eps-converted-to.pdf>]
+[47 <./Images1/selected_T10_g1.pdf> <./Images1/selected_T100_g1.pdf> <./Images1
+/selected_T1000_g1.pdf>]
+Package epstopdf Info: Source file: <Images1/705_O_T.eps>
+(epstopdf)                    date: 2019-10-14 18:09:36
+(epstopdf)                    size: 59362 bytes
+(epstopdf)             Output file: <Images1/705_O_T-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:45:20
+(epstopdf)                    size: 33442 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/705_O_T-eps-convert
+ed-to.pdf Images1/705_O_T.eps>
+(epstopdf)             \includegraphics on input line 278.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/705_O_T-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/705_O_T-eps-converted-to.pdf, id=810, 361.35pt x 252.945pt>
+File: Images1/705_O_T-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/705_O_T-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/705_O_T-eps-converted-to.pdf  used on input li
+ne 278.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/705_A_T_g1.eps>
+(epstopdf)                    date: 2019-10-14 18:07:42
+(epstopdf)                    size: 63647 bytes
+(epstopdf)             Output file: <Images1/705_A_T_g1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:45:21
+(epstopdf)                    size: 34028 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/705_A_T_g1-eps-conv
+erted-to.pdf Images1/705_A_T_g1.eps>
+(epstopdf)             \includegraphics on input line 279.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/705_A_T_g1-eps-converted-to.pdf): 
+PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/705_A_T_g1-eps-converted-to.pdf, id=811, 361.35pt x 252.945pt>
+File: Images1/705_A_T_g1-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/705_A_T_g1-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/705_A_T_g1-eps-converted-to.pdf  used on input
+ line 279.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 284--285
 
  []
 
-[50 <./Images/705_O_T.png (PNG copy)> <./Images/705_A_T_g1.png (PNG copy)>]
-<Images/441_O_T100_1000.png, id=673, 1488.91742pt x 868.81108pt>
-File: Images/441_O_T100_1000.png Graphic file (type png)
-<use Images/441_O_T100_1000.png>
-Package pdftex.def Info: Images/441_O_T100_1000.png  used on input line 296.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/441_A_g1_T100_1000.png, id=674, 1488.91742pt x 868.81108pt>
-File: Images/441_A_g1_T100_1000.png Graphic file (type png)
-<use Images/441_A_g1_T100_1000.png>
-Package pdftex.def Info: Images/441_A_g1_T100_1000.png  used on input line 297.
+[48 <./Images1/705_O_T-eps-converted-to.pdf> <./Images1/705_A_T_g1-eps-converte
+d-to.pdf>]
+Package epstopdf Info: Source file: <Images1/441_O_T.eps>
+(epstopdf)                    date: 2019-10-14 18:11:01
+(epstopdf)                    size: 58424 bytes
+(epstopdf)             Output file: <Images1/441_O_T-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 12:14:16
+(epstopdf)                    size: 32562 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/441_O_T-eps-convert
+ed-to.pdf Images1/441_O_T.eps>
+(epstopdf)             \includegraphics on input line 296.
+Package epstopdf Info: Output file is already uptodate.
 
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/950a_s12_O.png, id=675, 1488.91742pt x 868.81108pt>
-File: Images/950a_s12_O.png Graphic file (type png)
-<use Images/950a_s12_O.png>
-Package pdftex.def Info: Images/950a_s12_O.png  used on input line 309.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/950_Overlap_Orig.png, id=676, 1488.91742pt x 868.81108pt>
-File: Images/950_Overlap_Orig.png Graphic file (type png)
-<use Images/950_Overlap_Orig.png>
-Package pdftex.def Info: Images/950_Overlap_Orig.png  used on input line 310.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/950a_s12_A_g1.png, id=681, 1488.91742pt x 868.81108pt>
-File: Images/950a_s12_A_g1.png Graphic file (type png)
-<use Images/950a_s12_A_g1.png>
-Package pdftex.def Info: Images/950a_s12_A_g1.png  used on input line 318.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/950_A_g1_Overlap.png, id=682, 1488.91742pt x 868.81108pt>
-File: Images/950_A_g1_Overlap.png Graphic file (type png)
-<use Images/950_A_g1_Overlap.png>
-Package pdftex.def Info: Images/950_A_g1_Overlap.png  used on input line 319.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
 
-[51 <./Images/441_O_T100_1000.png (PNG copy)> <./Images/441_A_g1_T100_1000.png 
-(PNG copy)>] [52 <./Images/950a_s12_O.png (PNG copy)> <./Images/950_Overlap_Ori
-g.png (PNG copy)>]
-<Images/969_O_T100.png, id=695, 1488.91742pt x 868.81108pt>
-File: Images/969_O_T100.png Graphic file (type png)
-<use Images/969_O_T100.png>
-Package pdftex.def Info: Images/969_O_T100.png  used on input line 329.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/969_Overlap_Orig.png, id=696, 1488.91742pt x 868.81108pt>
-File: Images/969_Overlap_Orig.png Graphic file (type png)
-<use Images/969_Overlap_Orig.png>
-Package pdftex.def Info: Images/969_Overlap_Orig.png  used on input line 330.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/969_A_T100_g1.png, id=698, 1488.91742pt x 868.81108pt>
-File: Images/969_A_T100_g1.png Graphic file (type png)
-<use Images/969_A_T100_g1.png>
-Package pdftex.def Info: Images/969_A_T100_g1.png  used on input line 338.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/969_A_g1_Overlap.png, id=699, 1488.91742pt x 868.81108pt>
-File: Images/969_A_g1_Overlap.png Graphic file (type png)
-<use Images/969_A_g1_Overlap.png>
-Package pdftex.def Info: Images/969_A_g1_Overlap.png  used on input line 339.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
- [53 <./Images/950a_s12_A_g1.png (PNG copy)> <./Images/950_A_g1_Overlap.png (PN
-G copy)>] [54 <./Images/969_O_T100.png (PNG copy)> <./Images/969_Overlap_Orig.p
-ng (PNG copy)>]
-<Images/983_Mingap.png, id=711, 1488.91742pt x 868.81108pt>
-File: Images/983_Mingap.png Graphic file (type png)
-<use Images/983_Mingap.png>
-Package pdftex.def Info: Images/983_Mingap.png  used on input line 348.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+pdfTeX warning: pdflatex.exe (file ./Images1/441_O_T-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/441_O_T-eps-converted-to.pdf, id=827, 361.35pt x 252.945pt>
+File: Images1/441_O_T-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/441_O_T-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/441_O_T-eps-converted-to.pdf  used on input li
+ne 296.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/441_A_g1_T100_1000.eps>
+(epstopdf)                    date: 2019-10-15 08:58:24
+(epstopdf)                    size: 59583 bytes
+(epstopdf)             Output file: <Images1/441_A_g1_T100_1000-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2019-10-15 11:45:22
+(epstopdf)                    size: 33048 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/441_A_g1_T100_1000-
+eps-converted-to.pdf Images1/441_A_g1_T100_1000.eps>
+(epstopdf)             \includegraphics on input line 297.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/441_A_g1_T100_1000-eps-converted-t
+o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
+ed
+<Images1/441_A_g1_T100_1000-eps-converted-to.pdf, id=828, 361.35pt x 252.945pt>
+
+File: Images1/441_A_g1_T100_1000-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/441_A_g1_T100_1000-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/441_A_g1_T100_1000-eps-converted-to.pdf  used 
+on input line 297.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/950a_s12_O.eps>
+(epstopdf)                    date: 2019-10-14 17:09:18
+(epstopdf)                    size: 64643 bytes
+(epstopdf)             Output file: <Images1/950a_s12_O-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:45:23
+(epstopdf)                    size: 32574 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/950a_s12_O-eps-conv
+erted-to.pdf Images1/950a_s12_O.eps>
+(epstopdf)             \includegraphics on input line 309.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/950a_s12_O-eps-converted-to.pdf): 
+PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/950a_s12_O-eps-converted-to.pdf, id=829, 361.35pt x 252.945pt>
+File: Images1/950a_s12_O-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/950a_s12_O-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/950a_s12_O-eps-converted-to.pdf  used on input
+ line 309.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/950_Overlap_Orig.eps>
+(epstopdf)                    date: 2019-10-14 18:24:20
+(epstopdf)                    size: 34534 bytes
+(epstopdf)             Output file: <Images1/950_Overlap_Orig-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2019-10-15 11:45:23
+(epstopdf)                    size: 7697 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/950_Overlap_Orig-ep
+s-converted-to.pdf Images1/950_Overlap_Orig.eps>
+(epstopdf)             \includegraphics on input line 310.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/950_Overlap_Orig-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<Images1/950_Overlap_Orig-eps-converted-to.pdf, id=830, 361.35pt x 252.945pt>
+File: Images1/950_Overlap_Orig-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/950_Overlap_Orig-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/950_Overlap_Orig-eps-converted-to.pdf  used on
+ input line 310.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/950a_s12_A_g1.eps>
+(epstopdf)                    date: 2019-10-14 17:41:22
+(epstopdf)                    size: 66440 bytes
+(epstopdf)             Output file: <Images1/950a_s12_A_g1-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-10-15 11:45:24
+(epstopdf)                    size: 33821 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/950a_s12_A_g1-eps-c
+onverted-to.pdf Images1/950a_s12_A_g1.eps>
+(epstopdf)             \includegraphics on input line 318.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/950a_s12_A_g1-eps-converted-to.pdf
+): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/950a_s12_A_g1-eps-converted-to.pdf, id=835, 361.35pt x 252.945pt>
+File: Images1/950a_s12_A_g1-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/950a_s12_A_g1-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/950a_s12_A_g1-eps-converted-to.pdf  used on in
+put line 318.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/950_A_g1_Overlap.eps>
+(epstopdf)                    date: 2019-10-14 18:21:06
+(epstopdf)                    size: 41253 bytes
+(epstopdf)             Output file: <Images1/950_A_g1_Overlap-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2019-10-15 11:45:25
+(epstopdf)                    size: 10274 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/950_A_g1_Overlap-ep
+s-converted-to.pdf Images1/950_A_g1_Overlap.eps>
+(epstopdf)             \includegraphics on input line 319.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/950_A_g1_Overlap-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<Images1/950_A_g1_Overlap-eps-converted-to.pdf, id=836, 361.35pt x 252.945pt>
+File: Images1/950_A_g1_Overlap-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/950_A_g1_Overlap-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/950_A_g1_Overlap-eps-converted-to.pdf  used on
+ input line 319.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+[49 <./Images1/441_O_T-eps-converted-to.pdf> <./Images1/441_A_g1_T100_1000-eps-
+converted-to.pdf>] [50 <./Images1/950a_s12_O-eps-converted-to.pdf> <./Images1/9
+50_Overlap_Orig-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Images1/969_O_T100.eps>
+(epstopdf)                    date: 2019-10-15 09:08:15
+(epstopdf)                    size: 55993 bytes
+(epstopdf)             Output file: <Images1/969_O_T100-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:45:26
+(epstopdf)                    size: 26543 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/969_O_T100-eps-conv
+erted-to.pdf Images1/969_O_T100.eps>
+(epstopdf)             \includegraphics on input line 329.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/969_O_T100-eps-converted-to.pdf): 
+PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/969_O_T100-eps-converted-to.pdf, id=863, 361.35pt x 252.945pt>
+File: Images1/969_O_T100-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/969_O_T100-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/969_O_T100-eps-converted-to.pdf  used on input
+ line 329.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/969_Overlap_Orig.eps>
+(epstopdf)                    date: 2019-10-15 08:44:50
+(epstopdf)                    size: 34647 bytes
+(epstopdf)             Output file: <Images1/969_Overlap_Orig-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2019-10-15 11:45:27
+(epstopdf)                    size: 7371 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/969_Overlap_Orig-ep
+s-converted-to.pdf Images1/969_Overlap_Orig.eps>
+(epstopdf)             \includegraphics on input line 330.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/969_Overlap_Orig-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<Images1/969_Overlap_Orig-eps-converted-to.pdf, id=864, 361.35pt x 252.945pt>
+File: Images1/969_Overlap_Orig-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/969_Overlap_Orig-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/969_Overlap_Orig-eps-converted-to.pdf  used on
+ input line 330.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/969_A_T100_g1.eps>
+(epstopdf)                    date: 2019-10-15 09:04:50
+(epstopdf)                    size: 57236 bytes
+(epstopdf)             Output file: <Images1/969_A_T100_g1-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-10-15 11:45:27
+(epstopdf)                    size: 26812 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/969_A_T100_g1-eps-c
+onverted-to.pdf Images1/969_A_T100_g1.eps>
+(epstopdf)             \includegraphics on input line 338.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/969_A_T100_g1-eps-converted-to.pdf
+): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/969_A_T100_g1-eps-converted-to.pdf, id=866, 361.35pt x 252.945pt>
+File: Images1/969_A_T100_g1-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/969_A_T100_g1-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/969_A_T100_g1-eps-converted-to.pdf  used on in
+put line 338.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/969_A_g1_Overlap.eps>
+(epstopdf)                    date: 2019-10-15 08:41:19
+(epstopdf)                    size: 41635 bytes
+(epstopdf)             Output file: <Images1/969_A_g1_Overlap-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2019-10-15 11:45:28
+(epstopdf)                    size: 13437 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/969_A_g1_Overlap-ep
+s-converted-to.pdf Images1/969_A_g1_Overlap.eps>
+(epstopdf)             \includegraphics on input line 339.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/969_A_g1_Overlap-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<Images1/969_A_g1_Overlap-eps-converted-to.pdf, id=867, 361.35pt x 252.945pt>
+File: Images1/969_A_g1_Overlap-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/969_A_g1_Overlap-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/969_A_g1_Overlap-eps-converted-to.pdf  used on
+ input line 339.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+[51 <./Images1/950a_s12_A_g1-eps-converted-to.pdf> <./Images1/950_A_g1_Overlap-
+eps-converted-to.pdf>] [52 <./Images1/969_O_T100-eps-converted-to.pdf> <./Image
+s1/969_Overlap_Orig-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Images1/983_Mingap.eps>
+(epstopdf)                    date: 2019-10-15 09:12:04
+(epstopdf)                    size: 35893 bytes
+(epstopdf)             Output file: <Images1/983_Mingap-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:45:29
+(epstopdf)                    size: 13153 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/983_Mingap-eps-conv
+erted-to.pdf Images1/983_Mingap.eps>
+(epstopdf)             \includegraphics on input line 348.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/983_Mingap-eps-converted-to.pdf): 
+PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/983_Mingap-eps-converted-to.pdf, id=891, 361.35pt x 252.945pt>
+File: Images1/983_Mingap-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/983_Mingap-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/983_Mingap-eps-converted-to.pdf  used on input
+ line 348.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55 <./Images/969_A_T100_g1.png (PNG copy)> <./Images/969_A_g1_Overlap.png (PN
-G copy)>]
-<Images/SuccVsGap_OA_g1.png, id=720, 1488.91742pt x 868.81108pt>
-File: Images/SuccVsGap_OA_g1.png Graphic file (type png)
-<use Images/SuccVsGap_OA_g1.png>
-Package pdftex.def Info: Images/SuccVsGap_OA_g1.png  used on input line 359.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+ [53 <./Images1/969_A_T100_g1-eps-converted-to.pdf> <./Images1/969_A_g1_Overlap
+-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Images1/SuccVsGap_OA_g1.eps>
+(epstopdf)                    date: 2019-10-14 14:15:32
+(epstopdf)                    size: 134188 bytes
+(epstopdf)             Output file: <Images1/SuccVsGap_OA_g1-eps-converted-to.p
+df>
+(epstopdf)                    date: 2019-10-15 11:45:30
+(epstopdf)                    size: 308499 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/SuccVsGap_OA_g1-eps
+-converted-to.pdf Images1/SuccVsGap_OA_g1.eps>
+(epstopdf)             \includegraphics on input line 359.
+Package epstopdf Info: Output file is already uptodate.
 
-[56 <./Images/983_Mingap.png (PNG copy)> <./Images/SuccVsGap_OA_g1.png (PNG cop
-y)>]
-<Images/A_T10_g2.png, id=729, 1488.91742pt x 868.81108pt>
-File: Images/A_T10_g2.png Graphic file (type png)
-<use Images/A_T10_g2.png>
-Package pdftex.def Info: Images/A_T10_g2.png  used on input line 373.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/A_T100_g2.png, id=730, 1488.91742pt x 868.81108pt>
-File: Images/A_T100_g2.png Graphic file (type png)
-<use Images/A_T100_g2.png>
-Package pdftex.def Info: Images/A_T100_g2.png  used on input line 374.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/MinGap_A_g2.png, id=733, 1806.75pt x 1053.9375pt>
-File: Images/MinGap_A_g2.png Graphic file (type png)
-<use Images/MinGap_A_g2.png>
-Package pdftex.def Info: Images/MinGap_A_g2.png  used on input line 405.
-(pdftex.def)             Requested size: 361.3436pt x 210.78377pt.
 
-Underfull \vbox (badness 3250) has occurred while \output is active []
+pdfTeX warning: pdflatex.exe (file ./Images1/SuccVsGap_OA_g1-eps-converted-to.p
+df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/SuccVsGap_OA_g1-eps-converted-to.pdf, id=904, 361.35pt x 252.945pt>
+File: Images1/SuccVsGap_OA_g1-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/SuccVsGap_OA_g1-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/SuccVsGap_OA_g1-eps-converted-to.pdf  used on 
+input line 359.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 
- [57 <./Images/A_T10_g2.png (PNG copy)> <./Images/A_T100_g2.png (PNG copy)>]
-<Images/ProbScat_g2.png, id=742, 1488.91742pt x 868.81108pt>
-File: Images/ProbScat_g2.png Graphic file (type png)
-<use Images/ProbScat_g2.png>
-Package pdftex.def Info: Images/ProbScat_g2.png  used on input line 415.
-(pdftex.def)             Requested size: 327.56285pt x 191.13902pt.
+Underfull \vbox (badness 3557) has occurred while \output is active []
+
+ [54 <./Images1/983_Mingap-eps-converted-to.pdf> <./Images1/SuccVsGap_OA_g1-eps
+-converted-to.pdf>]
+Package epstopdf Info: Source file: <Images1/A_T10_g2.eps>
+(epstopdf)                    date: 2019-10-14 15:44:38
+(epstopdf)                    size: 25038 bytes
+(epstopdf)             Output file: <Images1/A_T10_g2-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:45:31
+(epstopdf)                    size: 3943 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/A_T10_g2-eps-conver
+ted-to.pdf Images1/A_T10_g2.eps>
+(epstopdf)             \includegraphics on input line 373.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/A_T10_g2-eps-converted-to.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/A_T10_g2-eps-converted-to.pdf, id=919, 361.35pt x 252.945pt>
+File: Images1/A_T10_g2-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/A_T10_g2-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/A_T10_g2-eps-converted-to.pdf  used on input l
+ine 373.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/A_T100_g2.eps>
+(epstopdf)                    date: 2019-10-14 15:39:23
+(epstopdf)                    size: 25254 bytes
+(epstopdf)             Output file: <Images1/A_T100_g2-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:45:32
+(epstopdf)                    size: 3987 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/A_T100_g2-eps-conve
+rted-to.pdf Images1/A_T100_g2.eps>
+(epstopdf)             \includegraphics on input line 374.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/A_T100_g2-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/A_T100_g2-eps-converted-to.pdf, id=920, 361.35pt x 252.945pt>
+File: Images1/A_T100_g2-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/A_T100_g2-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/A_T100_g2-eps-converted-to.pdf  used on input 
+line 374.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/MinGap_A_g2.eps>
+(epstopdf)                    date: 2019-10-14 10:45:51
+(epstopdf)                    size: 45747 bytes
+(epstopdf)             Output file: <Images1/MinGap_A_g2-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:45:32
+(epstopdf)                    size: 61536 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/MinGap_A_g2-eps-con
+verted-to.pdf Images1/MinGap_A_g2.eps>
+(epstopdf)             \includegraphics on input line 405.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/MinGap_A_g2-eps-converted-to.pdf):
+ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/MinGap_A_g2-eps-converted-to.pdf, id=923, 361.35pt x 252.945pt>
+File: Images1/MinGap_A_g2-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/MinGap_A_g2-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/MinGap_A_g2-eps-converted-to.pdf  used on inpu
+t line 405.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55 <./Images1/A_T10_g2-eps-converted-to.pdf> <./Images1/A_T100_g2-eps-convert
+ed-to.pdf>]
+Package epstopdf Info: Source file: <Images1/ProbScat_g2.eps>
+(epstopdf)                    date: 2019-10-14 13:36:10
+(epstopdf)                    size: 84200 bytes
+(epstopdf)             Output file: <Images1/ProbScat_g2-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:45:33
+(epstopdf)                    size: 168276 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/ProbScat_g2-eps-con
+verted-to.pdf Images1/ProbScat_g2.eps>
+(epstopdf)             \includegraphics on input line 415.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/ProbScat_g2-eps-converted-to.pdf):
+ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/ProbScat_g2-eps-converted-to.pdf, id=939, 361.35pt x 252.945pt>
+File: Images1/ProbScat_g2-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/ProbScat_g2-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/ProbScat_g2-eps-converted-to.pdf  used on inpu
+t line 415.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 419--420
 
  []
 
-<Images/selected_T10_g2.png, id=744, 1084.05pt x 632.3625pt>
-File: Images/selected_T10_g2.png Graphic file (type png)
-<use Images/selected_T10_g2.png>
-Package pdftex.def Info: Images/selected_T10_g2.png  used on input line 424.
-(pdftex.def)             Requested size: 357.73761pt x 208.68027pt.
-<Images/selected_T100_g2.png, id=745, 1084.05pt x 632.3625pt>
-File: Images/selected_T100_g2.png Graphic file (type png)
-<use Images/selected_T100_g2.png>
-Package pdftex.def Info: Images/selected_T100_g2.png  used on input line 425.
-(pdftex.def)             Requested size: 357.73761pt x 208.68027pt.
-<Images/selected_T1000_g2.png, id=746, 1084.05pt x 632.3625pt>
-File: Images/selected_T1000_g2.png Graphic file (type png)
-<use Images/selected_T1000_g2.png>
-Package pdftex.def Info: Images/selected_T1000_g2.png  used on input line 426.
-(pdftex.def)             Requested size: 357.73761pt x 208.68027pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/selected_T10_g2.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/selected_T10_g2.pdf, id=941, 845.07724pt x 597.55246pt>
+File: Images1/selected_T10_g2.pdf Graphic file (type pdf)
+<use Images1/selected_T10_g2.pdf>
+Package pdftex.def Info: Images1/selected_T10_g2.pdf  used on input line 424.
+(pdftex.def)             Requested size: 295.78146pt x 209.14648pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/selected_T100_g2.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/selected_T100_g2.pdf, id=942, 845.07724pt x 597.55246pt>
+File: Images1/selected_T100_g2.pdf Graphic file (type pdf)
+<use Images1/selected_T100_g2.pdf>
+Package pdftex.def Info: Images1/selected_T100_g2.pdf  used on input line 425.
+(pdftex.def)             Requested size: 295.78146pt x 209.14648pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/selected_T1000_g2.pdf): PDF inclus
+ion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/selected_T1000_g2.pdf, id=943, 845.07724pt x 597.55246pt>
+File: Images1/selected_T1000_g2.pdf Graphic file (type pdf)
+<use Images1/selected_T1000_g2.pdf>
+Package pdftex.def Info: Images1/selected_T1000_g2.pdf  used on input line 426.
+
+(pdftex.def)             Requested size: 295.78146pt x 209.14648pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 431--432
 
  []
 
-[58 <./Images/MinGap_A_g2.png>]
-<Images/693_O_g2.png, id=755, 1488.91742pt x 868.81108pt>
-File: Images/693_O_g2.png Graphic file (type png)
-<use Images/693_O_g2.png>
-Package pdftex.def Info: Images/693_O_g2.png  used on input line 438.
-(pdftex.def)             Requested size: 342.4438pt x 199.82234pt.
-<Images/693_A_g2.png, id=756, 1488.91742pt x 868.81108pt>
-File: Images/693_A_g2.png Graphic file (type png)
-<use Images/693_A_g2.png>
-Package pdftex.def Info: Images/693_A_g2.png  used on input line 439.
-(pdftex.def)             Requested size: 342.4438pt x 199.82234pt.
+[56 <./Images1/MinGap_A_g2-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Images1/693_O_g2.eps>
+(epstopdf)                    date: 2019-10-15 09:20:34
+(epstopdf)                    size: 58356 bytes
+(epstopdf)             Output file: <Images1/693_O_g2-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:45:34
+(epstopdf)                    size: 31047 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/693_O_g2-eps-conver
+ted-to.pdf Images1/693_O_g2.eps>
+(epstopdf)             \includegraphics on input line 438.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/693_O_g2-eps-converted-to.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/693_O_g2-eps-converted-to.pdf, id=957, 361.35pt x 252.945pt>
+File: Images1/693_O_g2-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/693_O_g2-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/693_O_g2-eps-converted-to.pdf  used on input l
+ine 438.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/693_A_g2.eps>
+(epstopdf)                    date: 2019-10-15 09:15:47
+(epstopdf)                    size: 59361 bytes
+(epstopdf)             Output file: <Images1/693_A_g2-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:45:35
+(epstopdf)                    size: 29659 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/693_A_g2-eps-conver
+ted-to.pdf Images1/693_A_g2.eps>
+(epstopdf)             \includegraphics on input line 439.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/693_A_g2-eps-converted-to.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/693_A_g2-eps-converted-to.pdf, id=958, 361.35pt x 252.945pt>
+File: Images1/693_A_g2-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/693_A_g2-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/693_A_g2-eps-converted-to.pdf  used on input l
+ine 439.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 447--449
 
  []
 
-<Images/63_O_g2.png, id=758, 1488.91742pt x 868.81108pt>
-File: Images/63_O_g2.png Graphic file (type png)
-<use Images/63_O_g2.png>
-Package pdftex.def Info: Images/63_O_g2.png  used on input line 453.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/63_Orig_Overlap.png, id=759, 1488.91742pt x 868.81108pt>
-File: Images/63_Orig_Overlap.png Graphic file (type png)
-<use Images/63_Orig_Overlap.png>
-Package pdftex.def Info: Images/63_Orig_Overlap.png  used on input line 454.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/63_A_g2.png, id=761, 1488.91742pt x 868.81108pt>
-File: Images/63_A_g2.png Graphic file (type png)
-<use Images/63_A_g2.png>
-Package pdftex.def Info: Images/63_A_g2.png  used on input line 462.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Images/63_A_g2_Overlap.png, id=762, 1488.91742pt x 868.81108pt>
-File: Images/63_A_g2_Overlap.png Graphic file (type png)
-<use Images/63_A_g2_Overlap.png>
-Package pdftex.def Info: Images/63_A_g2_Overlap.png  used on input line 463.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-[59 <./Images/ProbScat_g2.png (PNG copy)>] [60 <./Images/selected_T10_g2.png> <
-./Images/selected_T100_g2.png> <./Images/selected_T1000_g2.png>] [61 <./Images/
-693_O_g2.png (PNG copy)> <./Images/693_A_g2.png (PNG copy)>] [62 <./Images/63_O
-_g2.png (PNG copy)> <./Images/63_Orig_Overlap.png (PNG copy)>]
+Package epstopdf Info: Source file: <Images1/63_O_g2.eps>
+(epstopdf)                    date: 2019-10-15 09:29:46
+(epstopdf)                    size: 57452 bytes
+(epstopdf)             Output file: <Images1/63_O_g2-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:45:36
+(epstopdf)                    size: 30395 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/63_O_g2-eps-convert
+ed-to.pdf Images1/63_O_g2.eps>
+(epstopdf)             \includegraphics on input line 453.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/63_O_g2-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/63_O_g2-eps-converted-to.pdf, id=960, 361.35pt x 252.945pt>
+File: Images1/63_O_g2-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/63_O_g2-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/63_O_g2-eps-converted-to.pdf  used on input li
+ne 453.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/63_Orig_Overlap.eps>
+(epstopdf)                    date: 2019-10-15 08:54:32
+(epstopdf)                    size: 34622 bytes
+(epstopdf)             Output file: <Images1/63_Orig_Overlap-eps-converted-to.p
+df>
+(epstopdf)                    date: 2019-10-15 11:45:37
+(epstopdf)                    size: 7736 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/63_Orig_Overlap-eps
+-converted-to.pdf Images1/63_Orig_Overlap.eps>
+(epstopdf)             \includegraphics on input line 454.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/63_Orig_Overlap-eps-converted-to.p
+df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/63_Orig_Overlap-eps-converted-to.pdf, id=961, 361.35pt x 252.945pt>
+File: Images1/63_Orig_Overlap-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/63_Orig_Overlap-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/63_Orig_Overlap-eps-converted-to.pdf  used on 
+input line 454.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/63_A_g2.eps>
+(epstopdf)                    date: 2019-10-15 09:22:22
+(epstopdf)                    size: 58948 bytes
+(epstopdf)             Output file: <Images1/63_A_g2-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 11:45:38
+(epstopdf)                    size: 29641 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/63_A_g2-eps-convert
+ed-to.pdf Images1/63_A_g2.eps>
+(epstopdf)             \includegraphics on input line 462.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/63_A_g2-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/63_A_g2-eps-converted-to.pdf, id=963, 361.35pt x 252.945pt>
+File: Images1/63_A_g2-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/63_A_g2-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/63_A_g2-eps-converted-to.pdf  used on input li
+ne 462.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/63_A_g2_Overlap.eps>
+(epstopdf)                    date: 2019-10-15 08:54:43
+(epstopdf)                    size: 41656 bytes
+(epstopdf)             Output file: <Images1/63_A_g2_Overlap-eps-converted-to.p
+df>
+(epstopdf)                    date: 2019-10-15 11:45:38
+(epstopdf)                    size: 12362 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/63_A_g2_Overlap-eps
+-converted-to.pdf Images1/63_A_g2_Overlap.eps>
+(epstopdf)             \includegraphics on input line 463.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/63_A_g2_Overlap-eps-converted-to.p
+df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/63_A_g2_Overlap-eps-converted-to.pdf, id=964, 361.35pt x 252.945pt>
+File: Images1/63_A_g2_Overlap-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/63_A_g2_Overlap-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/63_A_g2_Overlap-eps-converted-to.pdf  used on 
+input line 463.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+[57 <./Images1/ProbScat_g2-eps-converted-to.pdf>] [58 <./Images1/selected_T10_g
+2.pdf> <./Images1/selected_T100_g2.pdf> <./Images1/selected_T1000_g2.pdf>]
+[59 <./Images1/693_O_g2-eps-converted-to.pdf> <./Images1/693_A_g2-eps-converted
+-to.pdf>] [60 <./Images1/63_O_g2-eps-converted-to.pdf> <./Images1/63_Orig_Overl
+ap-eps-converted-to.pdf>]
 
 LaTeX Warning: Characters dropped after `\end{comment}' on input line 468.
 
-<Images/SuccVsGap_OA_g2.png, id=790, 1488.91742pt x 868.81108pt>
-File: Images/SuccVsGap_OA_g2.png Graphic file (type png)
-<use Images/SuccVsGap_OA_g2.png>
-Package pdftex.def Info: Images/SuccVsGap_OA_g2.png  used on input line 477.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+Package epstopdf Info: Source file: <Images1/SuccVsGap_OA_g2.eps>
+(epstopdf)                    date: 2019-10-14 14:24:33
+(epstopdf)                    size: 135967 bytes
+(epstopdf)             Output file: <Images1/SuccVsGap_OA_g2-eps-converted-to.p
+df>
+(epstopdf)                    date: 2019-10-15 11:45:39
+(epstopdf)                    size: 308722 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/SuccVsGap_OA_g2-eps
+-converted-to.pdf Images1/SuccVsGap_OA_g2.eps>
+(epstopdf)             \includegraphics on input line 477.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/SuccVsGap_OA_g2-eps-converted-to.p
+df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/SuccVsGap_OA_g2-eps-converted-to.pdf, id=1009, 361.35pt x 252.945pt>
+File: Images1/SuccVsGap_OA_g2-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/SuccVsGap_OA_g2-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/SuccVsGap_OA_g2-eps-converted-to.pdf  used on 
+input line 477.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 482--483
 
  []
 
-[63 <./Images/63_A_g2.png (PNG copy)> <./Images/63_A_g2_Overlap.png (PNG copy)>
-]) [64 <./Images/SuccVsGap_OA_g2.png (PNG copy)>]
+[61 <./Images1/63_A_g2-eps-converted-to.pdf> <./Images1/63_A_g2_Overlap-eps-con
+verted-to.pdf>]) [62 <./Images1/SuccVsGap_OA_g2-eps-converted-to.pdf>]
 Chapter 7.
 (Summary.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
@@ -1635,177 +2804,325 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-) (Appendix/Appendix.tex [65
+) (Appendix/Appendix.tex [63
 
-] [66] [67
+] [64]
+Appendix A.
+Package epstopdf Info: Source file: <Images1/Mingap_F_8.eps>
+(epstopdf)                    date: 2019-10-15 09:50:09
+(epstopdf)                    size: 31632 bytes
+(epstopdf)             Output file: <Images1/Mingap_F_8-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 12:55:46
+(epstopdf)                    size: 20721 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/Mingap_F_8-eps-conv
+erted-to.pdf Images1/Mingap_F_8.eps>
+(epstopdf)             \includegraphics on input line 12.
+Package epstopdf Info: Output file is already uptodate.
 
 
-] [68]
-<Images/Mingap_F_8.png, id=825, 1806.75pt x 1053.9375pt>
-File: Images/Mingap_F_8.png Graphic file (type png)
-<use Images/Mingap_F_8.png>
-Package pdftex.def Info: Images/Mingap_F_8.png  used on input line 12.
-(pdftex.def)             Requested size: 361.3436pt x 210.78377pt.
-<Images/Mingap_A_8.png, id=827, 1806.75pt x 1053.9375pt>
-File: Images/Mingap_A_8.png Graphic file (type png)
-<use Images/Mingap_A_8.png>
-Package pdftex.def Info: Images/Mingap_A_8.png  used on input line 21.
-(pdftex.def)             Requested size: 361.3436pt x 210.78377pt.
- [69 <./Images/Mingap_F_8.png> <./Images/Mingap_A_8.png>]
-<Images/Succ_OF_8.png, id=836, 1806.75pt x 1053.9375pt>
-File: Images/Succ_OF_8.png Graphic file (type png)
-<use Images/Succ_OF_8.png>
-Package pdftex.def Info: Images/Succ_OF_8.png  used on input line 31.
-(pdftex.def)             Requested size: 433.62886pt x 252.95016pt.
-<Images/Succ_OA_8.png, id=839, 1806.75pt x 1053.9375pt>
-File: Images/Succ_OA_8.png Graphic file (type png)
-<use Images/Succ_OA_8.png>
-Package pdftex.def Info: Images/Succ_OA_8.png  used on input line 40.
-(pdftex.def)             Requested size: 433.62886pt x 252.95016pt.
+pdfTeX warning: pdflatex.exe (file ./Images1/Mingap_F_8-eps-converted-to.pdf): 
+PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/Mingap_F_8-eps-converted-to.pdf, id=1044, 361.35pt x 252.945pt>
+File: Images1/Mingap_F_8-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/Mingap_F_8-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/Mingap_F_8-eps-converted-to.pdf  used on input
+ line 12.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/Mingap_A_8.eps>
+(epstopdf)                    date: 2019-10-15 09:49:39
+(epstopdf)                    size: 33027 bytes
+(epstopdf)             Output file: <Images1/Mingap_A_8-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 12:55:47
+(epstopdf)                    size: 20766 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/Mingap_A_8-eps-conv
+erted-to.pdf Images1/Mingap_A_8.eps>
+(epstopdf)             \includegraphics on input line 21.
+Package epstopdf Info: Output file is already uptodate.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70 <./Images/Succ_OF_8.png>]
-<Images/SuccVsGap_F_8.png, id=846, 1806.75pt x 1053.9375pt>
-File: Images/SuccVsGap_F_8.png Graphic file (type png)
-<use Images/SuccVsGap_F_8.png>
-Package pdftex.def Info: Images/SuccVsGap_F_8.png  used on input line 50.
-(pdftex.def)             Requested size: 433.62886pt x 252.95016pt.
-<Images/SuccVsGap_A_8.png, id=847, 1806.75pt x 1053.9375pt>
-File: Images/SuccVsGap_A_8.png Graphic file (type png)
-<use Images/SuccVsGap_A_8.png>
-Package pdftex.def Info: Images/SuccVsGap_A_8.png  used on input line 51.
-(pdftex.def)             Requested size: 433.62886pt x 252.95016pt.
- [71 <./Images/Succ_OA_8.png>] [72 <./Images/SuccVsGap_F_8.png> <./Images/SuccV
-sGap_A_8.png>]
-<Images/98_Ferro_g0.png, id=864, 1806.75pt x 1053.9375pt>
-File: Images/98_Ferro_g0.png Graphic file (type png)
-<use Images/98_Ferro_g0.png>
-Package pdftex.def Info: Images/98_Ferro_g0.png  used on input line 87.
-(pdftex.def)             Requested size: 361.3436pt x 210.78377pt.
-<Images/59_antiFerro_g0.png, id=865, 1806.75pt x 1053.9375pt>
-File: Images/59_antiFerro_g0.png Graphic file (type png)
-<use Images/59_antiFerro_g0.png>
-Package pdftex.def Info: Images/59_antiFerro_g0.png  used on input line 88.
-(pdftex.def)             Requested size: 361.3436pt x 210.78377pt.
+pdfTeX warning: pdflatex.exe (file ./Images1/Mingap_A_8-eps-converted-to.pdf): 
+PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/Mingap_A_8-eps-converted-to.pdf, id=1046, 361.35pt x 252.945pt>
+File: Images1/Mingap_A_8-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/Mingap_A_8-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/Mingap_A_8-eps-converted-to.pdf  used on input
+ line 21.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73 <./Images/98_Ferro_g0.png> <./Images/59_antiFerro_g0.png>]
-<Images/103_A_g2.png, id=875, 1488.91742pt x 868.81108pt>
-File: Images/103_A_g2.png Graphic file (type png)
-<use Images/103_A_g2.png>
-Package pdftex.def Info: Images/103_A_g2.png  used on input line 100.
-(pdftex.def)             Requested size: 342.4438pt x 199.82234pt.
-<Images/103_A_g2_Overlap.png, id=876, 1488.91742pt x 868.81108pt>
-File: Images/103_A_g2_Overlap.png Graphic file (type png)
-<use Images/103_A_g2_Overlap.png>
-Package pdftex.def Info: Images/103_A_g2_Overlap.png  used on input line 101.
-(pdftex.def)             Requested size: 342.4438pt x 199.82234pt.
-<Images/709_A_g2.png, id=877, 1488.91742pt x 868.81108pt>
-File: Images/709_A_g2.png Graphic file (type png)
-<use Images/709_A_g2.png>
-Package pdftex.def Info: Images/709_A_g2.png  used on input line 109.
-(pdftex.def)             Requested size: 342.4438pt x 199.82234pt.
-<Images/709_A_g2_Overlap.png, id=878, 1488.91742pt x 868.81108pt>
-File: Images/709_A_g2_Overlap.png Graphic file (type png)
-<use Images/709_A_g2_Overlap.png>
-Package pdftex.def Info: Images/709_A_g2_Overlap.png  used on input line 110.
-(pdftex.def)             Requested size: 342.4438pt x 199.82234pt.
-) (main.bbl [74 <./Images/103_A_g2.png (PNG copy)> <./Images/103_A_g2_Overlap.p
-ng (PNG copy)>] [75 <./Images/709_A_g2.png (PNG copy)> <./Images/709_A_g2_Overl
-ap.png (PNG copy)>]
-[76
+ [65
 
-] [77])
+ <./Images1/Mingap_F_8-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Images1/Succ_OF_8.eps>
+(epstopdf)                    date: 2019-10-15 09:49:08
+(epstopdf)                    size: 31787 bytes
+(epstopdf)             Output file: <Images1/Succ_OF_8-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 12:55:48
+(epstopdf)                    size: 20279 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/Succ_OF_8-eps-conve
+rted-to.pdf Images1/Succ_OF_8.eps>
+(epstopdf)             \includegraphics on input line 31.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/Succ_OF_8-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/Succ_OF_8-eps-converted-to.pdf, id=1057, 361.35pt x 252.945pt>
+File: Images1/Succ_OF_8-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/Succ_OF_8-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/Succ_OF_8-eps-converted-to.pdf  used on input 
+line 31.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+[66 <./Images1/Mingap_A_8-eps-converted-to.pdf> <./Images1/Succ_OF_8-eps-conver
+ted-to.pdf>]
+Package epstopdf Info: Source file: <Images1/Succ_OA_8.eps>
+(epstopdf)                    date: 2019-10-15 09:54:16
+(epstopdf)                    size: 33635 bytes
+(epstopdf)             Output file: <Images1/Succ_OA_8-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 12:55:49
+(epstopdf)                    size: 20468 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/Succ_OA_8-eps-conve
+rted-to.pdf Images1/Succ_OA_8.eps>
+(epstopdf)             \includegraphics on input line 40.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/Succ_OA_8-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/Succ_OA_8-eps-converted-to.pdf, id=1072, 361.35pt x 252.945pt>
+File: Images1/Succ_OA_8-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/Succ_OA_8-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/Succ_OA_8-eps-converted-to.pdf  used on input 
+line 40.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/SuccVsGap_F_8.eps>
+(epstopdf)                    date: 2019-10-15 09:55:32
+(epstopdf)                    size: 28611 bytes
+(epstopdf)             Output file: <Images1/SuccVsGap_F_8-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-10-15 12:55:50
+(epstopdf)                    size: 21579 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/SuccVsGap_F_8-eps-c
+onverted-to.pdf Images1/SuccVsGap_F_8.eps>
+(epstopdf)             \includegraphics on input line 50.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/SuccVsGap_F_8-eps-converted-to.pdf
+): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/SuccVsGap_F_8-eps-converted-to.pdf, id=1074, 361.35pt x 252.945pt>
+File: Images1/SuccVsGap_F_8-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/SuccVsGap_F_8-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/SuccVsGap_F_8-eps-converted-to.pdf  used on in
+put line 50.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/SuccVsGap_A_8.eps>
+(epstopdf)                    date: 2019-10-15 09:59:57
+(epstopdf)                    size: 31504 bytes
+(epstopdf)             Output file: <Images1/SuccVsGap_A_8-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-10-15 12:55:50
+(epstopdf)                    size: 22471 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/SuccVsGap_A_8-eps-c
+onverted-to.pdf Images1/SuccVsGap_A_8.eps>
+(epstopdf)             \includegraphics on input line 51.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/SuccVsGap_A_8-eps-converted-to.pdf
+): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/SuccVsGap_A_8-eps-converted-to.pdf, id=1075, 361.35pt x 252.945pt>
+File: Images1/SuccVsGap_A_8-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/SuccVsGap_A_8-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/SuccVsGap_A_8-eps-converted-to.pdf  used on in
+put line 51.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+[67 <./Images1/Succ_OA_8-eps-converted-to.pdf>] [68 <./Images1/SuccVsGap_F_8-ep
+s-converted-to.pdf> <./Images1/SuccVsGap_A_8-eps-converted-to.pdf>]
+Appendix B.
+Package epstopdf Info: Source file: <Images1/98_Ferro_g0.eps>
+(epstopdf)                    date: 2019-10-15 10:27:28
+(epstopdf)                    size: 50637 bytes
+(epstopdf)             Output file: <Images1/98_Ferro_g0-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 12:55:51
+(epstopdf)                    size: 24692 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/98_Ferro_g0-eps-con
+verted-to.pdf Images1/98_Ferro_g0.eps>
+(epstopdf)             \includegraphics on input line 87.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/98_Ferro_g0-eps-converted-to.pdf):
+ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/98_Ferro_g0-eps-converted-to.pdf, id=1095, 361.35pt x 252.945pt>
+File: Images1/98_Ferro_g0-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/98_Ferro_g0-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/98_Ferro_g0-eps-converted-to.pdf  used on inpu
+t line 87.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/59_antiFerro_g0.eps>
+(epstopdf)                    date: 2019-10-15 10:41:08
+(epstopdf)                    size: 50372 bytes
+(epstopdf)             Output file: <Images1/59_antiFerro_g0-eps-converted-to.p
+df>
+(epstopdf)                    date: 2019-10-15 12:55:52
+(epstopdf)                    size: 25050 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/59_antiFerro_g0-eps
+-converted-to.pdf Images1/59_antiFerro_g0.eps>
+(epstopdf)             \includegraphics on input line 88.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/59_antiFerro_g0-eps-converted-to.p
+df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/59_antiFerro_g0-eps-converted-to.pdf, id=1096, 361.35pt x 252.945pt>
+File: Images1/59_antiFerro_g0-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/59_antiFerro_g0-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/59_antiFerro_g0-eps-converted-to.pdf  used on 
+input line 88.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+[69
+
+] [70 <./Images1/98_Ferro_g0-eps-converted-to.pdf> <./Images1/59_antiFerro_g0-e
+ps-converted-to.pdf>]
+Appendix C.
+Package epstopdf Info: Source file: <Images1/103_A_g2.eps>
+(epstopdf)                    date: 2019-10-15 10:55:03
+(epstopdf)                    size: 58376 bytes
+(epstopdf)             Output file: <Images1/103_A_g2-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 12:55:53
+(epstopdf)                    size: 30290 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/103_A_g2-eps-conver
+ted-to.pdf Images1/103_A_g2.eps>
+(epstopdf)             \includegraphics on input line 100.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/103_A_g2-eps-converted-to.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/103_A_g2-eps-converted-to.pdf, id=1118, 361.35pt x 252.945pt>
+File: Images1/103_A_g2-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/103_A_g2-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/103_A_g2-eps-converted-to.pdf  used on input l
+ine 100.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/103_A_g2_Overlap.eps>
+(epstopdf)                    date: 2019-10-15 10:43:19
+(epstopdf)                    size: 42331 bytes
+(epstopdf)             Output file: <Images1/103_A_g2_Overlap-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2019-10-15 12:55:54
+(epstopdf)                    size: 15604 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/103_A_g2_Overlap-ep
+s-converted-to.pdf Images1/103_A_g2_Overlap.eps>
+(epstopdf)             \includegraphics on input line 101.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/103_A_g2_Overlap-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<Images1/103_A_g2_Overlap-eps-converted-to.pdf, id=1119, 361.35pt x 252.945pt>
+File: Images1/103_A_g2_Overlap-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/103_A_g2_Overlap-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/103_A_g2_Overlap-eps-converted-to.pdf  used on
+ input line 101.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/709_A_g2.eps>
+(epstopdf)                    date: 2019-10-15 10:55:14
+(epstopdf)                    size: 57976 bytes
+(epstopdf)             Output file: <Images1/709_A_g2-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 12:55:54
+(epstopdf)                    size: 30092 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/709_A_g2-eps-conver
+ted-to.pdf Images1/709_A_g2.eps>
+(epstopdf)             \includegraphics on input line 109.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/709_A_g2-eps-converted-to.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Images1/709_A_g2-eps-converted-to.pdf, id=1120, 361.35pt x 252.945pt>
+File: Images1/709_A_g2-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/709_A_g2-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/709_A_g2-eps-converted-to.pdf  used on input l
+ine 109.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Images1/709_A_g2_Overlap.eps>
+(epstopdf)                    date: 2019-10-15 10:53:04
+(epstopdf)                    size: 41677 bytes
+(epstopdf)             Output file: <Images1/709_A_g2_Overlap-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2019-10-15 12:55:55
+(epstopdf)                    size: 11741 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images1/709_A_g2_Overlap-ep
+s-converted-to.pdf Images1/709_A_g2_Overlap.eps>
+(epstopdf)             \includegraphics on input line 110.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Images1/709_A_g2_Overlap-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<Images1/709_A_g2_Overlap-eps-converted-to.pdf, id=1121, 361.35pt x 252.945pt>
+File: Images1/709_A_g2_Overlap-eps-converted-to.pdf Graphic file (type pdf)
+<use Images1/709_A_g2_Overlap-eps-converted-to.pdf>
+Package pdftex.def Info: Images1/709_A_g2_Overlap-eps-converted-to.pdf  used on
+ input line 110.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+) (main.bbl [71
+
+] [72 <./Images1/103_A_g2-eps-converted-to.pdf> <./Images1/103_A_g2_Overlap-eps
+-converted-to.pdf>] [73 <./Images1/709_A_g2-eps-converted-to.pdf> <./Images1/70
+9_A_g2_Overlap-eps-converted-to.pdf>] [74
+
+] [75])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
- [78]
+ [76]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
- (main.aux (Title.aux))
+ (main.aux
+(Title.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 6C148D698FF610F71F641FCB23B28194;1741
-(rerunfilecheck)             After:  CB9734B051C31F1BAD7684A22B938B75;1792.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: A26F325B28250EB1A453FECB732FF704;1745.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
- 19249 strings out of 492946
- 334344 string characters out of 3126266
- 432119 words of memory out of 3000000
+ 19235 strings out of 492946
+ 342446 string characters out of 3126266
+ 432176 words of memory out of 3000000
  22594 multiletter control sequences out of 15000+200000
  537815 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,11n,65p,2168b,502s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{figure.a..6} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.a..8} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.a..7} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.a..4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.a..2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.a..5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.a..3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.a..1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{appendix*.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.a..3} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.a..2} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.a..1} has been referenced but does not exis
-t, replaced by a fixed one
-
- <C:\Users\Vrind\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tc
-rm1000.pk><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmbx10.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Users/Vrind/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Vrind/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><
-C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmmi10.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmmi5.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Vrind/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Vrind/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/User
-s/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.p
-fb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmsl10.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Vrind/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Vrind/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (78 pages, 11797577 bytes).
+ <C:\Users\Vrind\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
+tcrm1000.pk><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmbx10.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Vrind/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Users/Vrind/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Vrind/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex7.pfb
+><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi10.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmmi5.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Vrind/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Vrind/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Vrind/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Us
+ers/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7
+.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmsl10.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Vrind/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Vrind/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/V
+rind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm
+10.pfb>
+Output written on main.pdf (76 pages, 4975649 bytes).
 PDF statistics:
- 1018 PDF objects out of 1200 (max. 8388607)
- 247 named destinations out of 1000 (max. 500000)
+ 1274 PDF objects out of 1440 (max. 8388607)
+ 233 named destinations out of 1000 (max. 500000)
  656 words of extra memory for PDF output out of 10000 (max. 10000000)
 

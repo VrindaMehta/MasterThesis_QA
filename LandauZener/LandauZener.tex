@@ -9,13 +9,13 @@ where $\Gamma$ sets the scale of the splitting between the two energy levels, an
 
 Now, for large negative times $t$, and $\abs{H(t)} \geq \abs{\Gamma}$, $H_{LZ}(t)\approx ct \sigma_z$. Thus, the spin-down state, $\ket{\downarrow}$, is close to the ground state of the Hamiltonian, as $ct \sigma_z \ket{\downarrow}=-ct \ket{\downarrow}$. As $t$ goes to infinity, $H_{LZ}(t)\approx -ct \sigma_z$, so that the ground state now lies close to the spin up state, $\ket{\uparrow}$, as $-ct \sigma_z \ket{\uparrow}=-ct \ket{\uparrow}$. According to the quantum adiabatic theorem, the state of the system should always lie close to the instantaneous ground state of the Hamiltonian $H(t)$, if one starts with the ground state and if the field is changed slowly enough. However, there is a finite probability that the state transits to a higher excited level during the sweep. The probability, $p'$, for this non-adiabatic transition (Landau-Zener tunnelling), as given by the Landau-Zener formula, is
 \begin{equation}
-p'=\exp(\frac{-\pi {\Gamma}^2}{c}) . 
+p'=\exp(\frac{-\pi {\Gamma}^2}{\hbar c}) . 
 \end{equation}
 Therefore, the probability, $p$, that the state of the system follows the instantaneous ground state of the Hamiltonian adiabatically, by changing the magnetization state of the system, in accordance to the reversing field, $H(t)$, is \cite{landau1932theorie,zener1932non,de1997theory,miyashita1995dynamics}.
 \begin{equation}
-p=1-p'=1-\exp(\frac{-\pi {\Gamma}^2}{c}) .   \label{eq:lz2}
+p=1-p'=1-\exp(\frac{-\pi {\Gamma}^2}{c}) ,   \label{eq:lz2}
 \end{equation}
-
+where $\hbar=1$.\\
 If the minimum energy splitting between the ground state and the first excited state of the Hamiltonian at the anti-crossing is denoted by $\Delta_{min}$, then it can be observed that $\Delta_{min}= 2 \Gamma$. Thus, in terms of $\Delta_{min}$, Eq.~(\ref{eq:lz3}) becomes 
 \begin{equation}
 p=1-\exp(\frac{-\pi {\Delta_{min}}^2}{4c}) .   \label{eq:lz3}
@@ -24,7 +24,7 @@ p=1-\exp(\frac{-\pi {\Delta_{min}}^2}{4c}) .   \label{eq:lz3}
 The deviation from the ground state occurs at $H \approx 0$, with a probability $p'$, and is accompanied by a step in the magnetization. This step depends on both the energy splitting  $\Delta_{min}$, and the sweep rate $c$ \cite{de1997theory}.\\
 \begin{figure}[H]
 \centering 
-\includegraphics[scale=0.24]{EnergySpec_1spin_H100.png}
+\includegraphics[scale=0.8]{EnergySpec_1spin_H100.eps}
 \caption{Energy spectrum for single qubit Hamiltonian in Eq.~(\ref{eq:lz1}), with energy expectation values of the instantaneous state of the system with different sweeping times. The parameters used are $\Gamma=0.5$, $H_0=100$.}
 \label{fig:lz1}
 \end{figure}
@@ -33,7 +33,7 @@ For a simple 2-level system where $\Gamma$ is chosen to be 0.5 and the field is 
 Figure~(\ref{fig:lz1}) also shows the energy expectation values corresponding to the instantaneous state of the system for different times $T$ chosen for sweeping the field. As is evident from the figure, the probability of the state of the system staying close to the ground state increases with decreasing speed (increasing $T$), as expected from Eq.~(\ref{eq:lz2}). For a sweeping time of $T$=500, Fig.~(\ref{fig:lz2}) shows the instantaneous magnetization state of the system.
 \begin{figure}[H]
 \centering 
-\includegraphics[scale=0.24]{Magnetization_500.png}
+\includegraphics[scale=0.8]{Magnetization_500.eps}
 \caption{Instantaneous magnetization of the system state for $\Gamma=0.5$, $H_0=100$, $T$=500 and $c$=0.4.}
 \label{fig:lz2}
 \end{figure}
@@ -45,7 +45,7 @@ From Eq.~(\ref{eq:lz2}), $p=1-e^{-aT}$, where $a={\pi \Gamma^2/2H_0}$. For the c
 
 \begin{figure}[H]
 \centering 
-\includegraphics[scale=0.24]{Prob_1spin_H100.png}
+\includegraphics[scale=0.8]{Prob_1spin_H100.eps}
 \caption{Probability for adiabatic evolution as a function of different sweep times for $\Gamma=0.5$.}
 \label{fig:lz3}
 \end{figure}
@@ -68,14 +68,14 @@ p_N=1-\exp(\frac{-\pi {\Delta_{min}}^2}{4Nc}). \label{eq:lz5}
 Choosing a two spin system, with $\Gamma=0.5$, $J=3$, and $H_0=100$, Fig.~(\ref{fig:lz4}) shows the energy spectrum as a function of the magnetic field.
 \begin{figure}[H]
 \centering 
-\includegraphics[scale=0.24]{EnergySpectrum_H100.png}
+\includegraphics[scale=0.8]{EnergySpectrum_H100.eps}
 \caption{Energy spectrum for two spin Hamiltonian in Eq.~(\ref{eq:lz4}), with energy expectation value of the instantaneous state of the system with different sweeping times. The parameters used are $\Gamma=0.5$, $J=3$, $H_0=100$.}
 \label{fig:lz4}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-    \includegraphics[scale=0.24]{Mag_13_H100.png}
+    \includegraphics[scale=0.8]{Mag_13_H100.eps}
     \caption{Instantaneous magnetization of the system state for $\Gamma=0.5$, $H_0=100$, $T$=10000 and $c$=0.02.}
   \label{fig:lz5}
  \end{figure}
@@ -84,14 +84,14 @@ Figures~(\ref{fig:lz5}) and (\ref{fig:lz6}) show the instantaneous magnetization
 
  \begin{figure}[H]
   \centering
-    \includegraphics[scale=0.24]{Mag_9_H100.png}
+    \includegraphics[scale=0.8]{Mag_9_H100.eps}
     \caption{Instantaneous magnetization of the system state for $\Gamma=0.5$, $H_0=100$, $T$=20000 and $c$=0.01.}
   \label{fig:lz6}
 \end{figure}
 
 \begin{figure}[H]
 \centering 
-\includegraphics[scale=0.24]{Probability_H100.png}
+\includegraphics[scale=0.8]{Probability_H100.eps}
 \caption{Probability for adiabatic evolution as a function of different sweep times for $\Gamma=0.5$ and $J=3$.}
 \label{fig:lz7}
 \end{figure}

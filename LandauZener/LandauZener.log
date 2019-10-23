@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.20)  3 OCT 2019 13:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.20)  18 OCT 2019 15:36
 entering extended mode
 **./LandauZener.tex
 (LandauZener.tex
@@ -658,6 +658,7 @@ Now handling font encoding PD1 ...
 cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 4393.
 Package hyperref Info: Hyper figures OFF on input line 4519.
 Package hyperref Info: Link nesting OFF on input line 4524.
 Package hyperref Info: Hyper index ON on input line 4527.
@@ -679,7 +680,7 @@ Package hyperref Info: Hyper figures OFF on input line 6380.
 Package hyperref Info: Link nesting OFF on input line 6385.
 Package hyperref Info: Hyper index ON on input line 6388.
 Package hyperref Info: backreferencing OFF on input line 6395.
-Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring ON on input line 6398.
 Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
@@ -898,10 +899,14 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 5.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-LaTeX Warning: Citation `de1997theory' on page 1 undefined on input line 14.
+LaTeX Warning: Citation `landau1932theorie' on page 1 undefined on input line 1
+4.
 
 
 LaTeX Warning: Citation `zener1932non' on page 1 undefined on input line 14.
+
+
+LaTeX Warning: Citation `de1997theory' on page 1 undefined on input line 14.
 
 
 LaTeX Warning: Citation `miyashita1995dynamics' on page 1 undefined on input li
@@ -910,24 +915,55 @@ ne 14.
 
 LaTeX Warning: Citation `de1997theory' on page 1 undefined on input line 24.
 
-<EnergySpec_1spin_H100.png, id=4, 1488.91742pt x 868.81108pt>
-File: EnergySpec_1spin_H100.png Graphic file (type png)
-<use EnergySpec_1spin_H100.png>
-Package pdftex.def Info: EnergySpec_1spin_H100.png  used on input line 27.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+Package epstopdf Info: Source file: <EnergySpec_1spin_H100.eps>
+(epstopdf)                    date: 2019-10-15 22:53:16
+(epstopdf)                    size: 69064 bytes
+(epstopdf)             Output file: <EnergySpec_1spin_H100-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-10-16 16:24:31
+(epstopdf)                    size: 29410 bytes
+(epstopdf)             Command: <epstopdf --outfile=EnergySpec_1spin_H100-eps-c
+onverted-to.pdf EnergySpec_1spin_H100.eps>
+(epstopdf)             \includegraphics on input line 27.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./EnergySpec_1spin_H100-eps-converted-to.pdf
+): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<EnergySpec_1spin_H100-eps-converted-to.pdf, id=4, 361.35pt x 252.945pt>
+File: EnergySpec_1spin_H100-eps-converted-to.pdf Graphic file (type pdf)
+<use EnergySpec_1spin_H100-eps-converted-to.pdf>
+Package pdftex.def Info: EnergySpec_1spin_H100-eps-converted-to.pdf  used on in
+put line 27.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 24--30
 
  []
 
-<Magnetization_500.png, id=12, 1488.91742pt x 868.81108pt>
-File: Magnetization_500.png Graphic file (type png)
-<use Magnetization_500.png>
-Package pdftex.def Info: Magnetization_500.png  used on input line 36.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+Package epstopdf Info: Source file: <Magnetization_500.eps>
+(epstopdf)                    date: 2019-10-14 11:14:41
+(epstopdf)                    size: 29831 bytes
+(epstopdf)             Output file: <Magnetization_500-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 13:43:06
+(epstopdf)                    size: 5758 bytes
+(epstopdf)             Command: <epstopdf --outfile=Magnetization_500-eps-conve
+rted-to.pdf Magnetization_500.eps>
+(epstopdf)             \includegraphics on input line 36.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Magnetization_500-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Magnetization_500-eps-converted-to.pdf, id=12, 361.35pt x 252.945pt>
+File: Magnetization_500-eps-converted-to.pdf Graphic file (type pdf)
+<use Magnetization_500-eps-converted-to.pdf>
+Package pdftex.def Info: Magnetization_500-eps-converted-to.pdf  used on input 
+line 36.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 [1{C:/Users/Vrind/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
- <./EnergySpec_1spin_H100.png (PNG copy)>]
+ <./EnergySpec_1spin_H100-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
@@ -937,50 +973,126 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
-<Prob_1spin_H100.png, id=37, 1488.91742pt x 868.81108pt>
-File: Prob_1spin_H100.png Graphic file (type png)
-<use Prob_1spin_H100.png>
-Package pdftex.def Info: Prob_1spin_H100.png  used on input line 48.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-[2 <./Magnetization_500.png (PNG copy)> <./Prob_1spin_H100.png (PNG copy)>]
+Package epstopdf Info: Source file: <Prob_1spin_H100.eps>
+(epstopdf)                    date: 2019-10-16 23:54:52
+(epstopdf)                    size: 26422 bytes
+(epstopdf)             Output file: <Prob_1spin_H100-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-16 23:55:44
+(epstopdf)                    size: 7095 bytes
+(epstopdf)             Command: <epstopdf --outfile=Prob_1spin_H100-eps-convert
+ed-to.pdf Prob_1spin_H100.eps>
+(epstopdf)             \includegraphics on input line 48.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Prob_1spin_H100-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Prob_1spin_H100-eps-converted-to.pdf, id=41, 361.35pt x 252.945pt>
+File: Prob_1spin_H100-eps-converted-to.pdf Graphic file (type pdf)
+<use Prob_1spin_H100-eps-converted-to.pdf>
+Package pdftex.def Info: Prob_1spin_H100-eps-converted-to.pdf  used on input li
+ne 48.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+[2 <./Magnetization_500-eps-converted-to.pdf> <./Prob_1spin_H100-eps-converted-
+to.pdf>]
 
 LaTeX Warning: Citation `miyashita1996observation' on page 3 undefined on input
  line 56.
 
-<EnergySpectrum_H100.png, id=45, 1488.91742pt x 868.81108pt>
-File: EnergySpectrum_H100.png Graphic file (type png)
-<use EnergySpectrum_H100.png>
-Package pdftex.def Info: EnergySpectrum_H100.png  used on input line 71.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Mag_13_H100.png, id=48, 1488.91742pt x 868.81108pt>
-File: Mag_13_H100.png Graphic file (type png)
-<use Mag_13_H100.png>
-Package pdftex.def Info: Mag_13_H100.png  used on input line 78.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+Package epstopdf Info: Source file: <EnergySpectrum_H100.eps>
+(epstopdf)                    date: 2019-10-14 11:55:49
+(epstopdf)                    size: 75317 bytes
+(epstopdf)             Output file: <EnergySpectrum_H100-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 13:43:07
+(epstopdf)                    size: 24533 bytes
+(epstopdf)             Command: <epstopdf --outfile=EnergySpectrum_H100-eps-con
+verted-to.pdf EnergySpectrum_H100.eps>
+(epstopdf)             \includegraphics on input line 71.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./EnergySpectrum_H100-eps-converted-to.pdf):
+ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<EnergySpectrum_H100-eps-converted-to.pdf, id=55, 361.35pt x 252.945pt>
+File: EnergySpectrum_H100-eps-converted-to.pdf Graphic file (type pdf)
+<use EnergySpectrum_H100-eps-converted-to.pdf>
+Package pdftex.def Info: EnergySpectrum_H100-eps-converted-to.pdf  used on inpu
+t line 71.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Mag_13_H100.eps>
+(epstopdf)                    date: 2019-10-14 12:00:09
+(epstopdf)                    size: 29529 bytes
+(epstopdf)             Output file: <Mag_13_H100-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 13:43:08
+(epstopdf)                    size: 5707 bytes
+(epstopdf)             Command: <epstopdf --outfile=Mag_13_H100-eps-converted-t
+o.pdf Mag_13_H100.eps>
+(epstopdf)             \includegraphics on input line 78.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Mag_13_H100-eps-converted-to.pdf): PDF inc
+lusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Mag_13_H100-eps-converted-to.pdf, id=58, 361.35pt x 252.945pt>
+File: Mag_13_H100-eps-converted-to.pdf Graphic file (type pdf)
+<use Mag_13_H100-eps-converted-to.pdf>
+Package pdftex.def Info: Mag_13_H100-eps-converted-to.pdf  used on input line 7
+8.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3 <./EnergySpectrum_H100.png (PNG copy)>]
-<Mag_9_H100.png, id=59, 1488.91742pt x 868.81108pt>
-File: Mag_9_H100.png Graphic file (type png)
-<use Mag_9_H100.png>
-Package pdftex.def Info: Mag_9_H100.png  used on input line 87.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
-<Probability_H100.png, id=60, 1488.91742pt x 868.81108pt>
-File: Probability_H100.png Graphic file (type png)
-<use Probability_H100.png>
-Package pdftex.def Info: Probability_H100.png  used on input line 94.
-(pdftex.def)             Requested size: 357.34749pt x 208.51892pt.
+ [3 <./EnergySpectrum_H100-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Mag_9_H100.eps>
+(epstopdf)                    date: 2019-10-14 11:21:13
+(epstopdf)                    size: 29637 bytes
+(epstopdf)             Output file: <Mag_9_H100-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-15 13:43:09
+(epstopdf)                    size: 5685 bytes
+(epstopdf)             Command: <epstopdf --outfile=Mag_9_H100-eps-converted-to
+.pdf Mag_9_H100.eps>
+(epstopdf)             \includegraphics on input line 87.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Mag_9_H100-eps-converted-to.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+<Mag_9_H100-eps-converted-to.pdf, id=72, 361.35pt x 252.945pt>
+File: Mag_9_H100-eps-converted-to.pdf Graphic file (type pdf)
+<use Mag_9_H100-eps-converted-to.pdf>
+Package pdftex.def Info: Mag_9_H100-eps-converted-to.pdf  used on input line 87
+.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
+Package epstopdf Info: Source file: <Probability_H100.eps>
+(epstopdf)                    date: 2019-10-15 22:43:15
+(epstopdf)                    size: 28392 bytes
+(epstopdf)             Output file: <Probability_H100-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-10-16 16:24:33
+(epstopdf)                    size: 7842 bytes
+(epstopdf)             Command: <epstopdf --outfile=Probability_H100-eps-conver
+ted-to.pdf Probability_H100.eps>
+(epstopdf)             \includegraphics on input line 94.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./Probability_H100-eps-converted-to.pdf): PD
+F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Probability_H100-eps-converted-to.pdf, id=73, 361.35pt x 252.945pt>
+File: Probability_H100-eps-converted-to.pdf Graphic file (type pdf)
+<use Probability_H100-eps-converted-to.pdf>
+Package pdftex.def Info: Probability_H100-eps-converted-to.pdf  used on input l
+ine 94.
+(pdftex.def)             Requested size: 289.0804pt x 202.35626pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4 <./Mag_13_H100.png (PNG copy)> <./Mag_9_H100.png (PNG copy)>]
+ [4 <./Mag_13_H100-eps-converted-to.pdf> <./Mag_9_H100-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 108.
-[5 <./Probability_H100.png (PNG copy)>]
+[5 <./Probability_H100-eps-converted-to.pdf>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 108.
  (LandauZener.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 108.
@@ -995,8 +1107,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
  ) 
 Here is how much of TeX's memory you used:
  18388 strings out of 492946
- 317625 string characters out of 3126266
- 409728 words of memory out of 3000000
+ 318269 string characters out of 3126266
+ 409751 words of memory out of 3000000
  22099 multiletter control sequences out of 15000+200000
  534698 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1010,10 +1122,11 @@ cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Vrin
 d/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:
 /Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 msy10.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmsy7.pfb>
-Output written on LandauZener.pdf (5 pages, 755994 bytes).
+amsfonts/cm/cmsy7.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/symbols/msbm10.pfb>
+Output written on LandauZener.pdf (5 pages, 183360 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
+ 134 PDF objects out of 1000 (max. 8388607)
  20 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

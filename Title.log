@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.20)  27 SEP 2019 10:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.20)  3 OCT 2019 17:10
 entering extended mode
 **./Title.tex
 (Title.tex
@@ -34,8 +34,8 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 2--2
  []
 
 ! Undefined control sequence.
-l.5         \Huge
-                 
+l.5         \Large
+                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -88,8 +88,13 @@ Overfull \hbox (14.05548pt too wide) in paragraph at lines 6--7
  []
 
 
-Overfull \hbox (21.56236pt too wide) in paragraph at lines 6--7
- \OT1/cmr/bx/n/10 nian 
+Overfull \hbox (13.4166pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 ni- 
+ []
+
+
+Overfull \hbox (16.51515pt too wide) in paragraph at lines 6--7
+ \OT1/cmr/bx/n/10 ans 
  []
 
 
@@ -275,37 +280,104 @@ Overfull \hbox (10.00003pt too wide) in paragraph at lines 21--21
  []
 
 
-Overfull \hbox (31.63179pt too wide) in paragraph at lines 22--22
+Overfull \hbox (46.24283pt too wide) in paragraph at lines 22--22
+ []\OT1/cmr/bx/n/10 Prepared 
+ []
+
+
+Overfull \hbox (9.58328pt too wide) in paragraph at lines 22--22
+ \OT1/cmr/bx/n/10 in 
+ []
+
+Missing character: There is no J in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no J in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 23--24
+ []\/cmr/m/n/10 u 
+ []
+
+
+Overfull \hbox (5.55557pt too wide) in paragraph at lines 23--24
+ \/cmr/m/n/10 u 
+ []
+
+
+Overfull \hbox (31.63179pt too wide) in paragraph at lines 25--25
  []\OT1/cmr/bx/n/10 Under 
  []
 
 
-Overfull \hbox (16.13187pt too wide) in paragraph at lines 22--22
+Overfull \hbox (16.13187pt too wide) in paragraph at lines 25--25
  \OT1/cmr/bx/n/10 the 
  []
 
 
-Overfull \hbox (14.75824pt too wide) in paragraph at lines 22--22
+Overfull \hbox (14.75824pt too wide) in paragraph at lines 25--25
  \OT1/cmr/bx/n/10 su- 
  []
 
 
-Overfull \hbox (20.54852pt too wide) in paragraph at lines 22--22
+Overfull \hbox (20.54852pt too wide) in paragraph at lines 25--25
  \OT1/cmr/bx/n/10 per- 
  []
 
 
-Overfull \hbox (13.09715pt too wide) in paragraph at lines 22--22
+Overfull \hbox (13.09715pt too wide) in paragraph at lines 25--25
  \OT1/cmr/bx/n/10 vi- 
  []
 
 
-Overfull \hbox (19.86932pt too wide) in paragraph at lines 22--22
+Overfull \hbox (19.86932pt too wide) in paragraph at lines 25--25
  \OT1/cmr/bx/n/10 sion 
  []
 
 
-Overfull \hbox (10.3541pt too wide) in paragraph at lines 22--22
+Overfull \hbox (10.3541pt too wide) in paragraph at lines 25--25
  \OT1/cmr/bx/n/10 of 
  []
 
@@ -334,6 +406,10 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 9 in font nullfont!
 
 ! LaTeX Error: \begin{document} ended by \end{titlepage}.
 
@@ -341,7 +417,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 \end{titlepage}
+l.30 \end{titlepage}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,

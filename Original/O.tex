@@ -11,7 +11,7 @@ Since the Suzuki-Trotter product-formula algorithm is an approximation to solve 
 Thus, to check if the evolution using the Suzuki-Trotter product formula algorithm is indeed second order, the dependence of the error should be verified to be quadratic in $\tau$, in accordance with Eq.~(\ref{eq:b18}). 
 \begin{figure}[H]
 \centering 
-\includegraphics[scale=0.2]{Error.png}
+\includegraphics[scale=0.8]{Error.eps}
 \caption{The error in the Suzuki-Trotter formula algorithm relative to the full diagonalization method. The involved error grows quadratically in $\tau$.}
 \label{fig:o1}
 \end{figure}
@@ -23,7 +23,7 @@ For a fixed $T_A$, the success probability is expected to decrease with decreasi
 As the first example, considered here is problem number 733, that has a high success probability. Figure~(\ref{fig:o2}), shows the energy spectrum for this problem. $\Delta_{min}$ is 0.4407 in this case. Also plotted in the figure are the energy expectation values for the instantaneous state obtained for the three annealing times.
 \begin{figure}[H]
 \centering 
-\includegraphics[scale=0.24]{733_s12_O.png}
+\includegraphics[scale=0.8]{733_s12_O.eps}
 \caption{The energy spectrum for problem 733, with energy expectation values for the instantaneous state. $\Delta_{min}$ is found to be 0.4407.}
 \label{fig:o2}
 \end{figure}
@@ -33,7 +33,7 @@ As expected, the overlap of the final state with the ground state of the problem
 Secondly, problem number 950, with a small success probability is chosen. Figure~(\ref{fig:o3}) shows the energy spectrum and the energy expectation values for the instantaneous state corresponding to three annealing times, for this problem. Annealing  times $T_A$=10, 100, 1000 yield $p$=0.0002, 0.0146, 0.1362 respectively. It should be noted, that the minimum gap for this problem is much smaller than in problem 733, and has a value of $\Delta_{min} = 0.0312$. This explains the decrease in success probability for the same annealing times.\\
 \begin{figure}[H]
 \centering 
-\includegraphics[scale=0.24]{950_s12_O.png}
+\includegraphics[scale=0.8]{950_s12_O.eps}
 \caption{The energy spectrum for problem 950, with energy expectation values for the instantaneous state. $\Delta_{min}$ is found to be 0.0312.}
 \label{fig:o3}
 \end{figure}
@@ -42,7 +42,7 @@ Secondly, problem number 950, with a small success probability is chosen. Figure
 As the final case, problem number 528, with an intermediate success probability is studied. For this case too, the energy spectrum and the energy expectation values for the instantaneous state, corresponding to the three annealing times were determined, as is shown in Fig.~(\ref{fig:o4}). Annealing times $T_A$=10, 100, 1000 yield $p$=0.1577, 0.5199, 0.9999 respectively. The value of the minimum gap is $\Delta=0.1573$ for this problem, which is intermediate to the above two cases. 
 \begin{figure}[H]
 \centering 
-\includegraphics[scale=0.24]{528_s12_O.png}
+\includegraphics[scale=0.8]{528_s12_O.eps}
 \caption{The energy spectrum for problem 528, with energy expectation values for the instantaneous state. $\Delta_{min}$ is found to be 0.1573.}
 \label{fig:o4}
 \end{figure}
@@ -57,7 +57,7 @@ Thus, for all the three problems, the state of the system deviates from the grou
 
 \begin{figure}[H]
 \centering 
-\includegraphics[scale=0.24]{O_s12_T100_g0.png}
+\includegraphics[scale=0.8]{O_s12_T100_g0.eps}
 \caption{Histogram for the success probability of the Hamiltonians without any triggers ($g$=0) for 1000 12-spin problems for $T_A$=100.}
 \label{fig:o8}
 \end{figure}
@@ -66,7 +66,7 @@ To obtain a rough estimate of the spread of the difficulty of the problems consi
 Finally, Fig.~(\ref{fig:o10}) shows the success probability of all the 12-spin problems with the corresponding minimum energy gaps.
 \begin{figure}[H]
 \centering 
-\includegraphics[scale=0.24]{GapVsSucc_s12_T10_100_1000.png}
+\includegraphics[scale=0.8]{Orig_GapVsSucc.eps}
 \caption{Success probability versus minimum energy gaps for all the 12-spin problems for annealing times 10, 100 and 1000.}
 \label{fig:o10}
 \end{figure}

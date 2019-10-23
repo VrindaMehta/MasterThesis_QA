@@ -83,7 +83,7 @@ Ting-Jui Hsu, Fengping Jin, Christian Seidel, Florian Neukart, Hans De~Raedt,
   and Kristel Michielsen.
 \newblock Quantum annealing with anneal path control: application to 2-sat
   problems with known energy landscapes.
-\newblock {\em arXiv preprint arXiv:1810.00194}, 2018.
+\newblock {\em Commun. Comput. Phys. 26, 928-946 (2019)}, 2018.
 
 \bibitem{thomas2014quantum}
 Neuhaus Thomas.
@@ -112,6 +112,11 @@ Bruno Apolloni, C~Carvalho, and Diego De~Falco.
 Max Born and Vladimir Fock.
 \newblock Beweis des adiabatensatzes.
 \newblock {\em Zeitschrift f{\"u}r Physik}, 51(3-4):165--180, 1928.
+
+\bibitem{kato1950adiabatic}
+Tosio Kato.
+\newblock On the adiabatic theorem of quantum mechanics.
+\newblock {\em Journal of the Physical Society of Japan}, 5(6):435--439, 1950.
 
 \bibitem{farhi2000quantum}
 Edward Farhi, Jeffrey Goldstone, Sam Gutmann, and Michael Sipser.

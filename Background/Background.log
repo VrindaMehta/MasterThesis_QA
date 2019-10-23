@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.20)  2 OCT 2019 16:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.20)  18 OCT 2019 15:34
 entering extended mode
 **./Background.tex
 (Background.tex
@@ -658,6 +658,7 @@ Now handling font encoding PD1 ...
 cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 4393.
 Package hyperref Info: Hyper figures OFF on input line 4519.
 Package hyperref Info: Link nesting OFF on input line 4524.
 Package hyperref Info: Hyper index ON on input line 4527.
@@ -679,7 +680,7 @@ Package hyperref Info: Hyper figures OFF on input line 6380.
 Package hyperref Info: Link nesting OFF on input line 6385.
 Package hyperref Info: Hyper index ON on input line 6388.
 Package hyperref Info: backreferencing OFF on input line 6395.
-Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring ON on input line 6398.
 Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
@@ -953,6 +954,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--92
 LaTeX Warning: Citation `born1928beweis' on page 2 undefined on input line 93.
 
 
+LaTeX Warning: Citation `kato1950adiabatic' on page 2 undefined on input line 9
+3.
+
+
 LaTeX Warning: Citation `farhi2000quantum' on page 2 undefined on input line 93
 .
 
@@ -1068,7 +1073,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 196.
 Here is how much of TeX's memory you used:
  18396 strings out of 492946
  317455 string characters out of 3126266
- 413586 words of memory out of 3000000
+ 413609 words of memory out of 3000000
  22097 multiletter control sequences out of 15000+200000
  535922 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1091,7 +1096,7 @@ Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmsy5.pfb><C:/Users/Vrind/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Background.pdf (4 pages, 203620 bytes).
+Output written on Background.pdf (4 pages, 204738 bytes).
 PDF statistics:
  139 PDF objects out of 1000 (max. 8388607)
  31 named destinations out of 1000 (max. 500000)
